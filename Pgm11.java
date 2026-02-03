@@ -8,11 +8,11 @@ public class Pgm11 {
         {
             for(int k=0;k<(n-1)-i;k++)
             {
-                System.out.print(" ");
+                System.out.print("  ");
             }
             for(int j=0;j<=i;j++)
             {
-                System.out.print("*");
+                System.out.print("* ");
             }
         System.out.println();
         }
