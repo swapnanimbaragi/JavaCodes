@@ -238,6 +238,25 @@ public class Pgm11 {
             
         }
     }
+
+    static void Holocode()
+    {
+    for(int i=0;i<5;i++)
+        {
+            for(int j=0;j<5;j++)
+            {
+                if(i==0 || i==4 || j==0 || j==4)
+                {
+                    System.out.print("*");
+                }
+                else
+                {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
     
 
     
@@ -270,6 +289,8 @@ public class Pgm11 {
         numRectacgle();
         System.out.println();
         numdigoRectacgle();
+        System.out.println();
+        Holocode();
 
     }
 }
