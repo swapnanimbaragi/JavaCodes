@@ -217,6 +217,26 @@ public class Pgm11 {
             System.out.println();
         }
     }
+
+         static void numdigoRectacgle()
+    {
+        int n=5;
+        
+        for(int i=0;i<n;i++)
+        {
+            for(int j=0;j<n;j++)
+            {
+                if(i==j)
+                {
+                    System.out.print(i+1 + " ");
+                }
+                else{
+                    System.out.print("1" + " ");
+                }
+            }
+            System.out.println();
+        }
+    }
     
 
     
@@ -247,6 +267,8 @@ public class Pgm11 {
         oddperamidS();
         System.out.println();
         numRectacgle();
+        System.out.println();
+        numdigoRectacgle();
 
     }
 }
