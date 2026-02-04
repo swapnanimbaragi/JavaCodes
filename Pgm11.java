@@ -180,6 +180,25 @@ public class Pgm11 {
         }
     }
 
+    static void oddperamidS()
+    {
+        int n=5;
+        for(int i=1;i<=n;i++)
+        {
+            for(int k=1;k<=(n-i);k++)
+            {
+                System.out.print(" ");
+            }
+            for(int j=1;j<=(2*i)-1; j++)
+            {
+                System.out.print("*");
+            }
+               
+            System.out.println();
+        }
+    }
+    
+
     
 
         
@@ -204,5 +223,8 @@ public class Pgm11 {
         oddStar();
         System.out.println();
         oddNumline();
+        System.out.println();
+        oddperamidS();
+
     }
 }
