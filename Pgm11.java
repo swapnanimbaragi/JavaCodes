@@ -167,7 +167,18 @@ public class Pgm11 {
         
     }
     
-
+    static void oddNumline()
+    {
+        int n=5;
+        for(int i=0;i<=n;i++)
+        {
+            for(int j=1;j<=(2*i)-1; j++)
+            {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
 
     
 
@@ -191,5 +202,7 @@ public class Pgm11 {
         numHTringle();
         System.out.println();
         oddStar();
+        System.out.println();
+        oddNumline();
     }
 }
