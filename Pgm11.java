@@ -234,6 +234,7 @@ public class Pgm11 {
                     System.out.print("1" + " ");
                 }
             }
+            System.out.println();
             
         }
     }
