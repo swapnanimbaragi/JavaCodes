@@ -325,6 +325,27 @@ public class Pgm11 {
         }
     }
 
+    static void pgm1()
+    {
+        int n=5;
+        for(int i=1;i<=n;i++)
+        {
+            for(int j=1;j<=i;j++)
+            {
+                System.out.print(i);
+            }
+            System.out.println();
+        }
+        for(int i=1;i<=n;i++)
+        {
+            for(int j=1;j<=(n-i);j++)
+            {
+                System.out.print(n-i);
+            }
+            System.out.println();
+        }
+    }
+
     
 
     
@@ -365,6 +386,8 @@ public class Pgm11 {
         numperaincrdecr();
         System.out.println();
         pgm();
+        System.out.println();
+        pgm1();
 
     }
 }
