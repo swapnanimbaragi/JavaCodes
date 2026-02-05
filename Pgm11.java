@@ -310,16 +310,16 @@ public class Pgm11 {
         {
             if(i % 2==0)
             {
-                System.out.print(i+1);
+                System.out.print(i+1 + " ");
             }
             
             for(int j=1;j<=n;j++)
             {
-                System.out.print(i);
+                System.out.print(i + " ");
             }
             if(i % 2 !=0)
             {
-                System.out.print(i+1);
+                System.out.print(i+1 + " ");
             }
             System.out.println();
         }
