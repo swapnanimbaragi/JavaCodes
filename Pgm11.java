@@ -391,6 +391,20 @@ public class Pgm11 {
         }
     }
 
+    static void pgm6()
+    {
+        int n=5;
+        char ch='A';
+        for(int i=1;i<=n;i++)
+        {
+            for(int j=1;j<=i;j++)
+            {
+                System.out.print(ch + " ");
+            }
+            ch++;
+            System.out.println();
+        }
+    }
     
 
         
@@ -437,6 +451,8 @@ public class Pgm11 {
         pgm4();
         System.out.println();
         pgm5();
+        System.out.println();
+        pgm6();
 
     }
 }
