@@ -345,7 +345,19 @@ public class Pgm11 {
             System.out.println();
         }
     }
-
+    static void pgm3()
+    {
+        int n=5;
+        int count=1;
+        for(int i=0;i<n;i++)
+        {
+            for(int j=0;j<=i;j++)
+            {
+                System.out.print(count++);
+            }
+            System.out.println();
+        }
+    }
     
 
     
@@ -388,6 +400,8 @@ public class Pgm11 {
         pgm();
         System.out.println();
         pgm1();
+        System.out.println();
+        pgm3();
 
     }
 }
