@@ -353,7 +353,7 @@ public class Pgm11 {
         {
             for(int j=0;j<=i;j++)
             {
-                System.out.print(count++);
+                System.out.print(count++ + " ");
             }
             System.out.println();
         }
