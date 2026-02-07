@@ -421,7 +421,20 @@ public class Pgm11 {
     }
     
 
-        
+     static void pgm8()
+     {
+        int n=5;
+        char ch='A';
+        for(int i=1;i<=n;i++)
+        {
+            for(int j=1;j<=i;j++)
+            {
+                System.out.print(ch++);
+            }
+            System.out.println();
+        }
+     }
+
     public static void main(String[] args) {
         System.out.println();
         reversetringle(); 
@@ -469,6 +482,9 @@ public class Pgm11 {
         pgm6();
         System.out.println();
         pgm7();
+        System.out.println();
+        pgm8();
+
 
     }
 }
