@@ -485,10 +485,10 @@ public class Pgm11 {
             {
                 if(i==j)
                 {
-                    System.out.print(i+1);
+                    System.out.print(i+1 + " ");
                 }
                 else{
-                    System.out.print("0" );
+                    System.out.print("0" + " ");
                 }
             }
             System.out.println();
