@@ -464,11 +464,11 @@ public class Pgm11 {
             {
                 if((i+j)%2==0)
                 {
-                    System.out.print("1");
+                    System.out.print("1" + " ");
                 }
                 else
                 {
-                    System.out.print("0");
+                    System.out.print("0" + " ");
                 }
             }
             System.out.println();
