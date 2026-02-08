@@ -496,7 +496,7 @@ public class Pgm11 {
         }
     }
 
-        static void pgm12()
+    static void pgm12()
     {
         int n=5;
         for(int i=1;i<=n;i++)
@@ -512,8 +512,26 @@ public class Pgm11 {
             }
         System.out.println();
         }
-        
     }
+
+    static void pgm13()
+    {
+        int n=5;
+        for(int i=1;i<=n;i++)
+        {
+            for(int k=1;k<=n-i;k++)
+            {
+                System.out.print("  ");
+            }
+            
+            for(int j=n-i+1;j<=n;j++)
+            {
+                System.out.print(i);
+            }
+        System.out.println();
+        }
+    }
+
 
     public static void main(String[] args) {
         System.out.println();
@@ -572,6 +590,8 @@ public class Pgm11 {
         pgm11();
         System.out.println();
         pgm12();
+        System.out.println();
+        pgm13();
 
 
     }
