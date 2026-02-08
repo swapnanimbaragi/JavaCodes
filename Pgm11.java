@@ -526,7 +526,7 @@ public class Pgm11 {
             
             for(int j=n-i+1;j<=n;j++)
             {
-                System.out.print(i);
+                System.out.print(i + " ");
             }
         System.out.println();
         }
