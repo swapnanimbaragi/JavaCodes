@@ -570,6 +570,26 @@ public class Pgm11 {
         }
     }
 
+    static void Holobothsdigonal()
+    {
+    int n=5;
+    for(int i=1;i<=n;i++)
+        {
+            for(int j=1;j<=n;j++)
+            {
+                if( i+j==n+1 || i==1 || i==n || j==1 || j==n || i==j )
+                {
+                    System.out.print("* ");
+                }
+                else
+                {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
     
 
 
@@ -636,7 +656,8 @@ public class Pgm11 {
         pgm14();
         System.out.println();
         Holodigonal();
-        
+        System.out.println();
+        Holobothsdigonal();
 
     }
 }
