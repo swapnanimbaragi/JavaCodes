@@ -21,13 +21,24 @@ public class Add {
 
     }
 
+    static void DollertoRupee()
+    {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("enter Doller");
+        int Doller=scan.nextInt();
+        double Rupee=82.73;
+        System.out.printf("%.4f",Doller*Rupee);
+    }
+
 
     public static void main(String[] args) {
         {
+        //     System.out.println();
+        //     Sum();
+        //     System.out.println();
+        //     Product();
             System.out.println();
-            Sum();
-            System.out.println();
-            Product();
+            DollertoRupee();
         }
     }
 }
