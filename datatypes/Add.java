@@ -30,6 +30,16 @@ public class Add {
         System.out.printf("%.4f",Doller*Rupee);
     }
 
+    static void rectangle()
+    {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter length and width value");
+        int length=scan.nextInt();
+        int width=scan.nextInt();
+        int perimeter=2*(length+width);
+        System.out.println(perimeter);
+    }
+
 
     public static void main(String[] args) {
         {
@@ -37,8 +47,11 @@ public class Add {
         //     Sum();
         //     System.out.println();
         //     Product();
-            System.out.println();
-            DollertoRupee();
+        //     System.out.println();
+        //     DollertoRupee();
+        //     System.out.println();
+            rectangle();
+               
         }
     }
 }
