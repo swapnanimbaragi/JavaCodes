@@ -604,6 +604,23 @@ public class Pgm11 {
         }
     }
     
+        static void pgm17()
+    {
+        int n=5;
+        for(int i=1;i<=n;i++)
+        {
+            for(int k=1;k<=(n-i);k++)
+            {
+                System.out.print("$ ");
+            }
+            for(int j=1;j<=i;j++)
+            {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    
 
 
     public static void main(String[] args) {
@@ -673,6 +690,8 @@ public class Pgm11 {
         Holobothsdigonal();
         System.out.println();
         pgm16();
+        System.out.println();
+        pgm17();
 
     }
 }
