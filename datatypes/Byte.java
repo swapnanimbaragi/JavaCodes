@@ -6,8 +6,13 @@ public class Byte{
     byte a=127;
     a++;
     System.out.println(a);
+
+    int b=10;
+    System.out.println(b++ + ++b);
     }
 
 }
+
+
     
 
