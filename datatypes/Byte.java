@@ -17,12 +17,12 @@ public class Byte{
     // b=(byte)(b*2);
     // double d=10/4;
     // System.out.println(d);
-    // int a=5;
-    // a*=3+2;
-    // System.out.println(a);
-        char a='A';
-        a++;
-        System.out.println(a);
+    int a=5;
+    a*=3+2;
+    System.out.println(a);
+        // char a='A';
+        // a++;
+        // System.out.println(a);
     }
 
 }
