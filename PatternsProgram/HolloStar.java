@@ -1,6 +1,6 @@
-package Patterns;
+package Patterns.PatternsProgram;
 
-public class Pgm4 {
+public class HolloStar {
     public static void main(String...args)
     {
         for(int i=0;i<5;i++)
@@ -19,5 +19,4 @@ public class Pgm4 {
             System.out.println();
         }
     }
-    
 }

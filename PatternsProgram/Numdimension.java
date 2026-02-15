@@ -1,6 +1,6 @@
-package Patterns;
+package Patterns.PatternsProgram;
 
-public class Pgm9 {
+public class Numdimension {
     public static void main(String[] args) 
     {
     
@@ -15,5 +15,3 @@ public class Pgm9 {
         }
     }
 }
-    
-

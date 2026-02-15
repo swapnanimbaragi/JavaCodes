@@ -1,7 +1,8 @@
-package Patterns;
+package Patterns.PatternsProgram;
 
-public class Pgm11 {
-    static void reversetringle()
+public class OtherallPatternprgms 
+{
+   static void reversetringle()
     {
         int n=5;
         for(int i=0;i<n;i++)
@@ -713,3 +714,4 @@ public class Pgm11 {
 
     }
 }
+

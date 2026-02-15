@@ -1,5 +1,6 @@
-package Patterns;
-public class pgm5 {
+package Patterns.PatternsProgram;
+
+public class Countnum {
     public static void main(String...args){
     int count=1;
     int n=5;

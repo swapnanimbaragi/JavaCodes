@@ -1,6 +1,6 @@
-package Patterns;
+package Patterns.PatternsProgram;
 
-public class Pgm3 {
+public class NumjR {
     public static void main(String...args)
     {
         for(int i=0;i<5;i++)
@@ -12,5 +12,4 @@ public class Pgm3 {
             System.out.println();
         }
     }
-    
 }

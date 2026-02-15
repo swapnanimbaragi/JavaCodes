@@ -1,8 +1,7 @@
-package Patterns;
+package Patterns.PatternsProgram;
 
-public class Pgm6 
-{
-       public static void main(String[] args) 
+public class Nummulti {
+    public static void main(String[] args) 
        {
         int n=5;
         for(int i=1;i<=n;i++)
@@ -19,4 +18,3 @@ public class Pgm6
         }
     }
 }
-    

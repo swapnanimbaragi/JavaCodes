@@ -1,7 +1,6 @@
-package Patterns;
+package Patterns.PatternsProgram;
 
-public class Pgm2 
-{
+public class NumiR {
     public static void main(String...args)
     {
         for(int i=0; i<5; i++)
@@ -13,4 +12,5 @@ public class Pgm2
             System.out.println();
         }
     }
+    
 }

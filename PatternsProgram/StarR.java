@@ -1,7 +1,7 @@
-package Patterns;
+package Patterns.Patterns;
 
-public class Pgm1 {
-    public static void main(String...args)
+public class StarR {
+     public static void main(String...args)
     {
         for(int i=0;i<=5;i++)
         {
@@ -14,3 +14,5 @@ public class Pgm1 {
         }
     }
 }
+
+

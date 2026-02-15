@@ -1,7 +1,6 @@
-package Patterns;
+package Patterns.PatternsProgram;
 
-public class Pgm10 
-{
+public class NumdimenI {
     public static void main(String[] args) 
     {
         int n=5;
@@ -15,4 +14,3 @@ public class Pgm10
         }
     }
 }
-
