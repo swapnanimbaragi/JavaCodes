@@ -15,7 +15,7 @@ public class Age {
         System.out.println("Ages");
         for(int i=0;i<5;i++)
         {
-            a[3]=60;
+            // a[3]=60;
             System.out.println(a[i]);
         }
     }
