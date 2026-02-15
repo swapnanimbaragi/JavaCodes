@@ -1,4 +1,4 @@
-package Patterns.datatypes;
+package Codes.datatypes;
 
 public class Byte{
     public static void main(String...args)

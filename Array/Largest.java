@@ -1,4 +1,4 @@
-package Patterns.Array;
+package Codes.Array;
 import java.util.Scanner;
 public class Largest {
     public static void main(String[] args)

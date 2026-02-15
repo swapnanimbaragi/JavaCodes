@@ -1,4 +1,4 @@
-package Patterns.datatypes;
+package Codes.datatypes;
 import java.util.*;
 public class Add {
     static void Sum()
@@ -51,14 +51,14 @@ public class Add {
 
     public static void main(String[] args) {
         {
-            // System.out.println();
-            // Sum();
-            // System.out.println();
-            // Product();
-            // System.out.println();
-            // DollertoRupee();
-            // System.out.println();
-            // rectangle();
+            System.out.println();
+            Sum();
+            System.out.println();
+            Product();
+            System.out.println();
+            DollertoRupee();
+            System.out.println();
+            rectangle();
             System.out.println();
             squreperimeter();
                
