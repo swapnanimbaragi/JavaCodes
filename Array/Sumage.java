@@ -2,9 +2,10 @@ package Patterns.Array;
 
 import java.util.Scanner;
 
-public class Age {
+public class Sumage {
     public static void main(String[] args)
     {
+        int sum=0;
         Scanner scan=new Scanner(System.in);
         int a[]=new int[5];
         for(int i=0;i<5;i++)
@@ -15,11 +16,10 @@ public class Age {
         System.out.println("Ages");
         for(int i=0;i<5;i++)
         {
-            a[3]=60;
-            System.out.println(a[i]);
+            sum=sum+a[i];
+            
         }
+        System.out.println(sum);
     }
 }
-    
-
 
