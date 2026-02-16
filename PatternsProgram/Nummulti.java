@@ -1,4 +1,4 @@
-package Patterns.PatternsProgram;
+package Codes.PatternsProgram;
 
 public class Nummulti {
     public static void main(String[] args) 

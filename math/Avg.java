@@ -1,4 +1,4 @@
-package Patterns.math;
+package Codes.math;
 import java.util.Scanner;
 public class Avg {
     static int num(int a ,int b,int c)

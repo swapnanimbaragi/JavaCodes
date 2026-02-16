@@ -1,4 +1,4 @@
-package Patterns.PatternsProgram;
+package Codes.PatternsProgram;
 public class Stardiamension {
     public static void main(String[] args) {
         int n=5;

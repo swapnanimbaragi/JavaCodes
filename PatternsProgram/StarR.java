@@ -1,4 +1,4 @@
-package Patterns.Patterns;
+package Codes.Patterns;
 
 public class StarR {
      public static void main(String...args)
@@ -12,6 +12,7 @@ public class StarR {
             System.out.println();
             
         }
+        
     }
 }
 

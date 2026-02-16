@@ -1,4 +1,4 @@
-package Patterns.math;
+package Codes.math;
 import java.util.Scanner;
 public class Radiuscircle {
     static float radius(int r)

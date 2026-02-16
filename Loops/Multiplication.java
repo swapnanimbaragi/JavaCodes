@@ -1,4 +1,4 @@
-package Patterns.Loops;
+package Codes.Loops;
 
 public class Multiplication {
     public static void main(String... args)

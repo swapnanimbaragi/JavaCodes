@@ -1,4 +1,4 @@
-package Patterns.PatternsProgram;
+package Codes.PatternsProgram;
 
 public class Numdimension {
     public static void main(String[] args) 

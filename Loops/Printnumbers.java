@@ -1,5 +1,5 @@
 
-package Patterns.Loops;
+package Codes.Loops;
 public class Printnumbers {
     public static void main(String... args)
     {

@@ -1,4 +1,4 @@
-package Patterns.PatternsProgram;
+package Codes.PatternsProgram;
 
 public class NumiR {
     public static void main(String...args)
