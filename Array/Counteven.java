@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Counteven 
+public class counteven 
 {
     public static void main(String[] args)
     {
