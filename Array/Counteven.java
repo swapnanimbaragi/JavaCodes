@@ -15,6 +15,7 @@ public class counteven
         
         for(int i=0;i<5;i++)
         {
+            // if
             if(a[i]%2==0)
             {
                 count++;
