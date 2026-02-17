@@ -1,7 +1,6 @@
-
 import java.util.Scanner;
-
-public class FactorsofN {
+public class FactorsofN
+{
     static void factors(int n)
     {
         
@@ -18,6 +17,4 @@ public class FactorsofN {
         int n=scan.nextInt();
         factors(n);
     }
-
-
 }
