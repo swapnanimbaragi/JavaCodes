@@ -10,7 +10,7 @@ public class Largest {
             System.out.println("enter the ages" + i);
             a[i]=scan.nextInt();
         }
-        System.out.println("Ages");
+        System.out.println(" largest Ages");
         int max=a[0];
         for(int i=0;i<5;i++)
         {

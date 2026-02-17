@@ -8,7 +8,6 @@ public class Indexcheck
         System.out.println("Enter Array");
         for(int i=0;i<5;i++)
         {
-            
             a[i]=scan.nextInt();
         }
         System.out.println("cheking value");
