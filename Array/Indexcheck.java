@@ -5,9 +5,10 @@ public class Indexcheck
     {
         Scanner scan=new Scanner(System.in);
         int a[]=new int[5];
+        System.out.println("Enter Array");
         for(int i=0;i<5;i++)
         {
-            System.out.println("Enter Array");
+            
             a[i]=scan.nextInt();
         }
         System.out.println("cheking value");
@@ -18,10 +19,18 @@ public class Indexcheck
             if(a[i]==check)
             {
                 System.out.println(i);
+                found =true;
+                break;
             }
-            
         }
-        System.out.println("Not Found");
+        if(found==true)
+        {
+            System.out.println("Found");
+        }
+        else{
+            System.out.println("Not found");
+        }
+           
     }
     
 }
