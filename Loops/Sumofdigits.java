@@ -1,9 +1,7 @@
 package Codes.Loops;
-
-
-
-public class Sumofdigits {
-      public static void main(String... args)
+public class Sumofdigits 
+{
+    public static void main(String... args)
     {
         int n=10;
         int sum=0;
