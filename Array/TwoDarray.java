@@ -10,7 +10,7 @@ public class TwoDarray {
         {
             for(int j=0;j<5;j++)
             {
-                System.out.println("entere " +  i + " row " + j + " column");
+                // System.out.println("entere " +  i + " row " + j + " column");
                 a[i][j]=scan.nextInt();
             }
         }
@@ -19,8 +19,10 @@ public class TwoDarray {
         {
             for(int j=0;j<5;j++)
             {
-                System.out.println("entered " +  i + " row " + j + " column");
-                System.out.println(a[i][j]);
+                // System.out.println("entered " +  i + " row " + j + " column");
+                System.out.print(a[i][j] + " ");
+
+                // System.out.println(a[1][j]);
             }
         }
     }
