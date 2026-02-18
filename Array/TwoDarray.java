@@ -13,13 +13,13 @@ public class TwoDarray {
                 a[i][j]=scan.nextInt();
             }
         }
-        System.out.println("values");
-        for(int i=0;i<2;i++)
-        {
-            for(int j=0;j<5;j++)
-            {
-                System.out.println(a[i][j]);
-            }
-        }
+        // System.out.println("values");
+        // for(int i=0;i<2;i++)
+        // {
+        //     for(int j=0;j<5;j++)
+        //     {
+        //         System.out.println(a[i][j]);
+        //     }
+        // }
     }
 }
