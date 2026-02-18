@@ -22,7 +22,7 @@ public class ThreeDarray {
             {
                 for(int j=0;j<5;j++)
                 {
-                    
+                    System.out.println("entered " +  i + " row " + j + " column");
                     System.out.print(a[k][i][j] + " ");
                 }
                 System.out.println();
