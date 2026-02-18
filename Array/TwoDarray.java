@@ -17,13 +17,16 @@ public class TwoDarray {
         System.out.println("values");
         for(int i=0;i<2;i++)
         {
+            
             for(int j=0;j<5;j++)
             {
                 // System.out.println("entered " +  i + " row " + j + " column");
+                
                 System.out.print(a[i][j] + " ");
 
-                // System.out.println(a[1][j]);
+                
             }
+            System.out.println();
         }
     }
 }
