@@ -29,6 +29,6 @@ public class ThreeDarray {
             }
             System.out.println();
         }
-        // System.out.println();
+        System.out.println();
     }
 }
