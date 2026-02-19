@@ -5,7 +5,7 @@ public class CommonfactorofNM
     public static void main(String[] args) 
     {
         Scanner scanner = new Scanner(System.in);
-        // System.out.println("Enter the n & m Values");
+        System.out.println("Enter the n & m Values");
         int n = scanner.nextInt();
         int m = scanner.nextInt();
         printCommonFactors(n, m);
