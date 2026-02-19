@@ -13,9 +13,13 @@ public class Conditions {
         {
             System.out.println("LowerCase");
         }
+        else if(n>=48 && n<=57)
+        {
+            System.out.println("Digit");
+        }
         else
         {
-            System.out.println("Not UpperCase");
+            System.out.println("Non of the Above");
         }
     }
     
