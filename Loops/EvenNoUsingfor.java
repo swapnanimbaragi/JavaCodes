@@ -4,11 +4,10 @@ public class EvenNoUsingfor {
     {
         Scanner scan=new Scanner(System.in);
         int n=scan.nextInt();
-        for(int i=2;i<=n;i++,i++)
+        // for(int i=2;i<=n;i++,i++) or
+        for(int i=2;i<=n;i=i+2)
         {
             System.out.println(i);
         }
     }
-    
-    
 }
