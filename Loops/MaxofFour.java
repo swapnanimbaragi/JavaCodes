@@ -13,6 +13,4 @@ public class MaxofFour {
         int result=max1 > max2 ? max1 : max2;
         System.out.println(result);
     }
-
-
 }
