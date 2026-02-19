@@ -8,7 +8,13 @@ public class Conditions {
         {
             System.out.println("UpperCase");
         }
-        else{
+
+        else if(n>=97 && n<=122)
+        {
+            System.out.println("LowerCase");
+        }
+        else
+        {
             System.out.println("Not UpperCase");
         }
     }
