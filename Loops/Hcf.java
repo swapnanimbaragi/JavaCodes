@@ -7,7 +7,6 @@ public class Hcf {
         System.out.println("Enter n and m value");
         int n = scan.nextInt();
         int m = scan.nextInt();
-        // implement your logic here
         while(m!=0)
         {
             int temp=m;
