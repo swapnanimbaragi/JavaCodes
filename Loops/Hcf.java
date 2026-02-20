@@ -4,18 +4,16 @@ import java.util.Scanner;
 public class Hcf {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
-        int a=scan.nextInt();
-        int b=scan.nextInt();
-        while(a!=b)
+        // System.out.println("Enter n and m value");
+        int n = scan.nextInt();
+        int m = scan.nextInt();
+        // implement your logic here
+        while(m!=0)
         {
-            if(a>b)
-            {
-                a=a-b;
-            }
-            else{
-                b=b-a;
-            }
+            int temp=m;
+            m=n%m;
+            n=temp;
         }
-        return a;
+        System.out.println(n);
     }
 }
