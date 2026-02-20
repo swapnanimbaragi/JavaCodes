@@ -19,21 +19,15 @@ public class PrimebtwNM
         {
             return false;
         }
-        
     }
     public static void main(String[] args) 
     {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         printFirstNPrimes(n);
-        
     }
-    
-
     public static void printFirstNPrimes(int n) 
     {
-        // Your code to print the first 'n' prime numbers goes here
-
         int count=0;
         for(int i=2;count<n;i++)
         {
@@ -42,8 +36,6 @@ public class PrimebtwNM
                 System.out.print(i + " ");
                 count++;
             }
-
-            
         }
     }
 }
