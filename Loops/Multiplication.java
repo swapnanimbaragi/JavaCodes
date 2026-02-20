@@ -6,6 +6,7 @@ public class Multiplication {
         
         int n=10;
         Scanner scan=new Scanner(System.in);
+        System.out.println("Enter number");
         int num=scan.nextInt(); 
         for(int i=1;i<=n;i++)
         {
