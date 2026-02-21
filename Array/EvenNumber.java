@@ -20,11 +20,12 @@ public class EvenNumber {
         {
             a[i]=scan.nextInt();
         }
+        System.out.println("Even Numbers are: ");
         for(int i=0;i<n;i++)
         {
             if(evennum(a[i]))
             {
-                System.out.println("Even Numbers are: ");
+                
                 System.out.println(a[i]);
             }
             
