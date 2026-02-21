@@ -15,6 +15,7 @@ public class EvenNumber {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         int n=scan.nextInt();
+        System.out.println("Enter size of array");
         int a[]=new int[n];
         for(int i=0;i<n;i++)
         {
