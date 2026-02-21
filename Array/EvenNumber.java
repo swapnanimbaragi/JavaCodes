@@ -24,6 +24,7 @@ public class EvenNumber {
         {
             if(evennum(a[i]))
             {
+                System.out.println("Even Numbers are: ");
                 System.out.println(a[i]);
             }
             
