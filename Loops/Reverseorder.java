@@ -9,7 +9,7 @@ public class Reverseorder {
             rev=rev*10+last;
             n=n/10;
         }
-        System.out.println(rev);
+        System.out.println("Reversed number " + rev);
     }
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
