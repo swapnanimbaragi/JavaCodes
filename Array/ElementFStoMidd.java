@@ -13,7 +13,7 @@ public class ElementFStoMidd
         {
             a[i]=scan.nextInt();
         }
-        System.out.println("Entered Mid Elements");
+        System.out.println("Upto Mid Elements");
         for(int i=0;i<n/2;i++)
         {
             System.out.println(a[i]);
