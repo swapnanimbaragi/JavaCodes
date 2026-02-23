@@ -8,11 +8,12 @@ public class Multiplication {
         Scanner scan=new Scanner(System.in);
         System.out.println("Enter number");
         int num=scan.nextInt(); 
+        System.out.println("Multiplication are:");
         for(int i=1;i<=n;i++)
         {
             
             {
-                System.out.println(i*num);
+                System.out.println("5 x" + i + "=" + i*num);
             }
         }
     }
