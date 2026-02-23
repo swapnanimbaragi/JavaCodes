@@ -13,7 +13,8 @@ public class Multiplication {
         {
             
             {
-                System.out.println("5 x" + i + "=" + i*num);
+                // System.out.println(i*num);
+                System.out.println("5 x " + i + "=" + i*num);
             }
         }
     }
