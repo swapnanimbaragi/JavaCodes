@@ -1,4 +1,4 @@
-package Codes.Array;
+// package Codes.Array;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class Age {
             System.out.println("enter the ages" + i);
             a[i]=scan.nextInt();
         }
-        System.out.println("Ages");
+        System.out.println("Ages are:");
         for(int i=0;i<5;i++)
         {
             
