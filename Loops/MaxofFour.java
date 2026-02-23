@@ -12,6 +12,6 @@ public class MaxofFour {
         int max1=a > b ? a : b;
         int max2=c > d ? c : d;
         int result=max1 > max2 ? max1 : max2;
-        System.out.println(result);
+        System.out.println("Maximum value is: " + result);
     }
 }
