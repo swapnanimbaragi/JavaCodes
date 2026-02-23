@@ -4,6 +4,7 @@ public class MaxofFour {
     public static void main(String[] args)
     {
         Scanner scan=new Scanner(System.in);
+        System.out.println("Enter a b c d values");
         int a=scan.nextInt();
         int b=scan.nextInt();
         int c=scan.nextInt();
