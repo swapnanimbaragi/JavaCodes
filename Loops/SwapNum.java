@@ -6,8 +6,8 @@ public class SwapNum {
         temp=a;
         a=b;
         b=temp;
-        System.out.println("a=" + a);
-        System.out.println("b=" + b);
+        System.out.println("swapped a=" + a);
+        System.out.println("swapped b=" + b);
     }
     
 }
