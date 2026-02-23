@@ -6,6 +6,7 @@ public class EvenNoUsingfor {
         System.out.println("Enter a number");
         int n=scan.nextInt();
         // for(int i=2;i<=n;i++,i++) or
+        System.out.println("Even numbers are:");
         for(int i=2;i<=n;i=i+2)
         {
             System.out.println(i);
