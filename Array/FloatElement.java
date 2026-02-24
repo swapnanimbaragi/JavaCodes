@@ -12,6 +12,7 @@ public class FloatElement
         {
             a[i]=scanner.nextFloat();
         }
+        System.out.println("Floating numbers are");
         for(int i=0;i<n;i++)
         {
             System.out.println(a[i]);
