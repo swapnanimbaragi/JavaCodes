@@ -20,6 +20,7 @@ public class Main {
                 
             }
         }
+        System.out.println("LargestOccurance");
         for(int i=0;i<N;i++)
         {
             if(a[i]==largest)
