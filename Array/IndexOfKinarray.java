@@ -17,6 +17,7 @@ public class IndexOfKinarray {
         Scanner scan=new Scanner(System.in);
         System.out.println("Enter Array size");
         int n=scan.nextInt();
+        System.out.println("Enter the array Number");
         int a[]=new int[n];
         for(int i=0;i<a.length;i++)
         {
