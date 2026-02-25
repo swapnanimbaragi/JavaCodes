@@ -45,7 +45,7 @@ public class MaxMinSum
 		{
 			a[i]=scan.nextInt();
 		}
-//		int result=SumOfArray(a);
+
 //		System.out.print(result);
 //		
 //		int result1=MaxOfArray(a);
