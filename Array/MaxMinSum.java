@@ -48,7 +48,7 @@ public class MaxMinSum
         int sum=SumOfArray(a);
         System.out.println(sum);
 		int max=MaxOfArray(a);
-        System.out.println(max);
+        System.out.println("Maximum Number:"+ max);
 		int min=MinOfArray(a);
         System.out.println(min);
 		System.out.println(sum-max);
