@@ -51,7 +51,7 @@ public class MaxMinSum
         System.out.println("Maximum Number:"+ max);
 		int min=MinOfArray(a);
         System.out.println("Minimum Number:"+ min);
-		System.out.println(sum-max);
+		System.out.println("Difference between Sum and Maximum:"+ (sum-max));
 		System.out.print(sum-min);
 	}
 
