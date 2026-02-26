@@ -21,6 +21,7 @@ public class PosNeg {
             }
         }
         System.out.println();
+        System.out.println("Positive odd numbers in the array are:");
         for(int k=0;k<a.length;k++)
         {
             if(a[k]%2 !=0 && a[k]>0)
