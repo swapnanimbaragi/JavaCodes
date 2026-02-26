@@ -5,7 +5,7 @@ public class Secondlargest {
         System.out.println("enter array");
         int n=scan.nextInt();
         int a[]=new int[n];
-        
+        System.out.println("enter array elements");
         for(int i=0;i<n ;i++)
         {
             a[i]=scan.nextInt();
