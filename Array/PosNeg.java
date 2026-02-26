@@ -7,6 +7,7 @@ public class PosNeg {
         int N = sc.nextInt();
         // implement your logic here
         int a[]=new int[N];
+        System.out.println("Enter the array elements");
         for(int i=0;i<a.length;i++)
         {
             a[i]=sc.nextInt();
