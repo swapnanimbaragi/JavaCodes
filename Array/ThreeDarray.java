@@ -4,23 +4,27 @@ public class ThreeDarray {
     {
         Scanner scan=new Scanner(System.in);
         System.out.println("Enter the array values");
-        int a[][][]=new int [2][3][5];
-        for(int k=0;k<2;k++)
+        int n1=scan.nextInt();
+        int n2=scan.nextInt();
+        int n3=scan.nextInt();
+        int a[][][]=new int [n1][n2][n3];
+        System.out.println("array values");
+        for(int k=0;k<n1;k++)
         {
-            for(int i=0;i<3;i++)
+            for(int i=0;i<n2;i++)
             {
-                for(int j=0;j<5;j++)
+                for(int j=0;j<n3;j++)
                 {
+                    System.out.println("enter " +  i + " row " + j + " column");
                     a[k][i][j]=scan.nextInt();
                 }
             }
         }
-        System.out.println("array values");
-        for(int k=0;k<2;k++)
+        for(int k=0;k<n1;k++)
         {
-            for(int i=0;i<3;i++)
+            for(int i=0;i<n2;i++)
             {
-                for(int j=0;j<5;j++)
+                for(int j=0;j<n3;j++)
                 {
                     // System.out.println("entered " +  i + " row " + j + " column");
                     System.out.print(a[k][i][j] + " ");
