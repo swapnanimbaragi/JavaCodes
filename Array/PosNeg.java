@@ -30,6 +30,7 @@ public class PosNeg {
             }
         }
         System.out.println();
+        System.out.println("Positive even numbers in the array are:");
         for(int j=0;j<a.length;j++)
         {
             if(a[j]%2 == 0 && a[j] >0)
