@@ -12,6 +12,7 @@ public class PosNeg {
         {
             a[i]=sc.nextInt();
         }
+        System.out.println("Negative numbers in the array are:");
         for(int i=0;i<a.length;i++)
         {
             if(a[i]<0)
