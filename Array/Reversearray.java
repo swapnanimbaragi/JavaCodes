@@ -13,9 +13,10 @@ public class Reversearray {
         }
         int last;
         int rev=0;
+
         for(int i=a.length-1 ; i>=0 ; i--)
         {
-            System.out.print(a[i]+ " ");
+            System.out.print("Reversed Array"+ a[i]+ " ");
         }
     }
 }
