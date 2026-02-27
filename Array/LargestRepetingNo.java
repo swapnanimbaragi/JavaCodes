@@ -5,6 +5,7 @@ public class LargestRepetingNo {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the size of the array");
         int N = scanner.nextInt();
+        System.out.println("Enter the array values");
         int a[]=new int[N];
         for(int i=0;i<a.length;i++)
         {
