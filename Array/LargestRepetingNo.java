@@ -25,7 +25,7 @@ public class LargestRepetingNo {
         }
         if(flag )
         {
-            System.out.print("Maximum Repting value"+max);
+            System.out.print("Maximum Repting value is :"+max);
         }
         else{
             System.out.print(-1);
