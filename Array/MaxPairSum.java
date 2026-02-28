@@ -37,6 +37,6 @@ public static int findSecondSmallest(int[] array)
             array[i]=scanner.nextInt();
         }
         int sum=findSecondSmallest(array);
-        System.out.print(sum);
+        System.out.print("Max pair sum "+sum);
     }
 }
