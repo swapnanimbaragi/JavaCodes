@@ -30,7 +30,7 @@ public static int findSecondSmallest(int[] array)
         int n=scanner.nextInt();
         System.out.println("Enter the elements of the array: ");
         int array[]=new int[n];
-        // int max1=scanner.nextInt();
+  
         // int max2=scanner.nextInt();
         for(int i=0;i<array.length;i++)
         {
