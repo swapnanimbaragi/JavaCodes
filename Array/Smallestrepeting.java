@@ -5,6 +5,7 @@ public class Smallestrepeting {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the size of the array");
         int N = scanner.nextInt();
+        System.out.println("Enter the elements of the array");
         int a[]=new int[N];
         for(int i=0;i<N;i++)
         {
