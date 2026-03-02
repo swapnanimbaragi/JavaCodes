@@ -16,7 +16,7 @@ public class Smallestrepeting {
         {
             if(a[i] == a[i + 1])
             {
-                System.out.println("Smallest Repeting element is "+a[i]);
+                System.out.println("Smallest Repeting element is: "+a[i]);
                 return;
             }
         }
