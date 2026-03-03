@@ -18,7 +18,7 @@ public class firstsmallerPair {
             {
                 if(a[i]<a[j])
                 {
-                    System.out.println("Pair: "+a[i]+" "+a[j]);
+                    System.out.println("Pair are: "+a[i]+" "+a[j]);
                 }
             }
         }
