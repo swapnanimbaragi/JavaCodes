@@ -1,9 +1,23 @@
 import java.util.Scanner;
 
-public class Pairssmallthanlarge 
-{
-    public static void main(String[] args) 
+public class PairPrime {
+     public static boolean isPrime(int num)
     {
+        if(num<=1)
+        {
+            return false;
+        }
+        for(int i=2;i<=num/2;i++)
+        {
+            if(num%1==0)
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int a[]=new int[n];
@@ -16,11 +30,13 @@ public class Pairssmallthanlarge
         {
             for(int j=i+1;j<a.length;j++)
             {
-                if(a[j]<a[i])
+                if(isPrime(a[i]) || isPrime(a[j]))
                 {
                     System.out.println(a[i]+" "+a[j]);
                 }
             }
         }
+
     }
 }
+
