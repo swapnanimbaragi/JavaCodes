@@ -3,7 +3,7 @@ public class NotSortedFirst {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-       
+        System.out.println("Enter the elements of the array:");
         int a[]=new int[n];
         for(int i=0;i<n;i++)
         {
