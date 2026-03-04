@@ -33,7 +33,7 @@ public class CountUnique {
         {
             uniquecount++;
         }
-        System.out.print(uniquecount);
+        System.out.print("Unique elements count: "+uniquecount);
     }
     
 }
