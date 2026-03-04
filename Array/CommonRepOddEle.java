@@ -4,6 +4,7 @@ public class CommonRepOddEle {
     public static void main(String[] args) 
     {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the size of the first array:");
         int n1=scanner.nextInt();
         int a1[]=new int[n1];
         for(int i=0;i<n1;i++)
