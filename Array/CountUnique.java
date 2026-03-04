@@ -4,6 +4,7 @@ public class CountUnique {
         public static void main(String[] args) 
     {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the size of the array:");
         int N = scanner.nextInt();
         int a[]=new int[N];
         for(int i=0;i<N;i++)
