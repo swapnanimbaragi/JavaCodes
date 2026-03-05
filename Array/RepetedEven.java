@@ -7,6 +7,7 @@ public class RepetedEven {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the size of first array:");
         int n = scanner.nextInt();
+        System.out.println("Enter the elements of first array:");
         int a1[]=new int[n];
         for(int i=0;i<a1.length;i++)
         {
