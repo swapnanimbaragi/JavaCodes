@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class ThreeMergeArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the size of first array:");
         int n1=scanner.nextInt();
         int []a1=new int[n1];
         for(int i=0;i<a1.length;i++)
