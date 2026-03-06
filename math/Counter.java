@@ -19,6 +19,6 @@ public class Counter
     {
         Scanner scan= new Scanner(System.in);
         int n=scan.nextInt();
-        System.out.println(countofdigit(n));
+        System.out.println("Number of digits in " + n + " is: " + countofdigit(n));
     }
 }
