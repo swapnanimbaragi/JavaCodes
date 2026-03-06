@@ -14,7 +14,7 @@ public class Areaofcircle {
     {
         Scanner scan=new Scanner(System.in);
         int r=scan.nextInt();
-        System.out.println("Area of the circle  "+area(r));
+        System.out.println("Area of the circle is "+area(r));
 
     }
 }
