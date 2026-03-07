@@ -15,7 +15,7 @@ public class SumSubarray
                 {
                     for(int x=i;x<=j;x++)
                     {
-                        System.out.print(arr[x]+" ");
+                        System.out.print("Subarray: "+arr[x]+" ");
                     }
                     System.out.println();
                     found=true;
