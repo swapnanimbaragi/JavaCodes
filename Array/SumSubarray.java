@@ -32,6 +32,7 @@ public class SumSubarray
     public static void main(String[] args) 
     {
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array: ");
         int N = scanner.nextInt();
         int[] arr = new int[N];
         for (int i = 0; i < arr.length; i++) 
