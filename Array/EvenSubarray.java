@@ -24,7 +24,7 @@ public class EvenSubarray {
                 {
                     for(int j=i;j<i+size;j++)
                     {
-                        System.out.print(a[j]+" ");
+                        System.out.print("Even subarray: "+a[j]+" ");
                     }
                     System.out.println();
                 }
