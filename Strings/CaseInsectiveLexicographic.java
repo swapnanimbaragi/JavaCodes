@@ -5,6 +5,7 @@ public class CaseInsectiveLexicographic {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the first string: ");
         String s1=scanner.nextLine();
+        System.out.print("Enter the second string: ");  
         String s2=scanner.nextLine();
         int result=s1.compareToIgnoreCase(s2);
         if(result>0)
