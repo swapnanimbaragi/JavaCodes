@@ -14,7 +14,7 @@ public class ConsecutiveSubArrayDecending {
         for(int i=a.length-1;i>0;i--)
         {
             System.out.print(a[i] + " ");
-            if(a[i] - a[i+1] != 1)
+            if(a[i] - a[i-1] != 1)
             {
                 System.out.println();
             }
