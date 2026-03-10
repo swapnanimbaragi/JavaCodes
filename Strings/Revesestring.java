@@ -1,10 +1,7 @@
 package Strings;
-
 import java.util.Scanner;
-
 public class Revesestring {
     private static String reverseString(String s){
-        //Your code here
         String t="";
         for(int i=s.length()-1;i>=0;i--)
         {
@@ -19,4 +16,4 @@ public class Revesestring {
         System.out.println(reverseString(input));
     }
 }
-}
+
