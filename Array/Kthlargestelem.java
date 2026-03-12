@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class Kthlargestelem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        // Your code here
         System.out.print("Enter the number of elements: ");
         int n=scanner.nextInt();
         System.out.print("Enter the elements: ");
