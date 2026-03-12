@@ -5,6 +5,7 @@ public class Kthlargestelem {
         // Your code here
         System.out.print("Enter the number of elements: ");
         int n=scanner.nextInt();
+        System.out.print("Enter the elements: ");
         int a[]=new int[n];
         for(int i=0;i<n;i++)
         {
