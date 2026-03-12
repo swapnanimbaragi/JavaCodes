@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class IndexofCharPointer {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a string: ");
         String input = scanner.nextLine();
         int k=scanner.nextInt();
         if(input.isEmpty()||k<0 || k>=input.length())
