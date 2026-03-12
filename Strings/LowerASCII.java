@@ -1,7 +1,5 @@
 package Strings;
-
 import java.util.Scanner;
-
 public class LowerASCII {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -15,6 +13,5 @@ public class LowerASCII {
         {
             System.out.println("No");
         }
-        
     }
 }
