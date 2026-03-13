@@ -64,6 +64,14 @@ public class EmployeeInfo {
         System.out.print("Enter Employee Phone Number: ");
         emp.setPhoneNumber(scanner.nextLine());
 
+        System.out.println("\nEmployee Information:");
+        System.out.println("ID: " + emp.getId());
+        System.out.println("Name: " + emp.getName());   
+        System.out.println("Salary: " + emp.getSalary());
+        System.out.println("Department: " + emp.getDepartment());
+        System.out.println("Email: " + emp.getEmail());
+        System.out.println("Phone Number: " + emp.getPhoneNumber());
+        
     }
 }
 
