@@ -19,9 +19,9 @@ public class AdditionofMOL {
     }
     public static void main(String[] args) {
         AdditionofMOL obj = new AdditionofMOL();
-        System.out.println(obj.add(10, 20));
-        System.out.println(obj.add(10.5f, 20.5f));
-        System.out.println(obj.add(10.5, 20.5, 30.5));
-        System.out.println(obj.add(10, 20.5));
+        System.out.println("Sum of integers: " + obj.add(10, 20));
+        System.out.println("Sum of floats: " + obj.add(10.5f, 20.5f));
+        System.out.println("Sum of doubles: " + obj.add(10.5, 20.5, 30.5));
+        System.out.println("Sum of int and double: " + obj.add(10, 20.5));
     }
 }
