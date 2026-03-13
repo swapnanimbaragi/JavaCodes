@@ -49,20 +49,37 @@ public class EmployeeInfo {
     public static void main(String[] args) {
         EmployeeInfo emp = new EmployeeInfo();
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter Employee ID: ");
-        emp.setId(scanner.nextInt());
+        
+        int id=scanner.nextInt();
         scanner.nextLine(); // Consume newline
-        System.out.print("Enter Employee Name: ");
-        emp.setName(scanner.nextLine());
-        System.out.print("Enter Employee Salary: ");
-        emp.setSalary(scanner.nextDouble());
+        String name=scanner.nextLine();
+        double salary=scanner.nextDouble();
         scanner.nextLine(); // Consume newline
-        System.out.print("Enter Employee Department: ");
-        emp.setDepartment(scanner.nextLine());
-        System.out.print("Enter Employee Email: ");
-        emp.setEmail(scanner.nextLine());
-        System.out.print("Enter Employee Phone Number: ");
-        emp.setPhoneNumber(scanner.nextLine());
+        String department=scanner.nextLine();
+        String email=scanner.nextLine();
+        String phoneNumber=scanner.nextLine();
+        
+        emp.setId(id);
+        emp.setName(name);
+        emp.setSalary(salary);
+        emp.setDepartment(department);
+        emp.setEmail(email);
+        emp.setPhoneNumber(phoneNumber);
+
+        // System.out.print("Enter Employee ID: ");
+        // emp.setId(scanner.nextInt());
+        // scanner.nextLine(); // Consume newline
+        // System.out.print("Enter Employee Name: ");
+        // emp.setName(scanner.nextLine());
+        // System.out.print("Enter Employee Salary: ");
+        // emp.setSalary(scanner.nextDouble());
+        // scanner.nextLine(); // Consume newline
+        // System.out.print("Enter Employee Department: ");
+        // emp.setDepartment(scanner.nextLine());
+        // System.out.print("Enter Employee Email: ");
+        // emp.setEmail(scanner.nextLine());
+        // System.out.print("Enter Employee Phone Number: ");
+        // emp.setPhoneNumber(scanner.nextLine());
 
         System.out.println("\nEmployee Information:");
         System.out.println("ID: " + emp.getId());
@@ -71,7 +88,7 @@ public class EmployeeInfo {
         System.out.println("Department: " + emp.getDepartment());
         System.out.println("Email: " + emp.getEmail());
         System.out.println("Phone Number: " + emp.getPhoneNumber());
-        
+
     }
 }
 
