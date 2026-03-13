@@ -19,9 +19,9 @@ public class Perimeter {
     }
     public static void main(String[] args) {
         Perimeter obj = new Perimeter();
-        System.out.println(obj.perimeter(20));
-        System.out.println(obj.perimeter(20.5, 10.5));
-        System.out.println(obj.perimeter(30.5));
-        System.out.println(obj.perimeter(20, 10, 15));
+        System.out.println("Square: " + obj.perimeter(20));
+        System.out.println("Rectangle: " + obj.perimeter(20.5, 10.5));
+        System.out.println("Circle: " + obj.perimeter(30.5));
+        System.out.println("Triangle: " + obj.perimeter(20, 10, 30));
     }
 }
