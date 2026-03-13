@@ -19,9 +19,9 @@ public class AreaShape {
     }
     public static void main(String[] args) {
         AreaShape obj = new AreaShape();
-        System.out.println(obj.area(20));
-        System.out.println(obj.area(20.5, 10.5));
-        System.out.println(obj.area(30.5));
-        System.out.println(obj.area(20, 10.5));
+        System.out.println("Square: " + obj.area(20));
+        System.out.println("Rectangle: " + obj.area(20.5, 10.5));
+        System.out.println("Circle: " + obj.area(30.5));
+        System.out.println("Triangle: " + obj.area(20, 10.5));
     }
 }
