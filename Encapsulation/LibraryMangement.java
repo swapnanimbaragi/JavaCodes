@@ -48,5 +48,11 @@ public class LibraryMangement {
         book.setAuthor(author);
         book.setIsbn(isbn);
         book.setPublicationYear(publicationYear);
+
+        System.out.println("Book Title: " + book.getBookTitle());
+        System.out.println("Author: " + book.getAuthor());
+        System.out.println("ISBN: " + book.getIsbn());
+        System.out.println("Publication Year: " + book.getPublicationYear());
+        
     }
 }
