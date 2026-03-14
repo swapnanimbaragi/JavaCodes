@@ -46,4 +46,19 @@ public class CarInfo {
     public void setPrice(double price) {
         this.price = price;
     }
+
+    public static void main(String[] args) {
+        CarInfo car = new CarInfo();
+        car.setMake("Toyota");
+        car.setModel("Camry");
+        car.setYear(2020);
+        car.setColor("Red");
+        car.setPrice(25000.00);
+
+        System.out.println("Car Make: " + car.getMake());
+        System.out.println("Car Model: " + car.getModel());
+        System.out.println("Car Year: " + car.getYear());
+        System.out.println("Car Color: " + car.getColor());
+        System.out.println("Car Price: $" + car.getPrice());
+    }
 }
