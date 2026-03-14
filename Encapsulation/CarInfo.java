@@ -1,5 +1,5 @@
 package Encapsulation;
-
+import java.util.Scanner;
 public class CarInfo {
     private String make;
     private String model;
@@ -49,11 +49,24 @@ public class CarInfo {
 
     public static void main(String[] args) {
         CarInfo car = new CarInfo();
-        car.setMake("Toyota");
-        car.setModel("Camry");
-        car.setYear(2020);
-        car.setColor("Red");
-        car.setPrice(25000.00);
+        Scanner scanner = new Scanner(System.in);
+        String make=scanner.nextLine();
+        String model=scanner.nextLine();
+        int year=scanner.nextInt();
+        scanner.nextLine(); // Consume newline
+        String color=scanner.nextLine();
+        double price=scanner.nextDouble();
+        car.setMake(make);
+        car.setModel(model);
+        car.setYear(year);
+        car.setColor(color);
+        car.setPrice(price);
+
+        // car.setMake("Toyota");
+        // car.setModel("Camry");
+        // car.setYear(2020);
+        // car.setColor("Red");
+        // car.setPrice(25000.00);
 
         System.out.println("Car Make: " + car.getMake());
         System.out.println("Car Model: " + car.getModel());
