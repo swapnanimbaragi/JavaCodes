@@ -1,5 +1,5 @@
 package Encapsulation;
-
+import java.util.Scanner;
 public class CustomerFeedback {
     private String customerName;
     private String feedback;
