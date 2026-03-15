@@ -1,5 +1,5 @@
 package Encapsulation;
-
+import java.util.Scanner;
 public class ProductInventryManegment {
     private String productName;
     private String productId;       
@@ -40,7 +40,7 @@ public class ProductInventryManegment {
         product.setProductId(productId);
         product.setQuantity(quantity);
         product.setPrice(price);
-        
+
         // product.setProductName("Laptop");
         // product.setProductId("P12345");
         // product.setQuantity(10);
