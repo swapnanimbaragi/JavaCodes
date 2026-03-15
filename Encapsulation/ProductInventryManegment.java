@@ -31,10 +31,20 @@ public class ProductInventryManegment {
     }
     public static void main(String[] args) {
         ProductInventryManegment product = new ProductInventryManegment();
-        product.setProductName("Laptop");
-        product.setProductId("P12345");
-        product.setQuantity(10);
-        product.setPrice(999.99);
+        Scanner scanner = new Scanner(System.in);
+        String productName=scanner.nextLine();
+        String productId=scanner.nextLine();
+        int quantity=scanner.nextInt();
+        double price=scanner.nextDouble();
+        product.setProductName(productName);
+        product.setProductId(productId);
+        product.setQuantity(quantity);
+        product.setPrice(price);
+        
+        // product.setProductName("Laptop");
+        // product.setProductId("P12345");
+        // product.setQuantity(10);
+        // product.setPrice(999.99);
 
         System.out.println("Product Name: " + product.getProductName());
         System.out.println("Product ID: " + product.getProductId());
