@@ -1,5 +1,5 @@
 package Encapsulation;
-
+import java.util.Scanner;
 public class BankAccInfo {
     private String accountHolderName;
     private String accountNumber;   
@@ -34,7 +34,7 @@ public class BankAccInfo {
         account.setAccountHolderName(accountHolderName);
         account.setAccountNumber(accountNumber);
         account.setBalance(balance);
-        
+
 
         System.out.println("Account Holder Name: " + account.getAccountHolderName());
         System.out.println("Account Number: " + account.getAccountNumber());
