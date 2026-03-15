@@ -1,5 +1,5 @@
 package Encapsulation;
-
+import java.util.Scanner;
 public class ProductReviewInfo {
     private String productName;
     private String reviewerName;
