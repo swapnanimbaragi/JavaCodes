@@ -29,5 +29,17 @@ public class ProductInventryManegment {
     public void setPrice(double price) {
         this.price = price;
     }
+    public static void main(String[] args) {
+        ProductInventryManegment product = new ProductInventryManegment();
+        product.setProductName("Laptop");
+        product.setProductId("P12345");
+        product.setQuantity(10);
+        product.setPrice(999.99);
+
+        System.out.println("Product Name: " + product.getProductName());
+        System.out.println("Product ID: " + product.getProductId());
+        System.out.println("Quantity: " + product.getQuantity());
+        System.out.println("Price: $" + product.getPrice());
+    }
     
 }
