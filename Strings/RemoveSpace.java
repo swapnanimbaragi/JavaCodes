@@ -39,6 +39,6 @@ public class RemoveSpace {
         {
             t=t+s.charAt(i);
         }
-        System.out.println(t);
+        System.out.println(t); 
     }
 }
