@@ -11,6 +11,7 @@ public class BankAccInfo {
         this.accountHolderName = accountHolderName;
     }
     public String getAccountNumber() {
+        
         return accountNumber;
     }
     public void setAccountNumber(String accountNumber) {
