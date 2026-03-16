@@ -10,7 +10,7 @@ public class MoveSpecialChar {
         for(int i=0;i<s.length();i++)
         {
             char ch=s.charAt(i);
-            if((ch>='A' && ch<='Z') || (ch>='a' && ch<='z') || (ch>='0' && ch<='9'))
+            if((ch>='A' && ch<='Z') || (ch>='a' && ch<='z') || (ch>='0' && ch<='9') || ch==' ')
             {
                 letters=letters+ch;
             }
