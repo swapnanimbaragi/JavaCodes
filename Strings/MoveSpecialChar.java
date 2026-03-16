@@ -19,6 +19,6 @@ public class MoveSpecialChar {
             }
 
         }
-        System.out.print(letters+specialChars);
+        System.out.print(specialChars+letters);
     }
 }
