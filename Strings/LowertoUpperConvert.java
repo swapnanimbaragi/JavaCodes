@@ -4,6 +4,7 @@ public class LowertoUpperConvert {
     public static void main(String[] agrs)
     {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the String");
         String s=sc.nextLine();
         String t="";
         for(int i=0;i<s.length();i++)
