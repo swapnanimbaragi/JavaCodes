@@ -22,6 +22,7 @@ public class MoveNumtoChar {
                 
             
         }
+        System.out.print(letters+number);
 
     }
 }
