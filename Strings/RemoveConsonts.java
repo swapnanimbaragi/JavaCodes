@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class RemoveConsonts {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the String: ");
         String input = scanner.nextLine();
         String t="";
         for(int i=0;i<input.length();i++)
