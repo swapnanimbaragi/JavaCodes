@@ -12,7 +12,7 @@ public class Radiuscircle {
     {
         Scanner scan=new Scanner(System.in);
         int r=scan.nextInt();
-        System.out.println("Radius of the circle is "+radius(r));
+        System.out.println("Radius of the circle is :"+radius(r));
 
     }
 }
