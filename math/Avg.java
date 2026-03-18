@@ -15,6 +15,6 @@ public class Avg {
         int a=scan.nextInt();
         int b=scan.nextInt();
         int c=scan.nextInt();
-        System.out.println("Average"+num(a,b,c));
+        System.out.println("Average:"+num(a,b,c));
     }
 }
