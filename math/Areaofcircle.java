@@ -10,7 +10,7 @@ public class Areaofcircle {
         res=pi*r*r;
         return res;
     }
-        public static void main(String[] args) 
+    public static void main(String[] args) 
     {
         Scanner scan=new Scanner(System.in);
         int r=scan.nextInt();
