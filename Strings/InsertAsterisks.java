@@ -15,7 +15,7 @@ public class InsertAsterisks {
                 t+='*';
             }
         }
-        System.out.println(t);
+        System.out.println("After insertion of asterisks" + t);
 
     }
 }
