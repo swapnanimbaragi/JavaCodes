@@ -14,7 +14,7 @@ public class InsertAsterisksBeforA {
 
             if(ch == 'a' || ch == 'A')
             {
-                t = t + "*" + ch;   // add * before a/A
+                t = t + "*" + ch;   
             }
             else
             {
