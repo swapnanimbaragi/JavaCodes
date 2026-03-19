@@ -22,6 +22,6 @@ public class InsertAsterisksBeforA {
             }
         }
 
-        System.out.print(t);
+        System.out.print("After insertion of asterisks" + t);
     }
 }
