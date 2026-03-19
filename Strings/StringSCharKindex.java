@@ -13,7 +13,7 @@ public class StringSCharKindex{
             char ch=s.charAt(i);
             if(ch==k)
             {
-                System.out.print(i);
+                System.out.print(i+" ");
                 found=true;
             }
         }
