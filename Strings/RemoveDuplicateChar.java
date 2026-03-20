@@ -23,7 +23,7 @@ public class RemoveDuplicateChar {
                 t=t+ch;
             }
         }
-        System.out.print("After Removing duplicate"+t);
+        System.out.print("After Removing duplicate:"+t);
     }
 }
 
