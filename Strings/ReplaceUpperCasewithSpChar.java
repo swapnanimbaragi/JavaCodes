@@ -19,6 +19,6 @@ class ReplaceUpperCasewithSpChar
                 t+=ch;
             }
         }
-        System.out.print(t);
+        System.out.print("Replaced Characters"+t);
     }
 }
