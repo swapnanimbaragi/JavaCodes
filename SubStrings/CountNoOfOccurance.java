@@ -6,6 +6,7 @@ public class CountNoOfOccurance {
         Scanner scan=new Scanner(System.in);
         System.out.print("Enter the String: ");
         String s=scan.nextLine();
+        System.out.print("Enter the SubString: ");
         String s2=scan.nextLine();
         int count=0;
         for(int i=0;i<s.length()-s2.length()+1;i++)
