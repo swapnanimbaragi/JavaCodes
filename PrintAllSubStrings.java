@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class PrintAllSubStrings {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
-        // System.out.print("Enter the String: ");
+        System.out.print("Enter the String: ");
         String s=scan.nextLine();
         String t="";    
         for(int size=1;size<=s.length();size++)
