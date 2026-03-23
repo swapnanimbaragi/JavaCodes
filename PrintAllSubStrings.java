@@ -14,7 +14,7 @@ public class PrintAllSubStrings {
                 {
                     t=t+s.charAt(j);
                 }
-                System.out.println("All Substrings: " + t);
+                System.out.println("All Substrings are: " + t);
             }
         }
     }
