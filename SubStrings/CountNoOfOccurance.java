@@ -4,6 +4,7 @@ public class CountNoOfOccurance {
     
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
+        System.out.print("Enter the String: ");
         String s=scan.nextLine();
         String s2=scan.nextLine();
         int count=0;
