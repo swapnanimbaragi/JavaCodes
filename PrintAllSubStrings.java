@@ -4,17 +4,17 @@ public class PrintAllSubStrings {
         Scanner scan=new Scanner(System.in);
         System.out.print("Enter the String: ");
         String s=scan.nextLine();
-        String t="";    
+        // String t="";    
         for(int size=1;size<=s.length();size++)
         {
             for(int i=0;i<=s.length()-size;i++)
             {
-                t="";
+                String t="";
                 for(int j=i;j<i+size;j++)
                 {
                     t=t+s.charAt(j);
                 }
-                System.out.println("All Substrings are: " + t);
+                System.out.println(t);
             }
         }
     }
