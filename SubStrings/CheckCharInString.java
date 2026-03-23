@@ -16,10 +16,10 @@ public class CheckCharInString {
           }
           if(t.equals(s2))
           {
-              System.out.println("Character is present in the string.");
+              System.out.println("Yes");
               return;
           }
       }
-      System.out.println("Character is not present in the string.");
+      System.out.println("No");
    } 
 }
