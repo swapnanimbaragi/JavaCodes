@@ -4,7 +4,6 @@ public class PrintAllSubStrings {
         Scanner scan=new Scanner(System.in);
         System.out.print("Enter the String: ");
         String s=scan.nextLine();
-        // String t="";    
         for(int size=1;size<=s.length();size++)
         {
             for(int i=0;i<=s.length()-size;i++)
