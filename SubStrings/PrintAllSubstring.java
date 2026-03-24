@@ -1,5 +1,7 @@
+package SubStrings;
 import java.util.Scanner;
-public class PrintAllSubStrings {
+public class PrintAllSubstring {
+ 
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         System.out.print("Enter the String: ");
@@ -18,3 +20,5 @@ public class PrintAllSubStrings {
         }
     }
 }
+
+
