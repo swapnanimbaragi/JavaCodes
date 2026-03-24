@@ -1,6 +1,8 @@
 package SubStrings;
 import java.util.Scanner;
+
 public class PrintLargestPalindromeOfSubstring {
+
     static boolean isPalindrome(String s) 
     {
         String t="";
@@ -8,32 +10,31 @@ public class PrintLargestPalindromeOfSubstring {
         {
             t=t+s.charAt(i);
         }
-        if(t.equals(s))
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        return t.equals(s);
     }
     
     static String findLargestPalindrome(String str) 
     {
-        String t = "";
-        for (int i = str.length(); i >=0; i--) 
+        String largest = "";   // ✅ store result
+
+        for (int i = 0; i < str.length(); i++)   // ✅ FIX
         {
-            for (int j = i; j <i + str.length(); j++) 
+            for (int j = i; j < str.length(); j++)   // ✅ FIX
             {
-            
-                t=t+str.charAt(j);
-                if(isPalindrome(t))
+                String t = "";   // ✅ RESET
+
+                for(int k = i; k <= j; k++)   // ✅ build substring
                 {
-                    System.out.print(t);
+                    t = t + str.charAt(k);
+                }
+
+                if(isPalindrome(t) && t.length() > largest.length())
+                {
+                    largest = t;   // ✅ store largest
                 }
             }
         }
-        return t;
+        return largest;   // ✅ return correct value
     }
     
     public static void main(String[] args) {
@@ -43,6 +44,5 @@ public class PrintLargestPalindromeOfSubstring {
         
         String result = findLargestPalindrome(input);
         System.out.println("Largest palindrome substring: " + result);
-        
     }
 }
