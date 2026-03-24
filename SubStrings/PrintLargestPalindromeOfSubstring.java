@@ -15,26 +15,26 @@ public class PrintLargestPalindromeOfSubstring {
     
     static String findLargestPalindrome(String str) 
     {
-        String largest = "";   // ✅ store result
+        String largest = "";   
 
-        for (int i = 0; i < str.length(); i++)   // ✅ FIX
+        for (int i = 0; i < str.length(); i++)   
         {
-            for (int j = i; j < str.length(); j++)   // ✅ FIX
+            for (int j = i; j < str.length(); j++)   
             {
-                String t = "";   // ✅ RESET
+                String t = "";   
 
-                for(int k = i; k <= j; k++)   // ✅ build substring
+                for(int k = i; k <= j; k++)   
                 {
                     t = t + str.charAt(k);
                 }
 
                 if(isPalindrome(t) && t.length() > largest.length())
                 {
-                    largest = t;   // ✅ store largest
+                    largest = t;   
                 }
             }
         }
-        return largest;   // ✅ return correct value
+        return largest;   
     }
     
     public static void main(String[] args) {
