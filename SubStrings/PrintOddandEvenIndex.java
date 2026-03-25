@@ -16,7 +16,7 @@ public class PrintOddandEvenIndex
         }
         for(int i=0;i<arr.length;i++)
         {
-            System.out.print(arr[i]+" ");
+            System.out.print("Reversed odd and even indices: "+arr[i]+" ");
         }
         
     }
