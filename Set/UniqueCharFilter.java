@@ -5,15 +5,15 @@ public class UniqueCharFilter {
         Scanner scan=new Scanner(System.in);
         System.out.println("enter string");
         String s=scan.nextLine();
-        String arr[]=s.split(" ");
-        LinkedHashSet<String> set=new LinkedHashSet<>();
-        for(int i=0;i<arr.length;i++)
+        LinkedHashSet<Character> set=new LinkedHashSet<>();
+        for(int i=0;i<s.length();i++)
         {
-            set.add(arr[i]);
+            char ch=s.charAt(i);
+            set.add(ch);
         }
-        for(String word : set)
+        for(Character ch : set)
         {
-            System.out.print(word+" ");
+            System.out.print(ch+" ");
         }
 
         
