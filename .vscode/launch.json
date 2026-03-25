@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UniqueName",
+            "request": "launch",
+            "mainClass": "Set.UniqueName",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "LexicographicOrder",
+            "request": "launch",
+            "mainClass": "Set.LexicographicOrder",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "UniqueCharFilter",
             "request": "launch",
             "mainClass": "Set.UniqueCharFilter",
