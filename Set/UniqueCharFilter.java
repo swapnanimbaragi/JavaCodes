@@ -13,7 +13,7 @@ public class UniqueCharFilter {
         }
         for(Character ch : set)
         {
-            System.out.print(ch+" ");
+            System.out.print(ch);
         }
 
         
