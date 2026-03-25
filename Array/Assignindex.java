@@ -1,5 +1,3 @@
-package Codes.Array;
-
 import java.util.Scanner;
 
 public class Assignindex {
