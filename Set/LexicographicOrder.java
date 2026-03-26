@@ -13,7 +13,7 @@ public class LexicographicOrder {
         }
         for(Character ch : set)
         {
-            System.out.print("Lexicographic Order"+ch+" ");
+            System.out.print("Lexicographic Order:"+ch+" ");
         }
     }
 }
