@@ -6,13 +6,14 @@ public class AlphabeticsNameOrder
     {
         Scanner scan=new Scanner(System.in);
         int n=scan.nextInt();
+        scan.nextLine();
         String arr[]=new String[n];
         for(int i=0;i<arr.length;i++)
         {
             arr[i]=scan.nextLine();
         }
         
-        LinkedHashSet<String> set=new LinkedHashSet<>();
+        TreeSet<String> set=new TreeSet<>();
         for(String word : arr)
         {
             set.add(word);
