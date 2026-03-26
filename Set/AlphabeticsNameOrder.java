@@ -5,6 +5,7 @@ public class AlphabeticsNameOrder
     public static void main(String[] args) 
     {
         Scanner scan=new Scanner(System.in);
+        System.out.println("enter number of names");
         int n=scan.nextInt();
         scan.nextLine();
         String arr[]=new String[n];
