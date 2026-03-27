@@ -10,6 +10,12 @@ public class URLCompanyExtractor {
         for(int i=0;i<arr.length;i++)
         {
             String url = arr[i].trim();
+            if (url.startsWith("http://")) {
+                url = url.substring(7);
+            }
+            else if (url.startsWith("https://")) {
+                url = url.substring(8);
+            }
             if (url.startsWith("www.")) {
                 url = url.substring(4);
             }
