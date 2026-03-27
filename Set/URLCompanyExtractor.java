@@ -16,6 +16,9 @@ public class URLCompanyExtractor {
             if (url.endsWith(".com")) {
                 url = url.substring(0, url.length() - 4);
             }
+            else if (url.endsWith(".org")) {
+                url = url.substring(0, url.length() - 4);
+            }
             set.add(url);
         }
         for(String word : set)
