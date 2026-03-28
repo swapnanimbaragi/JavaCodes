@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PairsFormation",
+            "request": "launch",
+            "mainClass": "Map.PairsFormation",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "FirstRepeatingElement",
             "request": "launch",
             "mainClass": "Map.FirstRepeatingElement",
