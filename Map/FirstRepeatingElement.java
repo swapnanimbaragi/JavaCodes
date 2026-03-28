@@ -12,17 +12,23 @@ public class FirstRepeatingElement {
             arr[i] = scan.nextInt();
         }
 
-        HashSet<Integer> set = new HashSet<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
 
+        // count frequency
         for (int i = 0; i < n; i++) {
-            if (set.contains(arr[i])) {
-                System.out.println(arr[i]);
-                return; 
+            if (map.containsKey(arr[i])) {
+                map.put(arr[i], map.get(arr[i]) + 1);
             } else {
-                set.add(arr[i]);
+                map.put(arr[i], 1);
             }
         }
 
-        System.out.println("No repeating element");
+        // find first repeating
+        for (int i = 0; i < n; i++) {
+            if (map.get(arr[i]) > 1) {
+                System.out.println(arr[i]);
+                return;
+            }
+        }
     }
 }
