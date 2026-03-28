@@ -8,10 +8,11 @@ public class CountCharacters {
         for (int i = 0; i < s.length(); i++) 
         {
             char ch = s.charAt(i);
-            if(ch==' ' || Character.isLowerCase(ch))
+            if(ch==' ')
             {
                 continue;
             }
+            ch=Character.toLowerCase(ch);
             if (map.containsKey(ch)) {
                 int count = map.get(ch);
                 map.put(ch, count + 1);
