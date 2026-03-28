@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DisjointPair",
+            "request": "launch",
+            "mainClass": "Map.DisjointPair",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "reveser",
+            "request": "launch",
+            "mainClass": "SubStrings.reveser",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "PairElements",
+            "request": "launch",
+            "mainClass": "Set.PairElements",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "URLCompanyExtractor",
             "request": "launch",
             "mainClass": "Set.URLCompanyExtractor",
