@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountCharacters",
+            "request": "launch",
+            "mainClass": "Map.CountCharacters",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "CharCountOcuurance",
+            "request": "launch",
+            "mainClass": "Map.CharCountOcuurance",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "DisjointPair",
             "request": "launch",
             "mainClass": "Map.DisjointPair",
