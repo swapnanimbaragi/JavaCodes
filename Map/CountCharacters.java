@@ -8,7 +8,7 @@ public class CountCharacters {
         for (int i = 0; i < s.length(); i++) 
         {
             char ch = s.charAt(i);
-            if(ch==' ')
+            if(ch==' ' || Character.isLowerCase(ch))
             {
                 continue;
             }
