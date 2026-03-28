@@ -5,7 +5,7 @@ public class CountCharacters {
         Scanner scan = new Scanner(System.in);
         System.out.println("enter a string");
         String s = scan.nextLine();
-        HashMap<Character, Integer> map = new HashMap<>();
+        LinkedHashMap<Character, Integer> map = new LinkedHashMap<>();
         for (int i = 0; i < s.length(); i++) 
         {
             char ch = s.charAt(i);
