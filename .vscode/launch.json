@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FirstRepeatingElement",
+            "request": "launch",
+            "mainClass": "Map.FirstRepeatingElement",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "FrequentElementFinder",
+            "request": "launch",
+            "mainClass": "Map.FrequentElementFinder",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "ArrayElemOcc",
             "request": "launch",
             "mainClass": "Map.ArrayElemOcc",
