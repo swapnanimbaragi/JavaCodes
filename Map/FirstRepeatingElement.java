@@ -17,7 +17,7 @@ public class FirstRepeatingElement {
         for (int i = 0; i < n; i++) {
             if (set.contains(arr[i])) {
                 System.out.println(arr[i]);
-                return; // stop after first repeating
+                return; 
             } else {
                 set.add(arr[i]);
             }
