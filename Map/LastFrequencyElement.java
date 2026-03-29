@@ -8,16 +8,20 @@ class LastFrequencyElement
         int n = scan.nextInt();
         System.out.println("Enter the elements of the array:");
         int arr[] = new int[n];
-
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             arr[i] = scan.nextInt();
         }
 
         HashMap<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < n; i++) {
-            if (map.containsKey(arr[i])) {
+        for (int i = 0; i < n; i++) 
+        {
+            if (map.containsKey(arr[i]))
+            {
                 map.put(arr[i], map.get(arr[i]) + 1);
-            } else {
+            } 
+            else 
+            {
                 map.put(arr[i], 1);
             }
         }
