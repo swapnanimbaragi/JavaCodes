@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LastFrequencyElement",
+            "request": "launch",
+            "mainClass": "Map.LastFrequencyElement",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "PairsFormation",
             "request": "launch",
             "mainClass": "Map.PairsFormation",
