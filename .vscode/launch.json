@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SmallestElementFInder",
+            "request": "launch",
+            "mainClass": "Map.SmallestElementFInder",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "LastFrequencyElement",
             "request": "launch",
             "mainClass": "Map.LastFrequencyElement",
