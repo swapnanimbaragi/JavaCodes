@@ -6,6 +6,7 @@ class LastFrequencyElement
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the size of the array:");
         int n = scan.nextInt();
+        System.out.println("Enter the elements of the array:");
         int arr[] = new int[n];
 
         for (int i = 0; i < n; i++) {
