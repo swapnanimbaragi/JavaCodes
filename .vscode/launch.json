@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BankAccInfo",
+            "request": "launch",
+            "mainClass": "Encapsulation.BankAccInfo",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "CourseInfo",
+            "request": "launch",
+            "mainClass": "Inheritence.CourseInfo",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "AnimalSoundGenertore",
             "request": "launch",
             "mainClass": "Inheritence.AnimalSoundGenertore",
