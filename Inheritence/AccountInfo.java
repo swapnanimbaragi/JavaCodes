@@ -69,11 +69,11 @@ public class AccountInfo
         if (type.equalsIgnoreCase("SavingsAccount"))
         {
             String data[]=scan.nextLine().split(",");
-            SavingsAccount savingsAccount = new SavingsAccount();
-            savingsAccount.setAccountNumber(Integer.parseInt(data[0]));
-            savingsAccount.setBalance(Integer.parseInt(data[1]));
-            savingsAccount.setInterestRate(Double.parseDouble(data[2]));
-            System.out.println("Account Details: " + savingsAccount.getDetails());
+            SavingsAccount s = new SavingsAccount();
+            s.setAccountNumber(Integer.parseInt(data[0]));
+            s.setBalance(Integer.parseInt(data[1]));
+            s.setInterestRate(Double.parseDouble(data[2]));
+            System.out.println("Account Details: " + s.getDetails());
         }
         else if (type.equalsIgnoreCase("CurrentAccount"))
         {
