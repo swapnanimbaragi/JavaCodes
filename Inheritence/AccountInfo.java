@@ -65,7 +65,7 @@ public class AccountInfo
     public static void main(String[] args) 
     {
         Scanner scan = new Scanner(System.in); 
-        String type = scan.nextLine();
+        String type = scan.nextLine().trim();
         if (type.equalsIgnoreCase("SavingsAccount"))
         {
             String data[]=scan.nextLine().split(",");
