@@ -78,11 +78,11 @@ public class AccountInfo
         else if (type.equalsIgnoreCase("CurrentAccount"))
         {
             String data[]=scan.nextLine().split(",");
-            CurrentAccount currentAccount = new CurrentAccount();
-            currentAccount.setAccountNumber(Integer.parseInt(data[0]));
-            currentAccount.setBalance(Integer.parseInt(data[1]));
-            currentAccount.setOverdraftLimit(Double.parseDouble(data[2]));
-            System.out.println("Account Details: " + currentAccount.getDetails());
+            CurrentAccount c= new CurrentAccount();
+            c.setAccountNumber(Integer.parseInt(data[0]));
+            c.setBalance(Integer.parseInt(data[1]));
+            c.setOverdraftLimit(Double.parseDouble(data[2]));
+            System.out.println("Account Details: " + c.getDetails());
         }
     }
 }
