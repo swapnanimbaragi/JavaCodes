@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VehicaleInfo",
+            "request": "launch",
+            "mainClass": "Inheritence.VehicaleInfo",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "EmployeSalaryCalculation",
             "request": "launch",
             "mainClass": "Inheritence.EmployeSalaryCalculation",
