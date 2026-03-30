@@ -12,9 +12,6 @@ class Account
     public void setBalance(int balance) {
         this.balance = balance;
     }
-
-    
-
     public int getAccountNumber() {
         return accountNumber;
     }
@@ -87,7 +84,5 @@ public class AccountInfo
             currentAccount.setOverdraftLimit(Double.parseDouble(data[2]));
             System.out.println("Account Details: " + currentAccount.getDetails());
         }
-             
     }
-    
 }
