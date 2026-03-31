@@ -84,8 +84,5 @@ public class VehicaleInfo {
             bike.setType(data[2]);
             System.out.println("Vehicle Info: " + bike.getInfo());
         }
-
-         
     }
-
 }
