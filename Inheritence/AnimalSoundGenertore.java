@@ -28,15 +28,17 @@ class Animal
 class Dog extends Animal
 {
     private String breed;
-    public void setBreed(String breed) {
+    public void setBreed(String breed) 
+    {
         this.breed = breed;
     }
-    public String getBreed() {
+    public String getBreed() 
+    {
         return breed;
     }
-
     @Override
-    public String getSound() {
+    public String getSound() 
+    {
         return "bark";
     }
 }
