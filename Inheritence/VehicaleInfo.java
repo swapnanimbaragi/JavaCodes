@@ -61,8 +61,10 @@ class Bike extends Vehicle
         return super.getInfo() + ", Type: " + type;
     }
 }
-public class VehicaleInfo {
-    public static void main(String[] args) {
+public class VehicaleInfo 
+{
+    public static void main(String[] args) 
+    {
         Scanner scan = new Scanner(System.in);
         String type=scan.next().trim();
         scan.nextLine();
