@@ -52,12 +52,14 @@ class Bike extends Vehicle
         this.type = type;
     }
 
-    public String getType() {
+    public String getType() 
+    {
         return type;
     }
 
     @Override
-    public String getInfo() {
+    public String getInfo() 
+    {
         return super.getInfo() + ", Type: " + type;
     }
 }
