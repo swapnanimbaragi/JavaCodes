@@ -53,9 +53,9 @@ class Cat extends Animal
     {
         return color;
     }
-
     @Override
-    public String getSound() {
+    public String getSound() 
+    {
         return "meow";
     }
 }
