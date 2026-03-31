@@ -59,9 +59,11 @@ class Cat extends Animal
         return "meow";
     }
 }
-public class AnimalSoundGenertore {
+public class AnimalSoundGenertore 
+{
     Scanner scan = new Scanner(System.in);
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner scan = new Scanner(System.in);
         String type = scan.nextLine();
         if (type.equalsIgnoreCase("Dog"))
