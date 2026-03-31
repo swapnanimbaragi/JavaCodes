@@ -13,13 +13,16 @@ class Animal
     {
         this.age = age;
     }
-    public String getName() {
+    public String getName() 
+    {
         return name;
     }
-    public String getAge() {
+    public String getAge() 
+    {
         return age;
     }
-    public String getSound() {
+    public String getSound() 
+    {
         return sound;
     }
     public String getInfo()
