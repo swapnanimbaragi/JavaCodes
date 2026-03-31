@@ -45,10 +45,12 @@ class Dog extends Animal
 class Cat extends Animal
 {
     private String color;
-    public void setColor(String color) {
+    public void setColor(String color) 
+    {
         this.color = color;
     }
-    public String getColor() {
+    public String getColor() 
+    {
         return color;
     }
 
