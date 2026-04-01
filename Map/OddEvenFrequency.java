@@ -32,5 +32,9 @@ public class OddEvenFrequency
                 found = true;
             } 
         }
+        if(!found)
+        {
+            System.out.println("No even number with odd frequency found.");
+        }
     }
 }
