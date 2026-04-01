@@ -27,7 +27,7 @@ public class OddEvenFrequency
         boolean found=false;
         Set<Integer> keys=map.keySet();
         for (Integer key : keys) {
-            if ( key % 2 == 0 && map.get(key) % 2 != 0 && map.get(key) > 1  ) {
+            if ( key % 2 == 0 && map.get(key) % 2 != 0 && map.get(key) >=1  ) {
                 System.out.println(key);
                 found = true;
             } 
