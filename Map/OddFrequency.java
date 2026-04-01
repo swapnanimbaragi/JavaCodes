@@ -22,12 +22,14 @@ public class OddFrequency {
                 map.put(arr[i],1);
             }
         }
+        boolean found=false;    
         Set<Integer> keys=map.keySet();
         for(Integer key:keys)
         {
             if(map.get(key)%2!=0)
             {
                 System.out.println(key);
+                found=true;
             }
         }
 
