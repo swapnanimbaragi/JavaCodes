@@ -28,7 +28,7 @@ public class OddFrequency {
         {
             if(map.get(key)%2!=0)
             {
-                System.out.println(key);
+                System.out.println("Odd frequency element: " + key);
                 found=true;
             }
         }
