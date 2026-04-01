@@ -32,6 +32,10 @@ public class OddFrequency {
                 found=true;
             }
         }
+        if(!found)
+        {
+            System.out.println("No odd frequency element found.");
+        }
 
     }
 }
