@@ -24,10 +24,12 @@ public class OddEvenFrequency
                 map.put(arr[i],1);
             }
         }
+        boolean found=false;
         Set<Integer> keys=map.keySet();
         for (Integer key : keys) {
             if ( key % 2 == 0 && map.get(key) % 2 != 0 && map.get(key) > 1  ) {
                 System.out.println(key);
+                found = true;
             } 
         }
     }
