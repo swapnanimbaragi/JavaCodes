@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Fibonaccii",
+            "request": "launch",
+            "mainClass": "Practice.Fibonaccii",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "FactorialOfN",
             "request": "launch",
             "mainClass": "Practice.FactorialOfN",
