@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConsonantsCheck",
+            "request": "launch",
+            "mainClass": "Practice.ConsonantsCheck",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "VowelAsciiCheck",
             "request": "launch",
             "mainClass": "Practice.VowelAsciiCheck",
