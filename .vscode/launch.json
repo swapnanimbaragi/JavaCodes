@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FactorCheck",
+            "request": "launch",
+            "mainClass": "Practice.FactorCheck",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "MaximumOfFour",
             "request": "launch",
             "mainClass": "Practice.MaximumOfFour",
