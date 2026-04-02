@@ -24,8 +24,10 @@ public class NonPrimeSingleIdentifier {
         }
 
         HashMap<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < n; i++) {
-            if (map.containsKey(arr[i])) {
+        for (int i = 0; i < n; i++) 
+        {
+            if (map.containsKey(arr[i])) 
+            {
                 int count = map.get(arr[i]);
                 map.put(arr[i], count + 1);
             } else {
@@ -36,7 +38,8 @@ public class NonPrimeSingleIdentifier {
         boolean found = false;
         Set<Integer> keys = map.keySet();
         for (Integer key : keys) {
-            if (!isPrime(key) && map.get(key) == 1) {
+            if (!isPrime(key) && map.get(key) == 1) 
+            {
                 System.out.println("Non-prime single identifier: " + key);
                 found = true;
             }
