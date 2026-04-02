@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LastDigitOfN",
+            "request": "launch",
+            "mainClass": "Practice.LastDigitOfN",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "MultipleTillN",
             "request": "launch",
             "mainClass": "Practice.MultipleTillN",
