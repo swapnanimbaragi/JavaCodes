@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FirstNMultiplesOf3Desending",
+            "request": "launch",
+            "mainClass": "Practice.FirstNMultiplesOf3Desending",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "VotingEligiblity",
             "request": "launch",
             "mainClass": "Practice.VotingEligiblity",
