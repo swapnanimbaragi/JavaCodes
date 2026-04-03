@@ -3,6 +3,7 @@ import java.util.*;
 public class MultiplesOfBothXY {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter two numbers and a range");
         int x=sc.nextInt();
         int y=sc.nextInt();
         int n1=sc.nextInt();
