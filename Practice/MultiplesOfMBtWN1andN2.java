@@ -1,10 +1,10 @@
 package Practice;
 import java.util.*;
 public class MultiplesOfMBtWN1andN2 {
-    public static void main(Strig[] args)
+    public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        
+        System.out.println("Enter a number");
         int m=sc.nextInt();
         System.out.println("Enter a range n1 and n2");
         int n1=sc.nextInt();
