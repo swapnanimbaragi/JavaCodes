@@ -18,6 +18,7 @@ public class Fibonaccii {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number of terms: ");
         int n=sc.nextInt();
         fib(n);
     }
