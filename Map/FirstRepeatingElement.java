@@ -25,7 +25,7 @@ public class FirstRepeatingElement {
         {
             if (map.get(arr[i]) > 1) 
             {
-                System.out.println("First repeating element" + arr[i]);
+                System.out.println("First repeating element:" + arr[i]);
                 return;
             }
         }
