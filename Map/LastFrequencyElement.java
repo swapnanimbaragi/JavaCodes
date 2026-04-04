@@ -34,6 +34,6 @@ class LastFrequencyElement
                 return;
             }
         }
-        System.out.println(arr[n-1]);
+        System.out.println("Last frequency element:" + arr[n-1]);
     }
 }   
