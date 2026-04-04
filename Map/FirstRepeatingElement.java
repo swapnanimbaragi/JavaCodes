@@ -29,6 +29,6 @@ public class FirstRepeatingElement {
                 return;
             }
         }
-        System.out.println(-1);
+        System.out.println("No repeating element found");
     }
 }
