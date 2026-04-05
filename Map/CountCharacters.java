@@ -23,7 +23,7 @@ public class CountCharacters {
         }
         Set<Character> keys = map.keySet();
         for (Character key : keys) {
-            System.out.println("Count of Character" + key + "': " + map.get(key));
+            System.out.println("Count of Character:" + key + "': " + map.get(key));
         }
     }
 }
