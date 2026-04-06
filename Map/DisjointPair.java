@@ -32,7 +32,7 @@ public class DisjointPair {
             {
                 pairs=pairs+map.get(key)/3;
             }
-            System.out.println("Number of disjoint pairs:" + pairs);
+            System.out.println(pairs);
         }
     }
 }
