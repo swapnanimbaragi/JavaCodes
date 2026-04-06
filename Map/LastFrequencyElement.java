@@ -30,7 +30,7 @@ class LastFrequencyElement
         {
             if (map.get(arr[i]) > 1) 
             {
-                System.out.println("Last frequency element:" + arr[i]);
+                System.out.println("Last frequency element" + arr[i]);
                 return;
             }
         }
