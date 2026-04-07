@@ -16,6 +16,6 @@ public class MaxTimeElement {
                 maxKey=key;
             }
         }
-        System.out.println("Max key:" + maxKey);
+        System.out.println("Max key" + maxKey);
     }
 }
