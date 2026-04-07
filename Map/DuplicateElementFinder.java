@@ -23,7 +23,7 @@ public class DuplicateElementFinder
         }
         for (int key : map.keySet()) {
             if (map.get(key) > 1) {
-                System.out.print( "Duplicate of: " + key + " ");
+                System.out.print("Duplicate of: " + key + " ");
             }
         }
     }
