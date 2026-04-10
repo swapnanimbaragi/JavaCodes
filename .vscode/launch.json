@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumOfPositiveElements",
+            "request": "launch",
+            "mainClass": "Practice.SumOfPositiveElements",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "AvrageOddElement",
             "request": "launch",
             "mainClass": "Practice.AvrageOddElement",
