@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrimeProductDigit",
+            "request": "launch",
+            "mainClass": "Practice.PrimeProductDigit",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "ArmstrongTillN",
+            "request": "launch",
+            "mainClass": "Practice.ArmstrongTillN",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "AmstrongNumber",
             "request": "launch",
             "mainClass": "Practice.AmstrongNumber",
