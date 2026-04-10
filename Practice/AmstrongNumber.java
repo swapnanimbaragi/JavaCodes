@@ -1,22 +1,33 @@
 package Practice;
 import java.util.*;
 public class AmstrongNumber {
-    
+    public static boolean isAmstrong(int n)
+    {
+        int count = String.valueOf(n).length();
+        int original=n;
+        int arm = 0;
+        while (n > 0) 
+        {
+            int last= n % 10;
+            arm = arm + (int)Math.pow(last, count);
+            n = n/ 10;
+        }
+        return arm==original;
+
+    }
     public static void main(String[] args)
     {
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter the number:");
-        int num = sc.nextInt();
-        int count = String.valueOf(num).length();
-        int arm = 0;
-        while (num > 0) 
+        int n = sc.nextInt();
+        if(isAmstrong(n))
         {
-            int last= num % 10;
-            arm = arm + (int)Math.pow(last, count);
-            num = num / 10;
+            System.out.println(n +" is an Amstrong number.");
         }
-        System.out.println("The Armstrong number is: "+arm);
-
+        else
+        {
+            System.out.println(n +" is not an Amstrong number.");  
+        }
 
     }
 }
