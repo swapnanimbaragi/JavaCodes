@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AmstrongNumber",
+            "request": "launch",
+            "mainClass": "Practice.AmstrongNumber",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "MaxTimeElement",
             "request": "launch",
             "mainClass": "Map.MaxTimeElement",
