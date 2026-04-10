@@ -22,12 +22,17 @@ public class CountLesserThanKPrime {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number:");
         int n = sc.nextInt();
+        int[] arr = new int[n];
+        for(int i=0;i<n;i++)
+        {
+            arr[i]=sc.nextInt();
+        }
         System.out.println("Enter the value of k:");
         int k = sc.nextInt();
         int count=0;
-        for(int i=2;i<n;i++)
+        for(int i=0;i<n;i++)
         {
-            if(isPrime(i) && i<k)
+            if(isPrime(arr[i]) && arr[i]<k)
             {
                 count++;
             }
