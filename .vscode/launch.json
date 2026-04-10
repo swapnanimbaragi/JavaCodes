@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LastSecondDigitOfN",
+            "request": "launch",
+            "mainClass": "Practice.LastSecondDigitOfN",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "PrimeProductDigit",
             "request": "launch",
             "mainClass": "Practice.PrimeProductDigit",
