@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EvenMultiplesOfN",
+            "request": "launch",
+            "mainClass": "Practice.EvenMultiplesOfN",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "LastFirstDigitOfN",
+            "request": "launch",
+            "mainClass": "Practice.LastFirstDigitOfN",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "LastSecondDigitOfN",
             "request": "launch",
             "mainClass": "Practice.LastSecondDigitOfN",
