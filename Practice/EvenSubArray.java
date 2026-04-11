@@ -22,7 +22,7 @@ public class EvenSubArray {
                 // calculate full subarray sum
                 for(int j=i;j<i+size;j++)
                 {
-                    sum += arr[j];   // ✅ FIX HERE
+                    sum += arr[j];   
                 }
 
                 // check even sum
