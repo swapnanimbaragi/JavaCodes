@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MatchingSumSubarray",
+            "request": "launch",
+            "mainClass": "Practice.MatchingSumSubarray",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "EvenSubArray",
             "request": "launch",
             "mainClass": "Practice.EvenSubArray",
