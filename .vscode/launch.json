@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CharOccurance",
+            "request": "launch",
+            "mainClass": "Practice.CharOccurance",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "StringSubarray",
+            "request": "launch",
+            "mainClass": "Practice.StringSubarray",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "LargestCollection",
+            "request": "launch",
+            "mainClass": "Practice.LargestCollection",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "MatchingSumSubarray",
             "request": "launch",
             "mainClass": "Practice.MatchingSumSubarray",
