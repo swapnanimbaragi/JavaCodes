@@ -17,7 +17,7 @@ public class LargestCollection {
     }
     Collections.sort(list);
     int largest = list.get(list.size()-k);
-    System.out.print("largest Element: "+largest);
+    System.out.print("largest Element"+largest);
 }
 }
 
