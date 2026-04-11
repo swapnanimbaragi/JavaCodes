@@ -30,7 +30,7 @@ public class CharOccurance {
         {
             if(map.get(key)%2==0)
             {
-                System.out.println("Character Occurrence of "+key+" is even with count "+map.get(key));
+                System.out.println(" "+key+" is even with count "+map.get(key));
             }
         }
     }
