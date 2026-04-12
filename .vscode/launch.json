@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MargeTwoArrayExam",
+            "request": "launch",
+            "mainClass": "Practice.MargeTwoArrayExam",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "MargeTwoArray",
             "request": "launch",
             "mainClass": "Practice.MargeTwoArray",

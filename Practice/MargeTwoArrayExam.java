@@ -1,6 +1,6 @@
 package Practice;
 import java.util.*;
-public class MargeTwoArray {
+public class MargeTwoArrayExam {
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
