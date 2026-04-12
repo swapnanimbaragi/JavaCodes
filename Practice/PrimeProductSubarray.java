@@ -45,7 +45,7 @@ public class PrimeProductSubarray {
                     {
                         System.out.print(a[k] + " ");
                     }
-                    return; // 🔥 stop after first result
+                    return; 
                 }
             }
         }
