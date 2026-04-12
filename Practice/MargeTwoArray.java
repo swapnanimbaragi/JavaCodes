@@ -25,18 +25,18 @@ public class MargeTwoArray {
         {
             res[i+a.length]=b[i];
         }
-        // for(int i=0;i<res.length;i++)
-        // {
-        //     if(res[i]%2!=0)
-        //     System.out.print(res[i]+" ");
-        // }
-        for(int i=res.length-1;i>=0;i--)
+        for(int i=0;i<res.length;i++)
         {
             if(res[i]%2!=0)
-            {
-                System.out.print(res[i]+" ");
-            }
+            System.out.print(res[i]+" ");
         }
+        // for(int i=res.length-1;i>=0;i--)
+        // {
+        //     if(res[i]%2!=0)
+        //     {
+        //         System.out.print(res[i]+" ");
+        //     }
+        // }
 
 
 
