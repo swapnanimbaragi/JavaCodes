@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrimeProductSubarray",
+            "request": "launch",
+            "mainClass": "Practice.PrimeProductSubarray",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "AllPrimeProductSubarrayExam",
+            "request": "launch",
+            "mainClass": "Practice.AllPrimeProductSubarrayExam",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "RepetingCharacterExam",
             "request": "launch",
             "mainClass": "Practice.RepetingCharacterExam",
