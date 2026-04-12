@@ -23,6 +23,7 @@ public class MargeTwoArrayExam {
         }
         for(int i=0;i<b.length;i++)
         {
+            
             res[i+a.length]=b[i];
         }
         for(int i=0;i<res.length;i++)
