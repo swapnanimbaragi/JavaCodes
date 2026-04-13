@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Polymorphisum",
+            "request": "launch",
+            "mainClass": "Polymorphisum.Polymorphisum",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "PrimeProductSubarray",
             "request": "launch",
             "mainClass": "Practice.PrimeProductSubarray",
