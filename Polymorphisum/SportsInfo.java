@@ -25,7 +25,7 @@ class Rugby extends Sports
 {
     void info()
     {
-        System.out.println("Rugby is a team sport");
+        System.out.println("playing rugby on the pitch");
     }
 }
 public class SportsInfo {
