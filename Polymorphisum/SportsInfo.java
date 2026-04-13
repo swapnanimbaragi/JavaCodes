@@ -21,11 +21,11 @@ class Basketball extends Sports
         System.out.println("Basketball is a team sport");
     }
 }
-class Rubby extends Sports
+class Rugby extends Sports
 {
     void info()
     {
-        System.out.println("Rubby is a team sport");
+        System.out.println("Rugby is a team sport");
     }
 }
 public class SportsInfo {
@@ -43,9 +43,9 @@ public class SportsInfo {
             sp=new Basketball();
             sp.info();
         }
-        else if(str.equals("Rubby"))
+        else if(str.equals("Rugby"))
         {
-            sp=new Rubby();
+            sp=new Rugby();
             sp.info();
         }
         // else
