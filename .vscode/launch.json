@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ImplimentSound",
+            "request": "launch",
+            "mainClass": "Polymorphisum.ImplimentSound",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "Polymorphisum",
             "request": "launch",
             "mainClass": "Polymorphisum.Polymorphisum",
