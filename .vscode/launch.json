@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SportsInfo",
+            "request": "launch",
+            "mainClass": "Polymorphisum.SportsInfo",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "ImplimentSound",
             "request": "launch",
             "mainClass": "Polymorphisum.ImplimentSound",
