@@ -37,14 +37,30 @@ public class Polymorphisum
     {
         Scanner s=new Scanner(System.in);
         String str=s.nextLine();
-        
-        Plane p=new Plane();
-        CargoPlane c=new CargoPlane();
-        PassengerPlane pp=new PassengerPlane();
-        FighterPlane fp=new FighterPlane();
-        p.fly();
-        c.fly();
-        pp.fly();
-        fp.fly();
+        Plane p;
+        if(str.equals("CargoPlane"))
+        {
+            p=new CargoPlane();
+            p.fly();
+        }
+        else if(str.equals("PassengerPlane"))
+        {
+            p=new PassengerPlane();
+            p.fly();
+        }
+        else if(str.equals("FighterPlane"))
+        {
+            p=new FighterPlane();
+            p.fly();
+        }
+
+        // Plane p=new Plane();
+        // CargoPlane c=new CargoPlane();
+        // PassengerPlane pp=new PassengerPlane();
+        // FighterPlane fp=new FighterPlane();
+        // p.fly();
+        // c.fly();
+        // pp.fly();
+        // fp.fly();
     }
 }
