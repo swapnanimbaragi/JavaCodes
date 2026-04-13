@@ -11,7 +11,7 @@ class Football extends Sports
 {
     void info()
     {
-        System.out.println("Football is a team sport");
+        System.out.println("playing football on the field");
     }
 }
 class Basketball extends Sports
