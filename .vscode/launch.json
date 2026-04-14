@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrintPrimeElements",
+            "request": "launch",
+            "mainClass": "Practice.PrintPrimeElements",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "SwapTrueFalse",
             "request": "launch",
             "mainClass": "Practice.SwapTrueFalse",
