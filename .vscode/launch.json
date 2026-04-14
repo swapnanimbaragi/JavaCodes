@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DoublePosNegAvg",
+            "request": "launch",
+            "mainClass": "Practice.DoublePosNegAvg",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "DiffBtwPosNegAvg",
             "request": "launch",
             "mainClass": "Practice.DiffBtwPosNegAvg",
