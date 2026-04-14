@@ -25,9 +25,17 @@ public class DiffBtwPosNegAvg
                 negCount++;
             }
         }
-        double posavg=(double)(posSum)/posCount;
-        double negavg=(double)(negSum)/negCount;
+        double posavg=0,negavg=0;
+        if(posCount !=0)
+        {
+            posavg=(double)(posSum)/posCount;
+        }
+        if(negCount !=0)
+        {
+            negavg=(double)(negSum)/negCount;
+        }
         double diff=posavg-negavg;
         System.out.printf("%.2f", diff);
+        
     }
 }
