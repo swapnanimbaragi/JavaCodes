@@ -28,6 +28,6 @@ public class DiffBtwPosNegAvg
         double posavg=(double)(posSum)/posCount;
         double negavg=(double)(negSum)/negCount;
         double diff=posavg-negavg;
-        System.out.print(diff);
+        System.out.printf("%.2f", diff);
     }
 }
