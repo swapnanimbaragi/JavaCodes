@@ -18,7 +18,15 @@ class ReplaceDivisibleBykElements
         {
             if(arr[i]%k==0)
             {
-                arr[i]=k;
+                if(arr[i]>0)
+                {
+                    arr[i]=k;
+                }
+
+                else
+                {
+                    arr[i]=-k;
+                }
             }
         }
         for(int i=0;i<n;i++)
