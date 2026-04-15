@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Armstrongnum",
+            "request": "launch",
+            "mainClass": "Practice.Armstrongnum",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "Palemdrom",
+            "request": "launch",
+            "mainClass": "Practice.Palemdrom",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "ReplaceDivisibleBykElements",
             "request": "launch",
             "mainClass": "Practice.ReplaceDivisibleBykElements",
