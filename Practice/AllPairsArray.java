@@ -14,7 +14,7 @@ public class AllPairsArray {
         {
             for(int j=i+1;j<n;j++)
             {
-                System.out.print(a[i]+" "+a[j]+") ");
+                System.out.print(a[i]+" "+a[j]);
             }
         }
     }   
