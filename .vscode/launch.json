@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AmstrongExam",
+            "request": "launch",
+            "mainClass": "Practice.AmstrongExam",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "Armstrongnum",
             "request": "launch",
             "mainClass": "Practice.Armstrongnum",

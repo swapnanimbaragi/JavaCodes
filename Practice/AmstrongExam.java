@@ -2,19 +2,34 @@ package Practice;
 import java.util.*;
 public class AmstrongExam
 {
-    public static boolean isAmstrong(int n)
+    public static boolean isAmstrong(int num)
     {
-        int arm=0;
-        int count=0;
-        for(int i=0;i<n;i++)
+        int temp=num;
+        int digits=0;
+        int sum=0;
+
+        int n=num;
+        while(n>0)
         {
-            int last=n%10;
-            arm=arm+(int)Math.pow(last,count);
+            digits++;
             n=n/10;
+
+        }
+        
+        n=num;
+        while(n>0)
+        {
+            int digit=n%10;
+            sum+=(int)Math.pow(digit,digits);
+            n=n/10;
+        }
+        if(sum==temp)
+        {
             return true;
         }
-        return false;
-        
+        else{
+            return false;
+        }
     }
 
 
@@ -22,17 +37,17 @@ public class AmstrongExam
     public static void main(String[] args) 
     {
         Scanner s=new Scanner(System.in);
-        int n=s.nextInt();
-        int a[]=new int[n];
-        for(int i=0;i<n;i++)
+        int num=s.nextInt();
+        int a[]=new int[num];
+        for(int i=0;i<num;i++)
         {
             a[i]=s.nextInt();
         }
-        for(int i=0;i<n;i++)
+        for(int i=0;i<num;i++)
         {
-            if(isAmstrong(n))
+            if(isAmstrong(a[i]))
             {
-                
+                System.out.print(a[i]+" ");
 
             }
         }
