@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AllPairsArray",
+            "request": "launch",
+            "mainClass": "Practice.AllPairsArray",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "AmstrongExam",
             "request": "launch",
             "mainClass": "Practice.AmstrongExam",
