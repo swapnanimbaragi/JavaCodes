@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AllPairSum",
+            "request": "launch",
+            "mainClass": "Practice.AllPairSum",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "AllPairsArray",
             "request": "launch",
             "mainClass": "Practice.AllPairsArray",
