@@ -24,5 +24,9 @@ public class PosNegPair {
                 }
             }
         }
+        if(!flag)
+        {
+            System.out.println("No such pair exists");
+        }
     }
 }
