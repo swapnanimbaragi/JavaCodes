@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "OOPS.Test",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "Shape",
             "request": "launch",
             "mainClass": "OOPS.Shape",
