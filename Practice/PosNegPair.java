@@ -17,7 +17,7 @@ public class PosNegPair {
         {
             for(int j = i + 1; j < n; j++)
             {
-                if(arr[i] + arr[j] == 0)
+                if(arr[i] + arr[j] == 0 && arr[j]+arr[i] == 0)
                 {
                     System.out.println(arr[i] + " " + arr[j]);
                 }
