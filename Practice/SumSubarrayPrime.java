@@ -26,6 +26,8 @@ public class SumSubarrayPrime {
             a[i] = sc.nextInt();
         }
 
+        int min = Integer.MAX_VALUE;   // ✅ added
+
         for(int size = 1; size <= n; size++)
         {
             for(int i = 0; i <= n - size; i++)
@@ -39,10 +41,22 @@ public class SumSubarrayPrime {
 
                 if(isPrime(sum))
                 {
-                    System.out.println(sum);
-                    return;   // ✅ stop at first prime
+                    for(int k=i; k<i+size; k++)
+                    {
+                        System.out.print(a[k] + " ");
+                    }
+                    return;
                 }
             }
+        }
+
+        if(min == Integer.MAX_VALUE)
+        {
+            System.out.println("No prime subarray sum");
+        }
+        else
+        {
+            System.out.println(min);
         }
     }
 }
