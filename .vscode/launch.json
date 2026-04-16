@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Shape",
+            "request": "launch",
+            "mainClass": "OOPS.Shape",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "SumSubarrayPrime",
+            "request": "launch",
+            "mainClass": "Practice.SumSubarrayPrime",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "SmallestPrimeSumSubarray",
+            "request": "launch",
+            "mainClass": "Practice.SmallestPrimeSumSubarray",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "SmallestPrimeSum",
+            "request": "launch",
+            "mainClass": "Practice.SmallestPrimeSum",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "AllPairDiffernce",
+            "request": "launch",
+            "mainClass": "Practice.AllPairDiffernce",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "AllPairSum",
             "request": "launch",
             "mainClass": "Practice.AllPairSum",
