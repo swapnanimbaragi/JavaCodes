@@ -20,6 +20,7 @@ public class PosNegPair {
                 if(arr[i] + arr[j] == 0 && arr[j]+arr[i] == 0)
                 {
                     System.out.println(arr[i] + " " + arr[j]);
+                    flag = true;
                 }
             }
         }
