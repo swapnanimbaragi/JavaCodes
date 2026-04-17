@@ -24,10 +24,35 @@ class MergeSortedArray {
         {
             mergedArr[n1 + i] = arr2[i];
         }
-        Arrays.sort(mergedArr);
-        for(int i=0;i<mergedArr.length;i++)
+        // Arrays.sort(mergedArr);
+        // for(int i=0;i<mergedArr.length;i++)
+        // {
+        //     System.out.print(mergedArr[i] + " ");
+        // }
+        int i = 0, j = 0, k = 0;
+        while(i < n1 && j < n2)
+        {
+            if(arr1[i] < arr2[j])
+            {
+                mergedArr[k++] = arr1[i++];
+            }
+            else
+            {
+                mergedArr[k++] = arr2[j++];
+            }
+        }
+        while(i < n1)
+        {
+            mergedArr[k++] = arr1[i++];
+        }
+        while(j < n2)
+        {
+            mergedArr[k++] = arr2[j++];
+        }
+        for(i=0;i<mergedArr.length;i++)
         {
             System.out.print(mergedArr[i] + " ");
         }
+        
     }
 }
