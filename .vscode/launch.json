@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VaildPassword",
+            "request": "launch",
+            "mainClass": "ExamQuestions.VaildPassword",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "CountcharAfterWord",
             "request": "launch",
             "mainClass": "ExamQuestions.CountcharAfterWord",
