@@ -29,10 +29,33 @@ public class MergeArrayAsendingDesending {
         {
             mergedArr[n1 + i] = arr2[i];
         }
-        Arrays.sort(mergedArr); 
-        for(int x = 0; x < mergedArr.length; x++)
+        // Arrays.sort(mergedArr); 
+        // for(int x = 0; x < mergedArr.length; x++)
+        // {
+        //     System.out.print(mergedArr[x] + " ");
+        // }
+        int i = 0, j = n2-1, k = 0;
+        while(i < n1 && j >= 0)
         {
-            System.out.print(mergedArr[x] + " ");
+            if(arr1[i] < arr2[j])
+            {
+                mergedArr[k++] = arr1[i++];
+            }
+            else
+            {
+                mergedArr[k++] = arr2[j--];
+            }
+        }
+        while(i < n1)
+        {
+            mergedArr[k++] = arr1[i++];
+        }
+        while(j >= 0)
+        {
+            mergedArr[k++] = arr2[j--];
+        }
+        for (i=0;i<mergedArr.length;i++) {
+            System.out.print(mergedArr[i] + " ");
         }
     }
 }
