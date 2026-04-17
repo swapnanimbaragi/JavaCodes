@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RotateArrayByKsteps",
+            "request": "launch",
+            "mainClass": "Practice.RotateArrayByKsteps",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "MergeArrayAsendingDesending",
             "request": "launch",
             "mainClass": "Practice.MergeArrayAsendingDesending",
