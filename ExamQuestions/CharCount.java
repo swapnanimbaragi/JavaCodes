@@ -4,24 +4,24 @@ public class CharCount {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
-        LinkedHashMap<Character, Integer> Map = new LinkedHashMap<>();
+        LinkedHashMap<Character, Integer> map = new LinkedHashMap<>();
 
         for(int i = 0; i < str.length(); i++)
         {
             char ch = str.charAt(i);
-            if(Map.containsKey(ch))
+            if(map.containsKey(ch))
             {
-                Map.put(ch, Map.get(ch) + 1);
+                map.put(ch, map.get(ch) + 1);
             }
             else
             {
-                Map.put(ch, 1);
+                map.put(ch, 1);
             }
         }
         int count=0;
-        for(Character key : Map.keySet())
+        for(Character key : map.keySet())
         {
-            if(Map.get(key) > 1)
+            if(map.get(key) > 1)
             {
                 count++;
             }
@@ -33,9 +33,9 @@ public class CharCount {
         else
         {
             int count1 = 0;
-            for(Character key : Map.keySet())
+            for(Character key : map.keySet())
             {
-                if(Map.get(key) > 1)
+                if(map.get(key) > 1)
                 {
                     count1++;
                     System.out.print(key);
