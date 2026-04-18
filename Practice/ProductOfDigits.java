@@ -11,6 +11,6 @@ public class ProductOfDigits {
             product*=digit;
             n/=10;
         }
-        System.out.println("Product of digits"+product);
+        System.out.println("Product of digits:"+product);
     }
 }
