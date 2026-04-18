@@ -17,6 +17,6 @@ public class SumOfPositiveElements {
                 sum=sum+arr[i];
             }
         }
-        System.out.println(sum);
+        System.out.println("Sum of positive elements"+sum);
     }
 }
