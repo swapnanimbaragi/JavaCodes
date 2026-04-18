@@ -11,6 +11,6 @@ public class SumOfFirstandLast {
         }
         int lastDigit=n%10;
         int sum=firstDigit+lastDigit;
-        System.out.println("Sum of first and last digit"+sum);
+        System.out.println("Sum of first and last digit:"+sum);
     }
 }
