@@ -3,7 +3,7 @@ import java.util.*;
 
 public class CountcharAfterWord {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         String str = sc.nextLine();
 
