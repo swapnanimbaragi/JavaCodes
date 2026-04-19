@@ -5,7 +5,7 @@ public class CountcharAfterWord {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String str = sc.nextLine();
+        String str = scanner.nextLine();
 
         String[] words = str.split(" ");
 
