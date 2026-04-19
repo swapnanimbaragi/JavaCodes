@@ -3,7 +3,7 @@ import java.util.*;
 public class CharCount {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String str = sc.nextLine();
+        String str = scanner.nextLine();
         LinkedHashMap<Character, Integer> map = new LinkedHashMap<>();
 
         for(int i = 0; i < str.length(); i++)
