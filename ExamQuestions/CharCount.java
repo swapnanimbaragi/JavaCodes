@@ -2,7 +2,7 @@ package ExamQuestions;
 import java.util.*;
 public class CharCount {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         String str = sc.nextLine();
         LinkedHashMap<Character, Integer> map = new LinkedHashMap<>();
 
