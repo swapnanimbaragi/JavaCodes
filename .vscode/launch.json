@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayHandling",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.ArrayHandling",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "DivisionOfNum",
             "request": "launch",
             "mainClass": "ExceptionHandling.DivisionOfNum",
