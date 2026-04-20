@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DigitsInWords",
+            "request": "launch",
+            "mainClass": "Practice.DigitsInWords",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "SumOfFirstandLast",
             "request": "launch",
             "mainClass": "Practice.SumOfFirstandLast",
