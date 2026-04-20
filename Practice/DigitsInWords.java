@@ -5,13 +5,13 @@ public class DigitsInWords {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         String[] words = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
-        StringBuilder sb = new StringBuilder();
+        String result = "";
         while(n > 0)
         {
-            int digit = n % 10;
-            sb.insert(0, words[digit] + " ");
-            n = n / 10;
+            int digit = n % 10;   // get last digit
+            result = words[digit] + " " + result;   // get word for digit and add to result
+            n = n / 10;   // remove last digit
         }
-        System.out.println(sb.toString().trim());
+        System.out.println(result.trim());   // print result without trailing space
     }
 }
