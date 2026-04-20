@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ShapeUsingInterface",
+            "request": "launch",
+            "mainClass": "Abstraction.ShapeUsingInterface",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "ThreeDShape",
             "request": "launch",
             "mainClass": "Abstraction.ThreeDShape",
