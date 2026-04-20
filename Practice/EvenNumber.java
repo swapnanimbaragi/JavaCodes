@@ -6,6 +6,7 @@ public class EvenNumber {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
+        String result = "";
 
         while(n > 0)
         {
@@ -13,10 +14,12 @@ public class EvenNumber {
 
             if(digit % 2 == 0)
             {
-                System.out.print(digit + " ");
+                result = digit + " " + result;
             }
 
             n = n / 10;
         }
+
+        System.out.print(result);
     }
 }
