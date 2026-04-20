@@ -1,97 +1,58 @@
 package Abstraction;
-import java.util.*;
+import java.util.Scanner;
+
+// Interface Shape with a method getArea()
 interface Shape {
-    void acceptInput(Scanner sc);      // abstract method
-    void calculateArea();   // abstract method
+    double getArea();
 }
-class Square implements Shape
-{
-    float side;
-    public void acceptInput(Scanner sc)
-    {
-        
-        side = sc.nextFloat();
-    }
-    public void calculateArea()
-    {
-        float area = side * side;
-        System.out.println("Area of square: " + area);
+
+class Rectangle implements Shape {
+    float length, width;
+    public double getArea() {
+        return length * width;
     }
 }
-class Rectangle implements Shape
-{
-    float length, breadth;
-    public void acceptInput(Scanner sc)
-    {
-        length = sc.nextFloat();
-        breadth = sc.nextFloat();
-    }
-    public void calculateArea()
-    {
-        float area = length * breadth;
-        System.out.println("Area of rectangle: " + area);
-    }
-}
-class Circle implements Shape
-{
+
+class Circle implements Shape {
     float radius;
-    public void acceptInput(Scanner sc)
-    {
-        
-        radius = sc.nextFloat();
-    }
-    public void calculateArea()
-    {
-        float area =(float)( Math.PI * radius * radius);
-        System.out.println("Area of circle: " + area);
+    public double getArea() {
+        return Math.PI * radius * radius;
     }
 }
-class Triangle implements Shape
-{
+
+class Triangle implements Shape {
     float base, height;
-    public void acceptInput(Scanner sc)
-    {
-        base = sc.nextFloat();
-        height = sc.nextFloat();
-    }
-    public void calculateArea()
-    {
-        float area = 0.5f * base * height;
-        System.out.println("Area of triangle: " + area);
+    public double getArea() {
+        return 0.5 * base * height;
     }
 }
+
+// Main class
 public class ShapeUsingInterface {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String shapeType = sc.next();   
-        Shape s;
-        if(shapeType.equalsIgnoreCase("Square"))
-        {
-            s = new Square();
-            s.acceptInput(sc);
-            s.calculateArea();
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine().trim();
+
+        if(input.equals("Rectangle")) {
+            Rectangle r = new Rectangle();
+            r.length = scanner.nextFloat();
+            r.width = scanner.nextFloat();
+            System.out.println(r.getArea());
         }
-        else if(shapeType.equalsIgnoreCase("Rectangle"))
-        {
-            s = new Rectangle();
-            s.acceptInput(sc);
-            s.calculateArea();
+        else if(input.equals("Circle")) {
+            Circle c = new Circle();
+            c.radius = scanner.nextFloat();
+            System.out.println(c.getArea());
         }
-        else if(shapeType.equalsIgnoreCase("Circle"))
-        {
-            s = new Circle();
-            s.acceptInput(sc);
-            s.calculateArea();
+        else if(input.equals("Triangle")) {
+            Triangle t = new Triangle();
+            t.base = scanner.nextFloat();
+            t.height = scanner.nextFloat();
+            System.out.println(t.getArea());
         }
-        else if(shapeType.equalsIgnoreCase("Triangle"))
-        {
-            s = new Triangle();
-            s.acceptInput(sc);
-            s.calculateArea();
-        }
-        else
-        {
-            System.out.println("Invalid shape type!");
-        }
+
+        scanner.close();
     }
 }
+
+    

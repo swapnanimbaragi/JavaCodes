@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DivisionOfNum",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.DivisionOfNum",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "ShapeUsingInterface",
             "request": "launch",
             "mainClass": "Abstraction.ShapeUsingInterface",
