@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ThreeDShape",
+            "request": "launch",
+            "mainClass": "Abstraction.ThreeDShape",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "CalculationOfShapes",
             "request": "launch",
             "mainClass": "Abstraction.CalculationOfShapes",
