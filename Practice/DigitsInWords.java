@@ -12,6 +12,6 @@ public class DigitsInWords {
             result = words[digit] + " " + result;   // get word for digit and add to result
             n = n / 10;   // remove last digit
         }
-        System.out.println(result.trim());   // print result without trailing space
+        System.out.println(result.trim());   
     }
 }
