@@ -3,15 +3,15 @@ import java.util.*;
 
 abstract class Shape {
     float area;
-    abstract void acceptInput();      // abstract method
+    abstract void acceptInput(Scanner sc);      // abstract method
     abstract void calculateArea();   // abstract method
 }
 class Square extends Shape
 {
     float side;
-    void acceptInput()
+    void acceptInput(Scanner sc)
     {
-        Scanner sc = new Scanner(System.in);
+        
         side = sc.nextFloat();
     }
     void calculateArea()
@@ -24,9 +24,8 @@ class Square extends Shape
 class Rectangle extends Shape
 {
     float length, breadth;
-    void acceptInput()
+    void acceptInput(Scanner sc)
     {
-        Scanner sc = new Scanner(System.in);
         length = sc.nextFloat();
         breadth = sc.nextFloat();
     }
@@ -40,9 +39,9 @@ class Rectangle extends Shape
 class Circle extends Shape
 {
     float radius;
-    void acceptInput()
+    void acceptInput(Scanner sc)
     {
-        Scanner sc = new Scanner(System.in);
+        
         radius = sc.nextFloat();
     }
     void calculateArea()
@@ -59,19 +58,19 @@ public class CalculationOfShapes {
         if(shapeType.equalsIgnoreCase("Square"))
         {
             s = new Square();
-            s.acceptInput();
+            s.acceptInput(sc);
             s.calculateArea();
         }
         else if(shapeType.equalsIgnoreCase("Rectangle"))
         {
             s = new Rectangle();
-            s.acceptInput();
+            s.acceptInput(sc);
             s.calculateArea();
         }
         else if(shapeType.equalsIgnoreCase("Circle"))
         {
             s = new Circle();
-            s.acceptInput();
+            s.acceptInput(sc);
             s.calculateArea();
         }
         else
