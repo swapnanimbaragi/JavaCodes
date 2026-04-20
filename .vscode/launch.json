@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EvenNumber",
+            "request": "launch",
+            "mainClass": "Practice.EvenNumber",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "PowerCalculation",
             "request": "launch",
             "mainClass": "Practice.PowerCalculation",
