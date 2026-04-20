@@ -7,6 +7,7 @@ public class EvenNumber {
 
         int n = sc.nextInt();
         String result = "";
+        boolean found = false;
 
         while(n > 0)
         {
@@ -15,11 +16,19 @@ public class EvenNumber {
             if(digit % 2 == 0)
             {
                 result = digit + " " + result;
+                found = true;   // ✅ moved here
             }
 
             n = n / 10;
         }
 
-        System.out.print(result);
+        if(found)
+        {
+            System.out.print(result);
+        }
+        else
+        {
+            System.out.println("No even digits found");
+        }
     }
 }
