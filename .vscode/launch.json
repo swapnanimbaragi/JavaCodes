@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UsingFinallyArithmetic",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.UsingFinallyArithmetic",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "Arryamultiplehandel",
             "request": "launch",
             "mainClass": "ExceptionHandling.Arryamultiplehandel",
