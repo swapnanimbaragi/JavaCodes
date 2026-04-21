@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringFormate",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.StringFormate",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "NumberFormatHandling",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.NumberFormatHandling",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "ArrayHandling",
             "request": "launch",
             "mainClass": "ExceptionHandling.ArrayHandling",
