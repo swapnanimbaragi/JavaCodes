@@ -17,5 +17,8 @@ public class Arryamultiplehandel {
         } catch (InputMismatchException e) {
             System.out.println("Invalid input type");
         }
+        catch(NegativeArraySizeException e){
+            System.out.println("Array size cannot be negative");
+        }
     }
 }
