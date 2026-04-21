@@ -1,14 +1,13 @@
-package ExceptionHandling;
 import java.util.*;
-
-// Custom Exception 1
-class UnderAgeException extends Exception {
-    public UnderAgeException(String msg) {
+// Custom Exception for age < 18
+class UnderAgeException extends Exception 
+{
+    public UnderAgeException(String msg) 
+    {
         super(msg);
     }
 }
-
-// Custom Exception 2
+// Custom Exception for age > 60
 class OverAgeException extends Exception {
     public OverAgeException(String msg) {
         super(msg);
@@ -21,12 +20,12 @@ public class CustomerExceptionDrivingLic {
         int age = sc.nextInt();
 
         try {
-            if(age < 18) {
+            if (age < 18) {
                 throw new UnderAgeException("You are too young. Have patience!");
             } 
-            else if(age > 60) {
+            else if (age > 60) {
                 throw new OverAgeException("You are too old. Cool down!");
-            }
+            } 
             else {
                 System.out.println("Eligibility confirmed: You can apply for a driving license.");
             }
