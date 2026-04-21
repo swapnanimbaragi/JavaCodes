@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InputMismatch",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.InputMismatch",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "StringFormate",
             "request": "launch",
             "mainClass": "ExceptionHandling.StringFormate",
