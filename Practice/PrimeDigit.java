@@ -24,7 +24,7 @@ public class PrimeDigit {
         while(n > 0) {
             int digit = n % 10;
 
-            if(isPrime(digit)) {   // ✔ FIXED
+            if(isPrime(digit)) {   
                 System.out.print(digit + " ");
                 hasPrimeDigit = true;
             }
