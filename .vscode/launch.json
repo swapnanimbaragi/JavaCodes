@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinarToDecimal",
+            "request": "launch",
+            "mainClass": "Practice.BinarToDecimal",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "StrongNum",
             "request": "launch",
             "mainClass": "Practice.StrongNum",

@@ -4,7 +4,7 @@ public class  StrongNum {
     public static int isFactorial (int n)
     {
         int fact = 1;
-        for(int i = 1; i <= n; i++)   // ✔ fixed
+        for(int i = 1; i <= n; i++)   
         {
             fact *= i;
         }
@@ -15,7 +15,7 @@ public class  StrongNum {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();   // input
         boolean found=false;
-        for(int num = 1; num <= n; num++)   // ✔ loop till n
+        for(int num = 1; num <= n; num++)   
         {
             int temp = num;
             int sum = 0;
@@ -23,7 +23,7 @@ public class  StrongNum {
             while(temp > 0)
             {
                 int digit = temp % 10;
-                sum += isFactorial(digit);
+                sum += isFactorial(digit); 
                 temp /= 10;
             }
 
