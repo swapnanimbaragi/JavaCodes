@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumOfOddDigit",
+            "request": "launch",
+            "mainClass": "Practice.SumOfOddDigit",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "SumOfEvenDigits",
             "request": "launch",
             "mainClass": "Practice.SumOfEvenDigits",
