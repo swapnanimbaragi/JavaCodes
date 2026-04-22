@@ -14,7 +14,7 @@ public class  StrongNum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();   // input
-
+        boolean found=false;
         for(int num = 1; num <= n; num++)   // ✔ loop till n
         {
             int temp = num;
@@ -30,10 +30,13 @@ public class  StrongNum {
             if(sum == num)
             {
                 System.out.print(num + " ");
+                found=true;
             }
-            else{
-                System.out.print("No Strong Number");
-            }
+            
+        }
+        if(!found)
+        {
+            System.out.print("No strong number");
         }
     }
 }
