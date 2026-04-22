@@ -31,6 +31,9 @@ public class  StrongNum {
             {
                 System.out.print(num + " ");
             }
+            else{
+                System.out.print("No Strong Number");
+            }
         }
     }
 }
