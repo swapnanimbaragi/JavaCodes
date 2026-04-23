@@ -11,6 +11,6 @@ public static void main(String[] args) {
         binary=rem+binary;
         n=n/2;
     }
-    System.out.print(binary);
+    System.out.print(""+binary);
 }
 }
