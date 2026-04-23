@@ -1,7 +1,9 @@
 package Practice;
 import java.util.*;
-public class DigitsInWords {
-    public static void main(String[] args) {
+public class DigitsInWords 
+{
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         String[] words = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
