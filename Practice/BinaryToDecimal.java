@@ -15,6 +15,6 @@ public class BinaryToDecimal
             n=n/10;
             power++;
         }
-        System.out.print(""+dec);
+        System.out.print("Binary To Decimal"+dec);
     }
 }
