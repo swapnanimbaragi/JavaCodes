@@ -12,6 +12,6 @@ public class BinarToDecimal {
             binary=rem+binary;
             n=n/2;
         }
-        System.out.print("Binary To Decimal"+binary);
+        System.out.print("Binary To Decimal:"+binary);
     }
 }
