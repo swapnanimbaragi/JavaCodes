@@ -1,7 +1,7 @@
 package Practice;
 import java.util.*;
 public class BinarToDecimal {
-public static void main(String[] args) {
+    public static void main(String[] args) {
     Scanner scan=new Scanner(System.in);
     int n=scan.nextInt();
     String binary="";
@@ -11,6 +11,6 @@ public static void main(String[] args) {
         binary=rem+binary;
         n=n/2;
     }
-    System.out.print(""+binary);
-}
+    System.out.print("Binary To Decimal"+binary);
+    }
 }
