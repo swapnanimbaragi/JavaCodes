@@ -36,6 +36,5 @@ public class DiffBtwPosNegAvg
         }
         double diff=posavg-negavg;
         System.out.printf("%.2f", diff);
-        
     }
 }
