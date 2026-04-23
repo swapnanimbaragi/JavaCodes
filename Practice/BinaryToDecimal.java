@@ -1,7 +1,9 @@
 package Practice;
 import java.util.*;
-public class BinaryToDecimal {
-    public static void main(String[] args) {
+public class BinaryToDecimal 
+{
+    public static void main(String[] args) 
+    {
         Scanner scan=new Scanner(System.in);
         int n=scan.nextInt();
         int dec=0;
@@ -13,6 +15,6 @@ public class BinaryToDecimal {
             n=n/10;
             power++;
         }
-        System.out.print(dec);
+        System.out.print(""+dec);
     }
 }
