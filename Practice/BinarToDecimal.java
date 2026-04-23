@@ -1,6 +1,7 @@
 package Practice;
 import java.util.*;
-public class BinarToDecimal {
+public class BinarToDecimal 
+{
     public static void main(String[] args) 
     {
         Scanner scan=new Scanner(System.in);
