@@ -27,8 +27,11 @@ public class MergeTwoArrayOfOdd
         }
         for(int i=0;i<res.length;i++)
         {
+            Arrays.sort(res);
             if(res[i]%2 != 0)
-            System.out.print(res[i]+" ");
+            {
+                System.out.print(res[i]+" ");
+            }
         }
 
     }
