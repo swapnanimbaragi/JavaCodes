@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MergeTwoArrayOfOdd",
+            "request": "launch",
+            "mainClass": "Practice.MergeTwoArrayOfOdd",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "BinaryToDecimal",
             "request": "launch",
             "mainClass": "Practice.BinaryToDecimal",
