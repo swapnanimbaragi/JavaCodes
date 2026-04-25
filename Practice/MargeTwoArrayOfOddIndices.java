@@ -40,5 +40,5 @@ public class MargeTwoArrayOfOddIndices {
             System.out.print(res[i] + " ");
         }
             
-        }
+    }
 }
