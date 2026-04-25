@@ -24,7 +24,7 @@ public class MargeTwoArrayOfOddIndices {
 
         for(int i = 0; i < n; i++)
         {
-            if(i % 2 != 0)       // odd index of a
+            if(i % 2 != 0)       
                 res[k++] = a[i];
         }
         for(int i = 0; i < m; i++)
