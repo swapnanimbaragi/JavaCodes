@@ -29,7 +29,7 @@ public class MargeTwoArrayOfOddIndices {
         }
         for(int i = 0; i < m; i++)
         {
-            if(i % 2 != 0)       // odd index of b
+            if(i % 2 != 0)       
                 res[k++] = b[i];
         }
 
