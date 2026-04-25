@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MargeTwoArrayOfOddIndices",
+            "request": "launch",
+            "mainClass": "Practice.MargeTwoArrayOfOddIndices",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "MergeTwoArrayOfOdd",
             "request": "launch",
             "mainClass": "Practice.MergeTwoArrayOfOdd",
