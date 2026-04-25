@@ -17,8 +17,7 @@ public class MargeTwoArrayOfOddIndices {
         {
             b[i]=scanner.nextInt();
         }
-
-            // collect odd index elements from a and b
+        
         int res[] = new int[n/2 + m/2];  // only odd index elements
         int k = 0;
 
