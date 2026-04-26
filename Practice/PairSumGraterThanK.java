@@ -10,6 +10,7 @@ public class PairSumGraterThanK {
             a[i]=scanner.nextInt();
         }
         int k=scanner.nextInt();
+        boolean found=false;
         for(int i=0;i<n;i++)
         {
             for(int j=i+1;j<n;j++)
@@ -17,8 +18,13 @@ public class PairSumGraterThanK {
                 if(a[i]+a[j]>k)
                 {
                     System.out.println(a[i]+" "+a[j]);
+                    found=true;
                 }
             }
+        }
+        if(!found)
+        {
+            System.out.print("No Pairs found");
         }
     }
 }
