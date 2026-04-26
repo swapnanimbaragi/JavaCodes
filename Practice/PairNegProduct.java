@@ -27,7 +27,7 @@ public class PairNegProduct {
         }
         if(!found)
         {
-            System.out.print("No Pairs");
+            System.out.print("No Pairs found");
         }
     }
 }
