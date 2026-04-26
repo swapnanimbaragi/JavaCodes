@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PairBothFactorOfK",
+            "request": "launch",
+            "mainClass": "Practice.PairBothFactorOfK",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "PairSumGraterThanK",
             "request": "launch",
             "mainClass": "Practice.PairSumGraterThanK",
