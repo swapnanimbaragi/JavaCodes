@@ -12,7 +12,7 @@ public class PairNegProduct {
         {
             a[i] = scanner.nextInt();
         }
-        int product=1;
+        boolean found=false;
         for(int i = 0; i < n; i++)
         {
             for(int j = i + 1; j < n; j++)   
@@ -20,9 +20,14 @@ public class PairNegProduct {
                 if(a[i]* a[j]<0)
                 {
                     System.out.println(a[i] + " " + a[j]);
+                    found=true;
                 }
                 
             }
+        }
+        if(!found)
+        {
+            System.out.print("No Pairs");
         }
     }
 }
