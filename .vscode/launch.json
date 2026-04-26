@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PairsWithNegDifference",
+            "request": "launch",
+            "mainClass": "Practice.PairsWithNegDifference",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "PairBothFactorOfK",
             "request": "launch",
             "mainClass": "Practice.PairBothFactorOfK",
