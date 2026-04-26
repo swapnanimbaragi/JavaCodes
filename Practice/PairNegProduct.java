@@ -12,12 +12,16 @@ public class PairNegProduct {
         {
             a[i] = scanner.nextInt();
         }
-
+        int product=1;
         for(int i = 0; i < n; i++)
         {
-            for(int j = i + 1; j < n; j++)   // ✅ FIXED
+            for(int j = i + 1; j < n; j++)   
             {
-                System.out.println(a[i] + " " + a[j]);
+                if(a[i]* a[j]<0)
+                {
+                    System.out.println(a[i] + " " + a[j]);
+                }
+                
             }
         }
     }
