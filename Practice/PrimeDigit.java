@@ -33,7 +33,7 @@ public class PrimeDigit {
         }
 
         if(!hasPrimeDigit) {
-            System.out.println("Does Not Contain Prime Digit");
+            System.out.println("Does Not Contain Prime Digit.");
         }
     }
 }
