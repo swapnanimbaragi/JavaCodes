@@ -17,7 +17,7 @@ public class PairsWithNegDifference {
             {
                 if(a[i]-a[j]<0)
                 {
-                    System.out.println(a[i] + " " + a[j]);
+                    System.out.println(a[i+] + " " + a[j]);
                     found=true;
                 }
                 
