@@ -3,7 +3,7 @@ import java.util.*;
 public class PerfectSquareCheck {
     public static void main(String[] args)
     {
-        Scanner scan=new Scanner(System.in);
+        Scanner scanner=new Scanner(System.in);
         int n=scan.nextInt();
         int root=(int)Math.sqrt(n);
         if(root*root==n)
