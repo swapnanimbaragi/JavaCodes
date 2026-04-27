@@ -8,7 +8,7 @@ public class PerfectSquareCheck {
         int root=(int)Math.sqrt(n);
         if(root*root==n)
         {
-            System.out.print("Perfect Square");
+            System.out.print("Perfect Square.");
         }
         else{
             System.out.print("Not Perfect Square");
