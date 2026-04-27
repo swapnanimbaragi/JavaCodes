@@ -8,7 +8,7 @@ public class PowerCalculation {
         int result = 1;
         for(int i = 0; i < exponent; i++)
         {
-            result *= base;   // multiply base with itself exponent times
+            result *= base;   
         }
         System.out.println(result);
     }
