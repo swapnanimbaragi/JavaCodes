@@ -11,7 +11,7 @@ public class PerfectSquareCheck {
             System.out.print("Perfect Square.");
         }
         else{
-            System.out.print("Not Perfect Square");
+            System.out.print("Not Perfect Square.");
         }
     }
 }
