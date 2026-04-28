@@ -18,7 +18,7 @@ public class PairWithPositiveDifference {
             {
                 if(a[i]-a[j]>0)
                 {
-                    System.out.print(a[i] + " " + a[j]);
+                    System.out.println(a[i] + " " + a[j]);
                     found=true;
                 }
                 
