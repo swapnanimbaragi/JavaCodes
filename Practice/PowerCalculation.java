@@ -10,6 +10,6 @@ public class PowerCalculation {
         {
             result *= base;   
         }
-        System.out.println(result);
+        System.out.println("power"+result);
     }
 }
