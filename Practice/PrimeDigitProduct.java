@@ -36,7 +36,7 @@ public class PrimeDigitProduct {
             System.out.print(product);
         }
         else{
-            System.out.print("No prime number");
+            System.out.print("No prime number.");
         }
     }
 }
