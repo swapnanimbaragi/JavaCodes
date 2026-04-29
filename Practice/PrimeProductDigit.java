@@ -13,7 +13,7 @@ public class PrimeProductDigit
         {
             if(n%i==0)
             {
-                // count++;
+                
                 return false;
             }
         }
