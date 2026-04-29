@@ -33,7 +33,7 @@ public class PrimeDigitProduct {
         }
         if(found)
         {
-            System.out.print("Product Of Digit"+product);
+            System.out.print("Product Of Digit:"+product);
         }
         else{
             System.out.print("No prime number.");
