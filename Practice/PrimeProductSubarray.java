@@ -53,7 +53,6 @@ public class PrimeProductSubarray {
                 }
             }
         }
-
         System.out.println("None");
     }
 }
