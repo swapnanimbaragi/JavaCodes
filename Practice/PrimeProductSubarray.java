@@ -33,7 +33,7 @@ public class PrimeProductSubarray {
             a[i] = sc.nextInt();
         }
 
-        for(int i = 0; i < n; i++)
+        for(int i=0; i<n; i++)
         {
             int product = 1;
 
