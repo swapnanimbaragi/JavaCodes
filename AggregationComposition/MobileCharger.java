@@ -53,8 +53,10 @@ class Mobile
         }
     }
 
-    public void hasA(Charger c) {
-        if (c != null) {
+    public void hasA(Charger c) 
+    {
+        if (c != null) 
+        {
             c.displayCharger();
         }
     }
