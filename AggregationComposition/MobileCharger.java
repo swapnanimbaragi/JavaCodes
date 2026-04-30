@@ -45,8 +45,10 @@ class Mobile
         this.os = os;
     }
 
-    public void displayMobile() {
-        if (os != null) {
+    public void displayMobile() 
+    {
+        if (os != null) 
+        {
             os.displayOS();
         }
     }
