@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MobileCharger",
+            "request": "launch",
+            "mainClass": "AggregationComposition.MobileCharger",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "AggregationComposition.Main",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
             "name": "PairWithPositiveDifference",
             "request": "launch",
             "mainClass": "Practice.PairWithPositiveDifference",
