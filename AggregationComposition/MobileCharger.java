@@ -36,10 +36,12 @@ class Charger
 }
 
 // Mobile Class
-class Mobile {
+class Mobile 
+{
     private OS os;
 
-    public Mobile(OS os) {
+    public Mobile(OS os) 
+    {
         this.os = os;
     }
 
