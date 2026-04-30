@@ -17,11 +17,13 @@ class OS {
 }
 
 // Charger Class (Aggregation)
-class Charger {
+class Charger 
+{
     private String brand;
     private float voltage;
 
-    public Charger(String brand, float voltage) {
+    public Charger(String brand, float voltage) 
+    {
         this.brand = brand;
         this.voltage = voltage;
     }
