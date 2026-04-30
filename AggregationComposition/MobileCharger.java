@@ -28,7 +28,8 @@ class Charger
         this.voltage = voltage;
     }
 
-    public void displayCharger() {
+    public void displayCharger() 
+    {
         System.out.println(brand);
         System.out.println(voltage);
     }
