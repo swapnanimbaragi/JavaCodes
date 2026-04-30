@@ -3,12 +3,14 @@ class OS {
     private String name;
     private int size;
 
-    public OS(String name, int size) {
+    public OS(String name, int size) 
+    {
         this.name = name;
         this.size = size;
     }
 
-    public void displayOS() {
+    public void displayOS() 
+    {
         System.out.println(name);
         System.out.println(size);
     }
