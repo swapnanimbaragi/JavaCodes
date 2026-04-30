@@ -64,7 +64,8 @@ class Mobile
 
 // Main Class (ONLY public class)
 public class MobileCharger {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
 
         OS os = new OS("Android", 512);
         Charger charger = new Charger("Samsung", 24.5f);
