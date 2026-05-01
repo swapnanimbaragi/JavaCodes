@@ -4,10 +4,12 @@ public class BankAccInfo {
     private String accountHolderName;
     private String accountNumber;   
     private double balance;
-    public String getAccountHolderName() {
+    public String getAccountHolderName() 
+    {
         return accountHolderName;
     }
-    public void setAccountHolderName(String accountHolderName) {
+    public void setAccountHolderName(String accountHolderName) 
+    {
         this.accountHolderName = accountHolderName;
     }
     public String getAccountNumber() {
