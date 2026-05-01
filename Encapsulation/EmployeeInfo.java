@@ -2,14 +2,16 @@ package Encapsulation;
 
 import java.util.Scanner;
 
-public class EmployeeInfo {
+public class EmployeeInfo 
+{
     private int id;
     private String name;
     private double salary;
     private String department;
     private String email;
     private String phoneNumber;
-    public int getId() {
+    public int getId() 
+    {
         return id;
     }
     public void setId(int id) {

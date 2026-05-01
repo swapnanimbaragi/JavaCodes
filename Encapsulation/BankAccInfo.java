@@ -9,10 +9,8 @@ public class BankAccInfo {
         return accountHolderName;
     }
     public void setAccountHolderName(String accountHolderName) 
+    
     {
-        this.accountHolderName = accountHolderName;
-    }
-    public String getAccountNumber() {
         
         return accountNumber;
     }
