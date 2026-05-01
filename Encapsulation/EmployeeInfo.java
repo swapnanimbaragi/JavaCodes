@@ -22,13 +22,16 @@ public class EmployeeInfo
     {
         return name;
     }
-    public void setName(String name) {
+    public void setName(String name) 
+    {
         this.name = name;
     }
-    public double getSalary() {
+    public double getSalary() 
+    {
         return salary;
     }
-    public void setSalary(double salary) {
+    public void setSalary(double salary) 
+    {
         this.salary = salary;
     }
     public String getDepartment() {
