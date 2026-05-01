@@ -64,7 +64,8 @@ class Mobile
 }
 
 // Main Class (ONLY public class)
-public class MobileCharger {
+public class MobileCharger 
+{
     public static void main(String[] args) 
     {
 
