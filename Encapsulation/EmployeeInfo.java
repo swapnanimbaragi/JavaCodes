@@ -49,10 +49,12 @@ public class EmployeeInfo
     {
         this.email = email;
     }
-    public String getPhoneNumber() {
+    public String getPhoneNumber() 
+    {
         return phoneNumber;
     }
-    public void setPhoneNumber(String phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) 
+    {
         this.phoneNumber = phoneNumber;
     }
 
