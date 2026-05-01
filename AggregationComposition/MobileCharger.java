@@ -1,5 +1,6 @@
 package AggregationComposition;
-class OS {
+class OS 
+{
     private String name;
     private int size;
 
