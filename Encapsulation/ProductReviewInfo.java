@@ -23,7 +23,8 @@ public class ProductReviewInfo
     {
         this.reviewerName = reviewerName;
     }
-    public int getRating() {
+    public int getRating() 
+    {
         return rating;
     }
     public void setRating(int rating) {
