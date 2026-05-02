@@ -1,18 +1,22 @@
 package Encapsulation;
 import java.util.Scanner;
-public class ProductReviewInfo {
+public class ProductReviewInfo 
+{
     private String productName;
     private String reviewerName;
     private int rating;
     private String reviewComment;
-    public String getProductName() {
+    public String getProductName() 
+    {
         return productName;
     }
 
-    public void setProductName(String productName) {
+    public void setProductName(String productName) 
+    {
         this.productName = productName;
     }   
-    public String getReviewerName() {
+    public String getReviewerName() 
+    {
         return reviewerName;
     }
     public void setReviewerName(String reviewerName) {
