@@ -19,7 +19,8 @@ public class ProductReviewInfo
     {
         return reviewerName;
     }
-    public void setReviewerName(String reviewerName) {
+    public void setReviewerName(String reviewerName) 
+    {
         this.reviewerName = reviewerName;
     }
     public int getRating() {
