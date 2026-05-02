@@ -35,7 +35,8 @@ public class ProductReviewInfo
     {
         return reviewComment;
     }
-    public void setReviewComment(String reviewComment) {
+    public void setReviewComment(String reviewComment) 
+    {
         this.reviewComment = reviewComment;
     }
 
