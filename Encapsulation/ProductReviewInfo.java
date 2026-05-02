@@ -27,7 +27,8 @@ public class ProductReviewInfo
     {
         return rating;
     }
-    public void setRating(int rating) {
+    public void setRating(int rating) 
+    {
         this.rating = rating;
     }
     public String getReviewComment() {
