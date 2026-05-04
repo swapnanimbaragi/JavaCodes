@@ -23,10 +23,12 @@ public class ProductInventryManegment
     {
         this.productId = productId;
     }
-    public int getQuantity() {
+    public int getQuantity() 
+    {
         return quantity;
     }
-    public void setQuantity(int quantity) {
+    public void setQuantity(int quantity) 
+    {
         this.quantity = quantity;
     }
     public double getPrice() {
