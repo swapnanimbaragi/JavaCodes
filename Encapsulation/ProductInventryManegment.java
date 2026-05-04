@@ -15,10 +15,12 @@ public class ProductInventryManegment
     {
         this.productName = productName;
     }
-    public String getProductId() {
+    public String getProductId() 
+    {
         return productId;
     }
-    public void setProductId(String productId) {
+    public void setProductId(String productId) 
+    {
         this.productId = productId;
     }
     public int getQuantity() {
