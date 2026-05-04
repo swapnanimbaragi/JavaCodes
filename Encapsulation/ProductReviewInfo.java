@@ -40,7 +40,8 @@ public class ProductReviewInfo
         this.reviewComment = reviewComment;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         ProductReviewInfo review = new ProductReviewInfo();
         Scanner scanner = new Scanner(System.in);
         
