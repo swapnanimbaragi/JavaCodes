@@ -48,7 +48,7 @@ public class ProductReviewInfo
         String productName=scanner.nextLine();
         String reviewerName=scanner.nextLine();
         int rating=scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
         String reviewComment=scanner.nextLine();
         
         review.setProductName(productName);
