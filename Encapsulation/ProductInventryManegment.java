@@ -7,10 +7,12 @@ public class ProductInventryManegment
     private String productId;       
     private int quantity;
     private double price;
-    public String getProductName() {
+    public String getProductName() 
+    {
         return productName;
     }
-    public void setProductName(String productName) {
+    public void setProductName(String productName) 
+    {
         this.productName = productName;
     }
     public String getProductId() {
