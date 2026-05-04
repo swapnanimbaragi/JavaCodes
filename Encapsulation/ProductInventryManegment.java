@@ -1,6 +1,8 @@
+
 package Encapsulation;
 import java.util.Scanner;
-public class ProductInventryManegment {
+public class ProductInventryManegment 
+{
     private String productName;
     private String productId;       
     private int quantity;
