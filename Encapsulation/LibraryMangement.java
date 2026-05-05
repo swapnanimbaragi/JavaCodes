@@ -6,7 +6,8 @@ public class LibraryMangement
     private String author;  
     private String isbn;
     private int publicationYear;
-    public String getBookTitle() {
+    public String getBookTitle() 
+    {
         return bookTitle;
     }
     public void setBookTitle(String bookTitle) {
