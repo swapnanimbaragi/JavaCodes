@@ -43,7 +43,8 @@ public class LibraryMangement
 
 
 
-    public static void main(String[] args) {    
+    public static void main(String[] args) 
+    {    
         LibraryMangement book = new LibraryMangement();
         Scanner scanner = new Scanner(System.in);
         
