@@ -18,10 +18,12 @@ public class LibraryMangement
     {
         return author;
     }
-    public void setAuthor(String author) {
+    public void setAuthor(String author) 
+    {
         this.author = author;
     }
-    public String getIsbn() {
+    public String getIsbn() 
+    {
         return isbn;
     }
     public void setIsbn(String isbn) {
