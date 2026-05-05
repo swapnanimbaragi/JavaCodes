@@ -1,7 +1,7 @@
 package Encapsulation;
-
 import java.util.Scanner;
-public class LibraryMangement {
+public class LibraryMangement 
+{
     private String bookTitle;
     private String author;  
     private String isbn;
