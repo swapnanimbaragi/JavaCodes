@@ -26,10 +26,12 @@ public class LibraryMangement
     {
         return isbn;
     }
-    public void setIsbn(String isbn) {
+    public void setIsbn(String isbn) 
+    {
         this.isbn = isbn;
     }
-    public int getPublicationYear() {
+    public int getPublicationYear() 
+    {
         return publicationYear;
     }
     public void setPublicationYear(int publicationYear) {
