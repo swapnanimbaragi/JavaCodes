@@ -39,10 +39,6 @@ public class LibraryMangement
         this.publicationYear = publicationYear;
     }
     
-
-
-
-
     public static void main(String[] args) 
     {    
         LibraryMangement book = new LibraryMangement();
