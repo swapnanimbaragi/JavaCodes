@@ -10,10 +10,12 @@ public class LibraryMangement
     {
         return bookTitle;
     }
-    public void setBookTitle(String bookTitle) {
+    public void setBookTitle(String bookTitle) 
+    {
         this.bookTitle = bookTitle;
     }
-    public String getAuthor() {
+    public String getAuthor() 
+    {
         return author;
     }
     public void setAuthor(String author) {
