@@ -13,7 +13,8 @@ public class BankAccInfo {
     {
         this.accountHolderName = accountHolderName;
     }
-    public String getAccountNumber() {
+    public String getAccountNumber() 
+    {
         
         return accountNumber;
     }
