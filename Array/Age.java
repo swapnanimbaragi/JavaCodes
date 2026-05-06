@@ -11,7 +11,7 @@ public class Age
         for(int i=0;i<5;i++)
         {
             System.out.println("enter the ages" + i);
-            a[i]=scan.nextInt();
+            a[i]=scanner.nextInt();
         }
         System.out.println("Ages are:");
         for(int i=0;i<5;i++)
