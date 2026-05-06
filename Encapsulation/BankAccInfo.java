@@ -18,7 +18,8 @@ public class BankAccInfo {
         
         return accountNumber;
     }
-    public void setAccountNumber(String accountNumber) {
+    public void setAccountNumber(String accountNumber) 
+    {
         this.accountNumber = accountNumber;
     }
     public double getBalance() {
