@@ -16,7 +16,6 @@ public class Age
         System.out.println("Ages are:");
         for(int i=0;i<5;i++)
         {
-            
             System.out.println(a[i]);
         }
     }
