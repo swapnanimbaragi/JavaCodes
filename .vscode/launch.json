@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Age",
+            "request": "launch",
+            "mainClass": "Age",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "MobileCharger",
             "request": "launch",
             "mainClass": "AggregationComposition.MobileCharger",
