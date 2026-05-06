@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class LargestRepetingNo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the size of the array");
+        int N = scanner.nextInt();
+        System.out.println("Enter the array values");
+        int a[]=new int[N];
+        for(int i=0;i<a.length;i++)
+        {
+            a[i]=scanner.nextInt();
+        }
+        
+        boolean flag=false;
+        int max=-1;
+        for(int i=0;i<a.length-1;i++)
+        {
+            if(a[i]==a[i+1] && a[i]>max)
+            {
+               
+                max=a[i];
+                flag=true;
+            }           
+        }
+        if(flag )
+        {
+            System.out.print("Maximum Repting value is :"+max);
+        }
+        else{
+            System.out.print(-1);
+        }
+           
+    }
+}

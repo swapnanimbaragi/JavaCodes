@@ -1,0 +1,959 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MobileCharger",
+            "request": "launch",
+            "mainClass": "AggregationComposition.MobileCharger",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "AggregationComposition.Main",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "PairWithPositiveDifference",
+            "request": "launch",
+            "mainClass": "Practice.PairWithPositiveDifference",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "PairsWithNegDifference",
+            "request": "launch",
+            "mainClass": "Practice.PairsWithNegDifference",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "PairBothFactorOfK",
+            "request": "launch",
+            "mainClass": "Practice.PairBothFactorOfK",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "PairSumGraterThanK",
+            "request": "launch",
+            "mainClass": "Practice.PairSumGraterThanK",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "PairNegProduct",
+            "request": "launch",
+            "mainClass": "Practice.PairNegProduct",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "OppsitSign",
+            "request": "launch",
+            "mainClass": "Practice.OppsitSign",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "MargeTwoArrayOfOddIndices",
+            "request": "launch",
+            "mainClass": "Practice.MargeTwoArrayOfOddIndices",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "MergeTwoArrayOfOdd",
+            "request": "launch",
+            "mainClass": "Practice.MergeTwoArrayOfOdd",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "BinaryToDecimal",
+            "request": "launch",
+            "mainClass": "Practice.BinaryToDecimal",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "BinarToDecimal",
+            "request": "launch",
+            "mainClass": "Practice.BinarToDecimal",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "StrongNum",
+            "request": "launch",
+            "mainClass": "Practice.StrongNum",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "StrongNumbers",
+            "request": "launch",
+            "mainClass": "Practice.StrongNumbers",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "StronNumber",
+            "request": "launch",
+            "mainClass": "Practice.StronNumber",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "PerfectSquareCheck",
+            "request": "launch",
+            "mainClass": "Practice.PerfectSquareCheck",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "PrimeDigitProduct",
+            "request": "launch",
+            "mainClass": "Practice.PrimeDigitProduct",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "PrimeDigit",
+            "request": "launch",
+            "mainClass": "Practice.PrimeDigit",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "SumOfOddDigit",
+            "request": "launch",
+            "mainClass": "Practice.SumOfOddDigit",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "SumOfEvenDigits",
+            "request": "launch",
+            "mainClass": "Practice.SumOfEvenDigits",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "CustomerExceptionDrivingLic",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.CustomerExceptionDrivingLic",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "MultipleFinallyException",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.MultipleFinallyException",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "UsingFinallyArithmetic",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.UsingFinallyArithmetic",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "Arryamultiplehandel",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.Arryamultiplehandel",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "HandleMultipleException",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.HandleMultipleException",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "InputMismatch",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.InputMismatch",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "StringFormate",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.StringFormate",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "NumberFormatHandling",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.NumberFormatHandling",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "ArrayHandling",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.ArrayHandling",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "DivisionOfNum",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.DivisionOfNum",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "ShapeUsingInterface",
+            "request": "launch",
+            "mainClass": "Abstraction.ShapeUsingInterface",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "ThreeDShape",
+            "request": "launch",
+            "mainClass": "Abstraction.ThreeDShape",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "CalculationOfShapes",
+            "request": "launch",
+            "mainClass": "Abstraction.CalculationOfShapes",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "AnimalSound",
+            "request": "launch",
+            "mainClass": "Abstraction.AnimalSound",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "EvenNumber",
+            "request": "launch",
+            "mainClass": "Practice.EvenNumber",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "PowerCalculation",
+            "request": "launch",
+            "mainClass": "Practice.PowerCalculation",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "DigitsInWords",
+            "request": "launch",
+            "mainClass": "Practice.DigitsInWords",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "SumOfFirstandLast",
+            "request": "launch",
+            "mainClass": "Practice.SumOfFirstandLast",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "SumOfDigits",
+            "request": "launch",
+            "mainClass": "Practice.SumOfDigits",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "ProductOfDigits",
+            "request": "launch",
+            "mainClass": "Practice.ProductOfDigits",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "FirstNPrimes",
+            "request": "launch",
+            "mainClass": "Practice.FirstNPrimes",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "VaildPassword",
+            "request": "launch",
+            "mainClass": "ExamQuestions.VaildPassword",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "CountcharAfterWord",
+            "request": "launch",
+            "mainClass": "ExamQuestions.CountcharAfterWord",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "CharCount",
+            "request": "launch",
+            "mainClass": "ExamQuestions.CharCount",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "RotateArrayByK",
+            "request": "launch",
+            "mainClass": "ExamQuestions.RotateArrayByK",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "RotateArrayByKsteps",
+            "request": "launch",
+            "mainClass": "Practice.RotateArrayByKsteps",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "MergeArrayAsendingDesending",
+            "request": "launch",
+            "mainClass": "Practice.MergeArrayAsendingDesending",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "MergeSortedArray",
+            "request": "launch",
+            "mainClass": "Practice.MergeSortedArray",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "PosNegPair",
+            "request": "launch",
+            "mainClass": "Practice.PosNegPair",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "OOPS.Test",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "Shape",
+            "request": "launch",
+            "mainClass": "OOPS.Shape",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "SumSubarrayPrime",
+            "request": "launch",
+            "mainClass": "Practice.SumSubarrayPrime",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "SmallestPrimeSumSubarray",
+            "request": "launch",
+            "mainClass": "Practice.SmallestPrimeSumSubarray",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "SmallestPrimeSum",
+            "request": "launch",
+            "mainClass": "Practice.SmallestPrimeSum",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "AllPairDiffernce",
+            "request": "launch",
+            "mainClass": "Practice.AllPairDiffernce",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "AllPairSum",
+            "request": "launch",
+            "mainClass": "Practice.AllPairSum",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "AllPairsArray",
+            "request": "launch",
+            "mainClass": "Practice.AllPairsArray",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "AmstrongExam",
+            "request": "launch",
+            "mainClass": "Practice.AmstrongExam",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "Armstrongnum",
+            "request": "launch",
+            "mainClass": "Practice.Armstrongnum",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "Palemdrom",
+            "request": "launch",
+            "mainClass": "Practice.Palemdrom",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "ReplaceDivisibleBykElements",
+            "request": "launch",
+            "mainClass": "Practice.ReplaceDivisibleBykElements",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "PrintPrimeElements",
+            "request": "launch",
+            "mainClass": "Practice.PrintPrimeElements",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "SwapTrueFalse",
+            "request": "launch",
+            "mainClass": "Practice.SwapTrueFalse",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "CountofTrueFalse",
+            "request": "launch",
+            "mainClass": "Practice.CountofTrueFalse",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "DoublePosNegAvg",
+            "request": "launch",
+            "mainClass": "Practice.DoublePosNegAvg",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "DiffBtwPosNegAvg",
+            "request": "launch",
+            "mainClass": "Practice.DiffBtwPosNegAvg",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "EngineInfo",
+            "request": "launch",
+            "mainClass": "Polymorphisum.EngineInfo",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "SportsInfo",
+            "request": "launch",
+            "mainClass": "Polymorphisum.SportsInfo",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "ImplimentSound",
+            "request": "launch",
+            "mainClass": "Polymorphisum.ImplimentSound",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "Polymorphisum",
+            "request": "launch",
+            "mainClass": "Polymorphisum.Polymorphisum",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "PrimeProductSubarray",
+            "request": "launch",
+            "mainClass": "Practice.PrimeProductSubarray",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "AllPrimeProductSubarrayExam",
+            "request": "launch",
+            "mainClass": "Practice.AllPrimeProductSubarrayExam",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "RepetingCharacterExam",
+            "request": "launch",
+            "mainClass": "Practice.RepetingCharacterExam",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "MargeTwoArrayExam",
+            "request": "launch",
+            "mainClass": "Practice.MargeTwoArrayExam",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "MargeTwoArray",
+            "request": "launch",
+            "mainClass": "Practice.MargeTwoArray",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "CharOccurance",
+            "request": "launch",
+            "mainClass": "Practice.CharOccurance",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "StringSubarray",
+            "request": "launch",
+            "mainClass": "Practice.StringSubarray",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "LargestCollection",
+            "request": "launch",
+            "mainClass": "Practice.LargestCollection",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "MatchingSumSubarray",
+            "request": "launch",
+            "mainClass": "Practice.MatchingSumSubarray",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "EvenSubArray",
+            "request": "launch",
+            "mainClass": "Practice.EvenSubArray",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "CountLesserThanKPrime",
+            "request": "launch",
+            "mainClass": "Practice.CountLesserThanKPrime",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "SumOfPositiveElements",
+            "request": "launch",
+            "mainClass": "Practice.SumOfPositiveElements",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "AvrageOddElement",
+            "request": "launch",
+            "mainClass": "Practice.AvrageOddElement",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "MissingNumber",
+            "request": "launch",
+            "mainClass": "Practice.MissingNumber",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "EvenMultiplesOfN",
+            "request": "launch",
+            "mainClass": "Practice.EvenMultiplesOfN",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "LastFirstDigitOfN",
+            "request": "launch",
+            "mainClass": "Practice.LastFirstDigitOfN",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "LastSecondDigitOfN",
+            "request": "launch",
+            "mainClass": "Practice.LastSecondDigitOfN",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "PrimeProductDigit",
+            "request": "launch",
+            "mainClass": "Practice.PrimeProductDigit",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "ArmstrongTillN",
+            "request": "launch",
+            "mainClass": "Practice.ArmstrongTillN",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "AmstrongNumber",
+            "request": "launch",
+            "mainClass": "Practice.AmstrongNumber",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "MaxTimeElement",
+            "request": "launch",
+            "mainClass": "Map.MaxTimeElement",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "Fibonaccii",
+            "request": "launch",
+            "mainClass": "Practice.Fibonaccii",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "FactorialOfN",
+            "request": "launch",
+            "mainClass": "Practice.FactorialOfN",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "LastDigitOfN",
+            "request": "launch",
+            "mainClass": "Practice.LastDigitOfN",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "MultipleTillN",
+            "request": "launch",
+            "mainClass": "Practice.MultipleTillN",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "FirstNMultiplesOf3Desending",
+            "request": "launch",
+            "mainClass": "Practice.FirstNMultiplesOf3Desending",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "VotingEligiblity",
+            "request": "launch",
+            "mainClass": "Practice.VotingEligiblity",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "ConsonantsCheck",
+            "request": "launch",
+            "mainClass": "Practice.ConsonantsCheck",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "VowelAsciiCheck",
+            "request": "launch",
+            "mainClass": "Practice.VowelAsciiCheck",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "FactorCheck",
+            "request": "launch",
+            "mainClass": "Practice.FactorCheck",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "MaximumOfFour",
+            "request": "launch",
+            "mainClass": "Practice.MaximumOfFour",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "NonPrimeSingleIdentifier",
+            "request": "launch",
+            "mainClass": "Map.NonPrimeSingleIdentifier",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "OddEvenFrequency",
+            "request": "launch",
+            "mainClass": "Map.OddEvenFrequency",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "OddFrequency",
+            "request": "launch",
+            "mainClass": "Map.OddFrequency",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "MangerDetails",
+            "request": "launch",
+            "mainClass": "Inheritence.MangerDetails",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "BankAccInfo",
+            "request": "launch",
+            "mainClass": "Encapsulation.BankAccInfo",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "CourseInfo",
+            "request": "launch",
+            "mainClass": "Inheritence.CourseInfo",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "AnimalSoundGenertore",
+            "request": "launch",
+            "mainClass": "Inheritence.AnimalSoundGenertore",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "AccountInfo",
+            "request": "launch",
+            "mainClass": "Inheritence.AccountInfo",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "VehicaleInfo",
+            "request": "launch",
+            "mainClass": "Inheritence.VehicaleInfo",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "EmployeSalaryCalculation",
+            "request": "launch",
+            "mainClass": "Inheritence.EmployeSalaryCalculation",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "UniqueElemenetIndentifier",
+            "request": "launch",
+            "mainClass": "Map.UniqueElemenetIndentifier",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "DuplicateElementFinder",
+            "request": "launch",
+            "mainClass": "Map.DuplicateElementFinder",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "LargestFreqElement",
+            "request": "launch",
+            "mainClass": "Map.LargestFreqElement",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "SmallestElementFInder",
+            "request": "launch",
+            "mainClass": "Map.SmallestElementFInder",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "LastFrequencyElement",
+            "request": "launch",
+            "mainClass": "Map.LastFrequencyElement",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "PairsFormation",
+            "request": "launch",
+            "mainClass": "Map.PairsFormation",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "FirstRepeatingElement",
+            "request": "launch",
+            "mainClass": "Map.FirstRepeatingElement",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "FrequentElementFinder",
+            "request": "launch",
+            "mainClass": "Map.FrequentElementFinder",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "ArrayElemOcc",
+            "request": "launch",
+            "mainClass": "Map.ArrayElemOcc",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "CountCharacters",
+            "request": "launch",
+            "mainClass": "Map.CountCharacters",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "CharCountOcuurance",
+            "request": "launch",
+            "mainClass": "Map.CharCountOcuurance",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "DisjointPair",
+            "request": "launch",
+            "mainClass": "Map.DisjointPair",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "reveser",
+            "request": "launch",
+            "mainClass": "SubStrings.reveser",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "PairElements",
+            "request": "launch",
+            "mainClass": "Set.PairElements",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "URLCompanyExtractor",
+            "request": "launch",
+            "mainClass": "Set.URLCompanyExtractor",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "ConsonantsAlphabetics",
+            "request": "launch",
+            "mainClass": "Set.ConsonantsAlphabetics",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "AlphabeticsNameOrder",
+            "request": "launch",
+            "mainClass": "Set.AlphabeticsNameOrder",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "URLComma",
+            "request": "launch",
+            "mainClass": "Set.URLComma",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "UniqueName",
+            "request": "launch",
+            "mainClass": "Set.UniqueName",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "LexicographicOrder",
+            "request": "launch",
+            "mainClass": "Set.LexicographicOrder",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "UniqueCharFilter",
+            "request": "launch",
+            "mainClass": "Set.UniqueCharFilter",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "ReversecharInWords",
+            "request": "launch",
+            "mainClass": "SubStrings.ReversecharInWords",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "Assignindex",
+            "request": "launch",
+            "mainClass": "Assignindex",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "CountCharAfterEach",
+            "request": "launch",
+            "mainClass": "SubStrings.CountCharAfterEach",
+            "projectName": "Java_a6cc1743"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

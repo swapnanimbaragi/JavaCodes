@@ -1,0 +1,39 @@
+package Practice;
+import java.util.Scanner;
+public class DoublePosNegAvg {
+    public static void main(String[] args) 
+    {   
+        Scanner s=new Scanner(System.in);
+        int n=s.nextInt();
+        double arr[]=new double[n];
+        for(int i=0;i<n;i++)
+        {
+            arr[i]=s.nextDouble();
+        }
+        double posSum=0,posCount=0,negSum=0,negCount=0;
+        for(int i=0;i<n;i++)
+        {
+            if(arr[i]>0)
+            {
+                posSum+=arr[i];
+                posCount++;
+            }
+            else if(arr[i]<0)
+            {
+                negSum+=arr[i];
+                negCount++;
+            }
+        }
+        double posavg=0,negavg=0;
+        if(posCount !=0)
+        {
+            posavg=(double)(posSum)/posCount;
+        }
+        if(negCount !=0)
+        {
+            negavg=(double)(negSum)/negCount;
+        }
+        double diff=posavg-negavg;
+        System.out.printf("%.2f", diff);
+    }
+}
