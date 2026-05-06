@@ -22,7 +22,8 @@ public class BankAccInfo {
     {
         this.accountNumber = accountNumber;
     }
-    public double getBalance() {
+    public double getBalance() 
+    {
         return balance;
     }
     public void setBalance(double balance) {
