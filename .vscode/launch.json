@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UserInput",
+            "request": "launch",
+            "mainClass": "Collections.UserInput",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "SortArray",
             "request": "launch",
             "mainClass": "Collections.SortArray",
