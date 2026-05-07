@@ -5,7 +5,8 @@ public class StudentRecord {
     private int studentId;
     private double gpa;
 
-    public String getStudentName() {
+    public String getStudentName() 
+    {
         return studentName;
     }
 
