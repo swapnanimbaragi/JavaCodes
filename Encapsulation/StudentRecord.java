@@ -10,7 +10,8 @@ public class StudentRecord {
         return studentName;
     }
 
-    public void setStudentName(String studentName) {
+    public void setStudentName(String studentName) 
+    {
         this.studentName = studentName;
     }
 
