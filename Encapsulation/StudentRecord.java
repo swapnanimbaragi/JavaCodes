@@ -34,7 +34,7 @@ public class StudentRecord
     }
     public static void main(String[] args) {
         StudentRecord student = new StudentRecord();
-        Scanner scan = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         
         String studentName=scanner.nextLine();
         int studentId=scanner.nextInt();
