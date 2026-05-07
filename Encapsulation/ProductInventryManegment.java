@@ -31,7 +31,8 @@ public class ProductInventryManegment
     {
         this.quantity = quantity;
     }
-    public double getPrice() {
+    public double getPrice() 
+    {
         return price;
     }
     public void setPrice(double price) 
