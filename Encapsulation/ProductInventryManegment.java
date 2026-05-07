@@ -39,7 +39,8 @@ public class ProductInventryManegment
     {
         this.price = price;
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         ProductInventryManegment product = new ProductInventryManegment();
         Scanner scanner = new Scanner(System.in);
         String productName=scanner.nextLine();
