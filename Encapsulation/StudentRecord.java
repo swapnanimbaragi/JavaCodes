@@ -15,7 +15,8 @@ public class StudentRecord {
         this.studentName = studentName;
     }
 
-    public int getStudentId() {
+    public int getStudentId() 
+    {
         return studentId;
     }
 
