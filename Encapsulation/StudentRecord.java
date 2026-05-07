@@ -1,6 +1,7 @@
 package Encapsulation;
 import java.util.Scanner;
-public class StudentRecord {
+public class StudentRecord 
+{
     private String studentName;
     private int studentId;
     private double gpa;
