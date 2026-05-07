@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OddNum",
+            "request": "launch",
+            "mainClass": "Collections.OddNum",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "UserInput",
             "request": "launch",
             "mainClass": "Collections.UserInput",
