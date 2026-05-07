@@ -34,7 +34,8 @@ public class ProductInventryManegment
     public double getPrice() {
         return price;
     }
-    public void setPrice(double price) {
+    public void setPrice(double price) 
+    {
         this.price = price;
     }
     public static void main(String[] args) {
