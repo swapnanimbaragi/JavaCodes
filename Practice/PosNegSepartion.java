@@ -1,7 +1,7 @@
 package Practice;
 import java.util.Scanner;
 
-import Codes.Loops.even;
+
 public class PosNegSepartion {
     public static void main(String[] args) 
     {
