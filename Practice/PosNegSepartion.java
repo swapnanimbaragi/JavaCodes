@@ -1,6 +1,7 @@
 package Practice;
 import java.util.Scanner;
-public class PosNegSepartion {
+public class PosNegSepartion 
+{
     public static void main(String[] args) 
     {
         Scanner scanner=new Scanner(System.in);
