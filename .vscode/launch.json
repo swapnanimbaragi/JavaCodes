@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PosNegSepartion",
+            "request": "launch",
+            "mainClass": "Practice.PosNegSepartion",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "OddNum",
             "request": "launch",
             "mainClass": "Collections.OddNum",
