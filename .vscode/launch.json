@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PairWithSecondValueAsMultiple",
+            "request": "launch",
+            "mainClass": "Practice.PairWithSecondValueAsMultiple",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "secondsmallestOdd",
             "request": "launch",
             "mainClass": "Practice.secondsmallestOdd",
