@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "secondLargestDivisible",
+            "request": "launch",
+            "mainClass": "Practice.secondLargestDivisible",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "PosNegSepartion",
             "request": "launch",
             "mainClass": "Practice.PosNegSepartion",
