@@ -1,7 +1,5 @@
 package Practice;
 import java.util.Scanner;
-
-
 public class PosNegSepartion {
     public static void main(String[] args) 
     {
