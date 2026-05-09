@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class OddNum {
     public static void main(String[] args) 
     {
-        Scanner scanner=new Scanner(System.in);
+        Scanner scan=new Scanner(System.in);
         ArrayList list=new ArrayList();
         int n=scanner.nextInt();
         for(int i=0;i<n;i++)
