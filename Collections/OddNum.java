@@ -15,6 +15,6 @@ public class OddNum {
                 list.add(num);
             }
         }
-        System.out.println(list);
+        System.out.println("Odd:"+list);
     }
 }
