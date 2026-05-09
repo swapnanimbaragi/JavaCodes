@@ -6,7 +6,7 @@ public class OddNum {
     {
         Scanner scan=new Scanner(System.in);
         ArrayList list=new ArrayList();
-        int n=scanner.nextInt();
+        int n=scan.nextInt();
         for(int i=0;i<n;i++)
         {
             int num=scanner.nextInt();
