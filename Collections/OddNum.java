@@ -9,7 +9,7 @@ public class OddNum {
         int n=scan.nextInt();
         for(int i=0;i<n;i++)
         {
-            int num=scanner.nextInt();
+            int num=scan.nextInt();
             if(num%2!=0)
             {
                 list.add(num);
