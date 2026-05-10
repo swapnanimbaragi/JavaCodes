@@ -35,7 +35,8 @@ public class StudentRecord
     {
         this.gpa = gpa;
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         StudentRecord student = new StudentRecord();
         Scanner scanner = new Scanner(System.in);
         
