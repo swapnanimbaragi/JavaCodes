@@ -21,7 +21,8 @@ public class StudentRecord
         return studentId;
     }
 
-    public void setStudentId(int studentId) {
+    public void setStudentId(int studentId) 
+    {
         this.studentId = studentId;
     }
 
