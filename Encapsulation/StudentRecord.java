@@ -31,7 +31,8 @@ public class StudentRecord
         return gpa;
     }
 
-    public void setGpa(double gpa) {
+    public void setGpa(double gpa)
+    {
         this.gpa = gpa;
     }
     public static void main(String[] args) {
