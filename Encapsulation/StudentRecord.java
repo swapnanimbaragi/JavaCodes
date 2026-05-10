@@ -26,7 +26,8 @@ public class StudentRecord
         this.studentId = studentId;
     }
 
-    public double getGpa() {
+    public double getGpa()
+    {
         return gpa;
     }
 
