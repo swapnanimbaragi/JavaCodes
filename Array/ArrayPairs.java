@@ -18,6 +18,5 @@ public class ArrayPairs
                 System.out.println(a[i]+" "+a[j]);
             }
         }
-        
-    }
+     }
 }
