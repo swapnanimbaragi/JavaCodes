@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class ArrayPairs {
+public class ArrayPairs 
+{
      public static void main(String[] args) 
      {
         Scanner scanner = new Scanner(System.in);
