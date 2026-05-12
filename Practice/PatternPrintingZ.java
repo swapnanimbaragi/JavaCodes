@@ -1,5 +1,5 @@
 package Practice;
-import java.util.*;
+
 public class PatternPrintingZ 
 {
     public static void main(String [] args)
@@ -26,7 +26,5 @@ public class PatternPrintingZ
         {
             System.out.print("*"+" ");
         }
-        
-
     }
 }
