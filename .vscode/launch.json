@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumberIsPalndromeOrNot",
+            "request": "launch",
+            "mainClass": "Practice.NumberIsPalndromeOrNot",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
+            "name": "StarR",
+            "request": "launch",
+            "mainClass": "PatternsProgram.StarR",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
+            "name": "PatternPrintingZ",
+            "request": "launch",
+            "mainClass": "Practice.PatternPrintingZ",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "PairWithSecondValueFactor",
             "request": "launch",
             "mainClass": "Practice.PairWithSecondValueFactor",
