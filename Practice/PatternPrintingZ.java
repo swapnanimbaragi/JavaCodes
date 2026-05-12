@@ -1,6 +1,7 @@
 package Practice;
-
-public class PatternPrintingZ {
+import java.util.*;
+public class PatternPrintingZ 
+{
     public static void main(String [] args)
     {
         int n=5;
