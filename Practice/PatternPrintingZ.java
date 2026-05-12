@@ -18,8 +18,7 @@ public class PatternPrintingZ
             }
             for(int j=i;j<=i;j++)
             {
-                
-                    System.out.print("*"+" ");
+                System.out.print("*"+" ");
             }
             System.out.println();
         }
