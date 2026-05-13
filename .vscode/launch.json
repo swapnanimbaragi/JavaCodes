@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SecondlargestOdd",
+            "request": "launch",
+            "mainClass": "Practice.SecondlargestOdd",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "NumberIsPalndromeOrNot",
             "request": "launch",
             "mainClass": "Practice.NumberIsPalndromeOrNot",
