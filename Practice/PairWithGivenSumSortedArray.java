@@ -12,7 +12,7 @@ public class PairWithGivenSumSortedArray
             arr[i]=scanner.nextInt();
         }
         int sum=scanner.nextInt();
-        // Implementation for finding pair with given sum in sorted array
+        
         boolean pairFound=false;
         for(int i=0;i<n-1;i++) 
         {
