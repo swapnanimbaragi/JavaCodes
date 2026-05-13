@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LargestEven",
+            "request": "launch",
+            "mainClass": "Collections.LargestEven",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "SecondlargestOdd",
             "request": "launch",
             "mainClass": "Practice.SecondlargestOdd",
