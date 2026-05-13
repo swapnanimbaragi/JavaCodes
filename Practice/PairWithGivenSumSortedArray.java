@@ -21,6 +21,7 @@ public class PairWithGivenSumSortedArray
                 if(arr[i]+arr[j]==sum) 
                 {
                     System.out.println("Yes");
+                    // return;
                     pairFound=true;
                     
                 }
