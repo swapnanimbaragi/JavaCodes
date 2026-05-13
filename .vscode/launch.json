@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PairWithGivenSumSortedArray",
+            "request": "launch",
+            "mainClass": "Practice.PairWithGivenSumSortedArray",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
+            "name": "MinPairProduct",
+            "request": "launch",
+            "mainClass": "Practice.MinPairProduct",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "LargestEven",
             "request": "launch",
             "mainClass": "Collections.LargestEven",
