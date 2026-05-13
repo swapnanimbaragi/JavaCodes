@@ -13,6 +13,7 @@ public class PairWithGivenSumSortedArray
         }
         int sum=scanner.nextInt();
         // Implementation for finding pair with given sum in sorted array
+        boolean pairFound=false;
         for(int i=0;i<n-1;i++) 
         {
             for(int j=i+1;j<n;j++) 
@@ -20,11 +21,13 @@ public class PairWithGivenSumSortedArray
                 if(arr[i]+arr[j]==sum) 
                 {
                     System.out.println("Yes");
-                    return;
+                    pairFound=true;
+                    
                 }
             }
         }
-         System.out.println("No pair found with the given sum.");
+        if(!pairFound)
+        System.out.println("No pair found with the given sum.");
     }
          
 }
