@@ -1,7 +1,9 @@
 package ExamQuestions;
 import java.util.*;
-public class PrimeBtwnN1andN2 {
-    public static void main(String[] args) {
+public class PrimeBtwnN1andN2 
+{
+    public static void main(String[] args) 
+    {
         Scanner scan = new Scanner(System.in);
         int n1 = scan.nextInt();
         int n2 = scan.nextInt();
@@ -12,6 +14,7 @@ public class PrimeBtwnN1andN2 {
                 System.out.print(i+" ");
             }
         }
+       
     }
     public static boolean isPrime(int n) {
         if(n<=1) {
