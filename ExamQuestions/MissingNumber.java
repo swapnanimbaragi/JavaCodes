@@ -20,7 +20,7 @@ public class MissingNumber {
         {
             total += i;
         }
-        
+        // System.out.println(total);
         for(int i=0; i< arr.length; i++)
         {
             total -= arr[i];
