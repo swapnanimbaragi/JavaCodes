@@ -24,23 +24,14 @@ public class PairWithPrimeProduct {
         {
             arr[i] = scan.nextInt();
         }
-        int product = 0;
-        for(int i=0; i<n; i++)
-        {
-            for(int j=i+1; j<n; j++)
-            {
-                if(isPrime(arr[i]*arr[j]))
-                {
-                    product*=arr[i]*arr[j];
-                }
-            }
-        }
+        int product = 1;
         boolean found = false;
         for(int i=0; i<n; i++)
         {
             for(int j=i+1; j<n; j++)
             {
-                if(isPrime(arr[i]*arr[j]))
+                product=arr[i]*arr[j];
+                if(isPrime(product))
                 {
                     System.out.println(arr[i]+" "+arr[j]);
                     found = true;
