@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ProductOfDigits",
+            "request": "launch",
+            "mainClass": "ExamQuestions.ProductOfDigits",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
+            "name": "MoveZeroAtEnd",
+            "request": "launch",
+            "mainClass": "ExamQuestions.MoveZeroAtEnd",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
+            "name": "RotateArrayByK",
+            "request": "launch",
+            "mainClass": "ExamQuestions.RotateArrayByK",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "PairWithGivenSumSortedArray",
             "request": "launch",
             "mainClass": "Practice.PairWithGivenSumSortedArray",
