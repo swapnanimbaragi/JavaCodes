@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrimeBtwnN1andN2",
+            "request": "launch",
+            "mainClass": "ExamQuestions.PrimeBtwnN1andN2",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "PrintEvenDigits",
             "request": "launch",
             "mainClass": "ExamQuestions.PrintEvenDigits",
