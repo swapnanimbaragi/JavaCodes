@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MissingNumber",
+            "request": "launch",
+            "mainClass": "ExamQuestions.MissingNumber",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "ProductOfDigits",
             "request": "launch",
             "mainClass": "ExamQuestions.ProductOfDigits",
