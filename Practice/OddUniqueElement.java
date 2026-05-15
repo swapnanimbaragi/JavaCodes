@@ -22,14 +22,19 @@ public class OddUniqueElement {
                 map.put(a[i],1);
             }
         }
-
+        boolean found = false;
         for(Integer key : map.keySet())
         {
             if(map.get(key) % 2 != 0)
             {
                 System.out.println(key);
+                found = true;
                 break;
             }
         }
+        if(!found)
+        {
+            System.out.println("No odd unique element found.");
+        }   
     }
 }
