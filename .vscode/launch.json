@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxOccuringLength",
+            "request": "launch",
+            "mainClass": "ExamQuestions.MaxOccuringLength",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "OddUniqueElement",
             "request": "launch",
             "mainClass": "Practice.OddUniqueElement",
