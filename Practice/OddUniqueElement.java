@@ -14,7 +14,8 @@ public class OddUniqueElement {
         {
             if(map.containsKey(a[i]))
             {
-                map.put(a[i],map.get(a[i])+1);
+                int count = map.get(a[i]);
+                map.put(a[i], count + 1);
             }
             else
             {
@@ -22,11 +23,11 @@ public class OddUniqueElement {
             }
         }
 
-        for(Map.Entry<Integer,Integer> entry:map.entrySet())
+        for(Integer key : map.keySet())
         {
-            if(entry.getValue()%2!=0)
+            if(map.get(key) % 2 != 0)
             {
-                System.out.println(entry.getKey());
+                System.out.println(key);
                 break;
             }
         }
