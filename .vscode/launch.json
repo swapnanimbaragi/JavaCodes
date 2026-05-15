@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OddUniqueElement",
+            "request": "launch",
+            "mainClass": "Practice.OddUniqueElement",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "Factorial",
             "request": "launch",
             "mainClass": "ExamQuestions.Factorial",
