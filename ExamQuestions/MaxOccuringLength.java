@@ -1,25 +1,45 @@
 package ExamQuestions;
 import java.util.*; 
 public class MaxOccuringLength {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String n = scan.nextLine();
-        String[] words = n.split(" ");
-        HashMap<Integer, Integer> lengthCount = new HashMap<>();
-        
-        for(String word : words) {
-            int length = word.length();
-            lengthCount.put(length, lengthCount.getOrDefault(length, 0) + 1);
-        }
-        
-        int maxCount = 0;
-        int maxLength = 0;
-        for(Map.Entry<Integer, Integer> entry : lengthCount.entrySet()) {
-            if(entry.getValue() > maxCount) {
-                maxCount = entry.getValue();
-                maxLength = entry.getKey();
+   
+
+
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+
+        String s = sc.nextLine();
+
+        String[] words = s.split(" ");
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for(int i = 0; i < words.length; i++)
+        {
+            int len = words[i].length();
+
+            if(map.containsKey(len))
+            {
+                map.put(len, map.get(len) + 1);
+            }
+            else
+            {
+                map.put(len, 1);
             }
         }
-        System.out.println(maxLength+" "+maxCount);
+
+        int maxOccurrence = 0;
+        int maxLength = 0;
+
+        for(Integer key : map.keySet())
+        {
+            if(map.get(key) > maxOccurrence)
+            {
+                maxOccurrence = map.get(key);
+                maxLength = key;
+            }
+        }
+
+        System.out.println("occurance: " + maxOccurrence + " length: " + maxLength);
     }
 }
