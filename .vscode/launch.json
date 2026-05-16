@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NthFibbonacciee",
+            "request": "launch",
+            "mainClass": "ExamQuestions.NthFibbonacciee",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "MaxOccuringLength",
             "request": "launch",
             "mainClass": "ExamQuestions.MaxOccuringLength",
