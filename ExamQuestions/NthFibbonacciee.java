@@ -12,7 +12,8 @@ public class NthFibbonacciee {
         } 
         else 
         {
-            for(int i = 3; i <= n; i++) {
+            for(int i = 3; i <= n; i++) 
+            {
                 c = a + b;
                 a = b;
                 b = c;
