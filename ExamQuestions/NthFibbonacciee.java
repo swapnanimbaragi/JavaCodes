@@ -1,7 +1,9 @@
 package ExamQuestions;
 import java.util.*;
-public class NthFibbonacciee {
-    public static void main(String[] args) {
+public class NthFibbonacciee 
+{
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int a = 1, b = 1, c = 0;
@@ -20,6 +22,5 @@ public class NthFibbonacciee {
             }
             System.out.println(c);
         }
-        
     }
 }
