@@ -1,7 +1,9 @@
 package ExamQuestions;
 import java.util.Scanner;
-public class RotateArrayByK {
-    public static void main(String[] args) {
+public class RotateArrayByK 
+{
+    public static void main(String[] args) 
+    {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int[] arr = new int[n];
