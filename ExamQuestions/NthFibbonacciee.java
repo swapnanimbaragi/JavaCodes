@@ -9,7 +9,9 @@ public class NthFibbonacciee {
         if(n == 1 || n == 2) 
         {
             System.out.println(1);
-        } else {
+        } 
+        else 
+        {
             for(int i = 3; i <= n; i++) {
                 c = a + b;
                 a = b;
