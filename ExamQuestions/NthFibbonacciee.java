@@ -18,7 +18,6 @@ public class NthFibbonacciee {
                 a = b;
                 b = c;
             }
-
             System.out.println(c);
         }
         
