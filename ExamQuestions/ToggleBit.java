@@ -5,9 +5,7 @@ public class ToggleBit {
 
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-
         int bits = Integer.toBinaryString(n).length();
-
         int mask = (1 << bits) - 1;
 
         int result = n ^ mask;
