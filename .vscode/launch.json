@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountSundays",
+            "request": "launch",
+            "mainClass": "ExamQuestions.CountSundays",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "ToggleBit",
             "request": "launch",
             "mainClass": "ExamQuestions.ToggleBit",
