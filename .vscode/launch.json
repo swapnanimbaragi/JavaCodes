@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ToggleBit",
+            "request": "launch",
+            "mainClass": "ExamQuestions.ToggleBit",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "SumOfSubset",
             "request": "launch",
             "mainClass": "ExamQuestions.SumOfSubset",
