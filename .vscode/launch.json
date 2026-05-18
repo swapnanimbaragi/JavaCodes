@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MovingZeros",
+            "request": "launch",
+            "mainClass": "ExamQuestions.MovingZeros",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "CountGraterElement",
             "request": "launch",
             "mainClass": "ExamQuestions.CountGraterElement",
