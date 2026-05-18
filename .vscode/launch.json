@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountGraterElement",
+            "request": "launch",
+            "mainClass": "ExamQuestions.CountGraterElement",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "CountSundays",
             "request": "launch",
             "mainClass": "ExamQuestions.CountSundays",
