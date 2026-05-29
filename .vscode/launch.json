@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PalendromeNum",
+            "request": "launch",
+            "mainClass": "ExamQuestions.PalendromeNum",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "NPrimeNumbers",
             "request": "launch",
             "mainClass": "ExamQuestions.NPrimeNumbers",
