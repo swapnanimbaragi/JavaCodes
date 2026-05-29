@@ -20,13 +20,15 @@ public class NPrimeNumbers {
         Scanner scanner=new Scanner(System.in);
         int n=scanner.nextInt();
         int m=scanner.nextInt();
-        for(int i=n;i<=m;i++)
-        {
+        // for(int i=n;i<=m;i++)
+        // {
 
-            if(isPrime(i))
-            {
-                System.out.print(i+" ");
-            }
-        }
+        //     if(isPrime(i))
+        //     {
+        //         System.out.print(i+" ");
+        //     }
+        // }
+        int count=0;
+        
     }
 }
