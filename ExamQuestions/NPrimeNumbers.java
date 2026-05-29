@@ -29,6 +29,7 @@ public class NPrimeNumbers {
         //     }
         // }
         int count=0;
+        int num=m+1;
         
     }
 }
