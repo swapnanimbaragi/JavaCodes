@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrintAllSubstrings",
+            "request": "launch",
+            "mainClass": "ExamQuestions.PrintAllSubstrings",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
+            "name": "MaxAcquCur",
+            "request": "launch",
+            "mainClass": "ExamQuestions.MaxAcquCur",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
+            "name": "LargestRepetingNo",
+            "request": "launch",
+            "mainClass": "LargestRepetingNo",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "SortRiskyItems",
             "request": "launch",
             "mainClass": "ExamQuestions.SortRiskyItems",
