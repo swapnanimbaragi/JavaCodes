@@ -30,6 +30,14 @@ public class NPrimeNumbers {
         // }
         int count=0;
         int num=m+1;
-        
+        while(count<n)
+        {
+            if(isPrime(num))
+            {
+                System.out.print(num+" ");
+                count++;
+            }
+            num++;
+        }
     }
 }
