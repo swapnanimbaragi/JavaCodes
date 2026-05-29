@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NPrimeNumbers",
+            "request": "launch",
+            "mainClass": "ExamQuestions.NPrimeNumbers",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "PrintAllSubstrings",
             "request": "launch",
             "mainClass": "ExamQuestions.PrintAllSubstrings",
