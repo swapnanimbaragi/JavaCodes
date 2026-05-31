@@ -14,7 +14,8 @@ public class ArrayElemOcc
             arr[i] = scan.nextInt();
         }
         HashMap<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             if (map.containsKey(arr[i])) {
                 int count = map.get(arr[i]);
                 map.put(arr[i], count + 1);
