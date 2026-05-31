@@ -1,6 +1,7 @@
 package Map;
 import java.util.*;
-public class ArrayElemOcc {
+public class ArrayElemOcc 
+{
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("enter the size of array");
