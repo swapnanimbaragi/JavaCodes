@@ -18,7 +18,8 @@ public class ArrayElemOcc
             if (map.containsKey(arr[i])) {
                 int count = map.get(arr[i]);
                 map.put(arr[i], count + 1);
-            } else {
+            } else 
+            {
                 map.put(arr[i], 1);
             }
         }
