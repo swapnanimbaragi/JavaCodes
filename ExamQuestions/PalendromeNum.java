@@ -15,8 +15,8 @@ public class PalendromeNum {
         }
         if(originalNum==reversedNum)
         {
-            System.out.println("Palindrome");
-        }
+            System.out.println("It is a Palindrome");
+        }  
         else
         {
             System.out.println("Not Palindrome");
