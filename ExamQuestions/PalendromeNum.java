@@ -4,7 +4,7 @@ public class PalendromeNum {
     public static void main(String[] args)
     {
         Scanner scanner=new Scanner(System.in);
-        int num=scan.nextInt();
+        int num=scanner.nextInt();
         int originalNum=num;
         int reversedNum=0;
         while(num>0)
