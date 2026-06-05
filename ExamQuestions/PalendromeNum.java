@@ -3,7 +3,7 @@ import java.util.*;
 public class PalendromeNum {
     public static void main(String[] args)
     {
-        Scanner scanner=new Scanner(System.in);
+        Scanner scan=new Scanner(System.in);
         int num=scanner.nextInt();
         int originalNum=num;
         int reversedNum=0;
