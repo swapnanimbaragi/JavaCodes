@@ -7,7 +7,7 @@ public class SubstringAscii {
         {
             return false;
         }
-        for(int i=2; i<=Math.sqrt(n); i++)
+        for(int i=2; i<=n/2; i++)
         {
             if(n%i==0)
             {
@@ -42,13 +42,13 @@ public class SubstringAscii {
                 int ascii=(int)ch;
                 if(isPrime(ascii) || isAmstrong(ascii))
                 {
-                    System.out.print(ch+" "+ascii);
+                    System.out.println(ch+" "+ascii);
                     System.out.println("Yes");
                     return;
                 }
                 else
                 {
-                    System.out.print("No");
+                    System.out.println("No");
                     return;
                 }
             }
