@@ -29,7 +29,8 @@ public class CountSundays
         else if(day.equals("sat")) {
             daysToSunday = 1;
         }
-        else {
+        else 
+        {
             daysToSunday = 0;
         }
 
