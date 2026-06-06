@@ -42,8 +42,9 @@ public class SubstringAscii {
                 int ascii=(int)ch;
                 if(isPrime(ascii) || isAmstrong(ascii))
                 {
-                    System.out.println("Yes");
-                    return;
+                    System.out.print(ch+" "+ascii);
+                //     System.out.println("Yes");
+                //     return;
                 }
                 else
                 {
