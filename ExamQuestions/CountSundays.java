@@ -35,7 +35,8 @@ public class CountSundays
 
         int count = 0;
 
-        if(n > daysToSunday) {
+        if(n > daysToSunday) 
+        {
 
             count = 1;
 
