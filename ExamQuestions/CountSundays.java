@@ -26,7 +26,8 @@ public class CountSundays
         else if(day.equals("fri")) {
             daysToSunday = 2;
         }
-        else if(day.equals("sat")) {
+        else if(day.equals("sat")) 
+        {
             daysToSunday = 1;
         }
         else 
