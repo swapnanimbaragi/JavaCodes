@@ -51,7 +51,7 @@ public class CharCount {
             }
             else
             {
-                System.out.print(" are Repeating Characters");
+                System.out.print("are Repeating Characters");
             }
         }
     }
