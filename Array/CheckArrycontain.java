@@ -1,5 +1,6 @@
 import java.util.*;
-public class CheckArrycontain {
+public class CheckArrycontain 
+{
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         
