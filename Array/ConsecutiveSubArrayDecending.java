@@ -10,7 +10,8 @@ public class ConsecutiveSubArrayDecending
         int n = scanner.nextInt();
         System.out.print("Enter the elements of the array: ");
         int a[] = new int[n];
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             a[i] = scanner.nextInt();
         }
         for(int i=a.length-1;i>0;i--)
