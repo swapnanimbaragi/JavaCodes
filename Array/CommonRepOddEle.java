@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class CommonRepOddEle {
+public class CommonRepOddEle 
+{
     public static void main(String[] args) 
     {
         Scanner scanner = new Scanner(System.in);
