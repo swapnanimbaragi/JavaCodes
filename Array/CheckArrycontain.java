@@ -27,7 +27,8 @@ public class CheckArrycontain
         {
             System.out.println("Found");
         }
-        else{
+        else
+        {
             System.out.println("Not found");
         }
     }
