@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Assignindex {
+public class Assignindex 
+{
     public static void main(String[] args)
     {
         Scanner scan=new Scanner(System.in);
