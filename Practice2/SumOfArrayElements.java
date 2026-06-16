@@ -18,14 +18,25 @@ public class SumOfArrayElements {
         // System.out.println("Sum of array elements: "+sum);
 
         //largest element in the array
-        int largest=Integer.MIN_VALUE;
+        // int largest=Integer.MIN_VALUE;
+        // for(int i=0;i<n;i++)
+        // {
+        //     if(a[i]>largest)
+        //     {
+        //         largest=a[i];
+        //     }
+        // }
+        // System.out.println("Largest element in the array: "+largest);
+
+        //smallest element in the array
+        int smallest=Integer.MAX_VALUE;
         for(int i=0;i<n;i++)
         {
-            if(a[i]>largest)
+            if(a[i]<smallest)
             {
-                largest=a[i];
+                smallest=a[i];
             }
         }
-        System.out.println("Largest element in the array: "+largest);
+        System.out.println("Smallest element in the array: "+smallest);
     }
 }
