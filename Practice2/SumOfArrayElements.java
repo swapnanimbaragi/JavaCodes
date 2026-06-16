@@ -9,11 +9,23 @@ public class SumOfArrayElements {
         {
             a[i]=scanner.nextInt();
         }
-        int sum=0;
+        //Sum of array elements
+        // int sum=0;
+        // for(int i=0;i<n;i++)
+        // {
+        //     sum+=a[i];
+        // }
+        // System.out.println("Sum of array elements: "+sum);
+
+        //largest element in the array
+        int largest=Integer.MIN_VALUE;
         for(int i=0;i<n;i++)
         {
-            sum+=a[i];
+            if(a[i]>largest)
+            {
+                largest=a[i];
+            }
         }
-        System.out.println("Sum of array elements: "+sum);
+        System.out.println("Largest element in the array: "+largest);
     }
 }
