@@ -45,20 +45,38 @@ public class SumOfArrayElements {
         //     System.out.print(a[i]+" ");
         // }
 
-        int evenCount=0;
-        int OddCount=0;
+        // Even and Odd count in the array
+        // int evenCount=0;
+        // int OddCount=0;
+        // for(int i=0;i<n;i++)
+        // {
+        //     if(a[i]%2==0)
+        //     {
+        //         evenCount++;
+        //     }
+        //     else
+        //     {
+        //         OddCount++;
+        //     }
+        // }
+        // System.out.println("Even count: "+evenCount);
+        // System.out.println("Odd count: "+OddCount);
+
+        // Second largest element in the array
+        int largest=Integer.MIN_VALUE;
+        int secondLargest=Integer.MIN_VALUE;
         for(int i=0;i<n;i++)
         {
-            if(a[i]%2==0)
+            if(a[i]>largest)
             {
-                evenCount++;
+                secondLargest=largest;
+                largest=a[i];
             }
-            else
+            else if(a[i]>secondLargest && a[i]!=largest)
             {
-                OddCount++;
+                secondLargest=a[i];
             }
         }
-        System.out.println("Even count: "+evenCount);
-        System.out.println("Odd count: "+OddCount);
+        System.out.println("Second largest element in the array: "+secondLargest);
     }
 }
