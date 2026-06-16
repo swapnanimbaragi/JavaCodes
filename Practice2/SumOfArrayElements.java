@@ -63,20 +63,79 @@ public class SumOfArrayElements {
         // System.out.println("Odd count: "+OddCount);
 
         // Second largest element in the array
-        int largest=Integer.MIN_VALUE;
-        int secondLargest=Integer.MIN_VALUE;
+        // int largest=Integer.MIN_VALUE;
+        // int secondLargest=Integer.MIN_VALUE;
+        // for(int i=0;i<n;i++)
+        // {
+        //     if(a[i]>largest)
+        //     {
+        //         secondLargest=largest;
+        //         largest=a[i];
+        //     }
+        //     else if(a[i]>secondLargest && a[i]!=largest)
+        //     {
+        //         secondLargest=a[i];
+        //     }
+        // }
+        // System.out.println("Second largest element in the array: "+secondLargest);
+
+        // Dupilcate elements in the array
+        // Set<Integer> set=new HashSet<>();
+        // for(int i=0;i<n;i++)
+        // {
+        //     if(set.contains(a[i]))
+        //     {
+        //         System.out.println("Duplicate element: "+a[i]);
+        //     }
+        // }
+
+        // Frequency of each elements in the array
+        // Map<Integer,Integer> map=new HashMap<>();
+        // for(int i=0;i<n;i++)
+        // {
+        //     if(map.containsKey(a[i]))
+        //     {
+        //         map.put(a[i],map.get(a[i])+1);
+        //     }
+        //     else
+        //     {
+        //         map.put(a[i],1);
+        //     }
+        // }
+        // System.out.println("Frequency of each element in the array: "+map);
+
+        // Search for an element in the array
+        // int s=scanner.nextInt();
+        // for(int i=0;i<n;i++)
+        // {
+        //     if(a[i]==s)
+        //     {
+        //         System.out.println("Element found at index: "+i);
+        //         System.out.println("Element found : "+a[i]);
+        //         break;
+        //     }
+        // }
+
+        int m=scanner.nextInt();
+        int [] b=new int[m];
+        for(int i=0;i<m;i++)
+        {
+            b[i]=scanner.nextInt();
+        }
+        // Merge two arrays
+        int [] c=new int[n+m];
         for(int i=0;i<n;i++)
         {
-            if(a[i]>largest)
-            {
-                secondLargest=largest;
-                largest=a[i];
-            }
-            else if(a[i]>secondLargest && a[i]!=largest)
-            {
-                secondLargest=a[i];
-            }
+            c[i]=a[i];
         }
-        System.out.println("Second largest element in the array: "+secondLargest);
+        for(int i=0;i<m;i++)
+        {
+            c[n+i]=b[i];
+        }
+        for(int i=0;i<n+m;i++)
+        {
+            System.out.print(c[i]+" ");
+        }
+
     }
 }
