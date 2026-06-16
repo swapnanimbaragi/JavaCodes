@@ -29,14 +29,19 @@ public class SumOfArrayElements {
         // System.out.println("Largest element in the array: "+largest);
 
         //smallest element in the array
-        int smallest=Integer.MAX_VALUE;
-        for(int i=0;i<n;i++)
+        // int smallest=Integer.MAX_VALUE;
+        // for(int i=0;i<n;i++)
+        // {
+        //     if(a[i]<smallest)
+        //     {
+        //         smallest=a[i];
+        //     }
+        // }
+        // System.out.println("Smallest element in the array: "+smallest);
+
+        for(int i=n-1;i>=0;i--)
         {
-            if(a[i]<smallest)
-            {
-                smallest=a[i];
-            }
+            System.out.print(a[i]+" ");
         }
-        System.out.println("Smallest element in the array: "+smallest);
     }
 }
