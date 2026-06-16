@@ -39,9 +39,26 @@ public class SumOfArrayElements {
         // }
         // System.out.println("Smallest element in the array: "+smallest);
 
-        for(int i=n-1;i>=0;i--)
+        // reverse of the array
+        // for(int i=n-1;i>=0;i--)
+        // {
+        //     System.out.print(a[i]+" ");
+        // }
+
+        int evenCount=0;
+        int OddCount=0;
+        for(int i=0;i<n;i++)
         {
-            System.out.print(a[i]+" ");
+            if(a[i]%2==0)
+            {
+                evenCount++;
+            }
+            else
+            {
+                OddCount++;
+            }
         }
+        System.out.println("Even count: "+evenCount);
+        System.out.println("Odd count: "+OddCount);
     }
 }
