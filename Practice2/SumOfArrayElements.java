@@ -3,12 +3,12 @@ public class SumOfArrayElements {
     public static void main(String[] args)
     {
         Scanner scanner=new Scanner(System.in);
-        int n=scanner.nextInt();
-        int [] a=new int[n];
-        for(int i=0;i<n;i++)
-        {
-            a[i]=scanner.nextInt();
-        }
+        // int n=scanner.nextInt();
+        // int [] a=new int[n];
+        // for(int i=0;i<n;i++)
+        // {
+        //     a[i]=scanner.nextInt();
+        // }
         //Sum of array elements
         // int sum=0;
         // for(int i=0;i<n;i++)
@@ -116,26 +116,36 @@ public class SumOfArrayElements {
         //     }
         // }
 
-        int m=scanner.nextInt();
-        int [] b=new int[m];
-        for(int i=0;i<m;i++)
-        {
-            b[i]=scanner.nextInt();
-        }
         // Merge two arrays
-        int [] c=new int[n+m];
-        for(int i=0;i<n;i++)
+        // int m=scanner.nextInt();
+        // int [] b=new int[m];
+        // for(int i=0;i<m;i++)
+        // {
+        //     b[i]=scanner.nextInt();
+        // }
+        // // Merge two arrays
+        // int [] c=new int[n+m];
+        // for(int i=0;i<n;i++)
+        // {
+        //     c[i]=a[i];
+        // }
+        // for(int i=0;i<m;i++)
+        // {
+        //     c[n+i]=b[i];
+        // }
+        // for(int i=0;i<n+m;i++)
+        // {
+        //     System.out.print(c[i]+" ");
+        // }
+
+        // Reverse String 
+        String s=scanner.nextLine();
+        String rev="";
+        for(int i=s.length()-1;i>=0;i--)
         {
-            c[i]=a[i];
+            rev+=s.charAt(i);
         }
-        for(int i=0;i<m;i++)
-        {
-            c[n+i]=b[i];
-        }
-        for(int i=0;i<n+m;i++)
-        {
-            System.out.print(c[i]+" ");
-        }
+        System.out.println("Reverse of the string: "+rev);
 
     }
 }
