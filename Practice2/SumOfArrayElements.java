@@ -139,13 +139,28 @@ public class SumOfArrayElements {
         // }
 
         // Reverse String 
+        // String s=scanner.nextLine();
+        // String rev="";
+        // for(int i=s.length()-1;i>=0;i--)
+        // {
+        //     rev+=s.charAt(i);
+        // }
+        // System.out.println("Reverse of the string: "+rev);
+
         String s=scanner.nextLine();
-        String rev="";
-        for(int i=s.length()-1;i>=0;i--)
+        int i=0;
+        int j=s.length()-1;
+        while(i<j)
         {
-            rev+=s.charAt(i);
+            if(s.charAt(i)!=s.charAt(j))
+            {
+                System.out.println("Not a palindrome");
+                return;
+            }
+            i++;
+            j--;
         }
-        System.out.println("Reverse of the string: "+rev);
+        System.out.println("It is a palindrome");
 
     }
 }
