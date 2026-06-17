@@ -180,11 +180,11 @@ public class SumOfArrayElements {
         // System.out.println(count);
 
         // Word Count
-        String s=scanner.nextLine();
-        String word[]=s.split(" ");
-        for(int i=0;i<word.length;i++)
-        {
-            System.out.print(word[i]);
-        }
+        // String s=scanner.nextLine();
+        // String word[]=s.split(" ");
+        // for(int i=0;i<word.length;i++)
+        // {
+        //     System.out.print(word[i]);
+        // }
     }
 }
