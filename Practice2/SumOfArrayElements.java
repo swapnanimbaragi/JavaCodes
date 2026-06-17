@@ -148,20 +148,35 @@ public class SumOfArrayElements {
         // System.out.println("Reverse of the string: "+rev);
 
         // Palindrome String
+        // String s=scanner.nextLine();
+        // int i=0;
+        // int j=s.length()-1;
+        // while(i<j)
+        // {
+        //     if(s.charAt(i)!=s.charAt(j))
+        //     {
+        //         System.out.println("Not a palindrome");
+        //         return;
+        //     }
+        //     i++;
+        //     j--;
+        // }
+        // System.out.println("It is a palindrome");
+
         String s=scanner.nextLine();
-        int i=0;
-        int j=s.length()-1;
-        while(i<j)
+        int count=0;
+        for(int i=0;i<s.length();i++)
         {
-            if(s.charAt(i)!=s.charAt(j))
+            char ch=s.charAt(i);
+            if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'
+                || ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U' 
+            )
             {
-                System.out.println("Not a palindrome");
-                return;
+                count++;
             }
-            i++;
-            j--;
+            
         }
-        System.out.println("It is a palindrome");
+        System.out.println(count);
 
     }
 }
