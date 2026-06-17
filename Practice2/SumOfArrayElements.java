@@ -163,6 +163,7 @@ public class SumOfArrayElements {
         // }
         // System.out.println("It is a palindrome");
 
+        // Vowel Count
         String s=scanner.nextLine();
         int count=0;
         for(int i=0;i<s.length();i++)
@@ -177,6 +178,5 @@ public class SumOfArrayElements {
             
         }
         System.out.println(count);
-
     }
 }
