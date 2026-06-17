@@ -147,6 +147,7 @@ public class SumOfArrayElements {
         // }
         // System.out.println("Reverse of the string: "+rev);
 
+        // Palindrome String
         String s=scanner.nextLine();
         int i=0;
         int j=s.length()-1;
