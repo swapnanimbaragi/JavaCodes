@@ -62,22 +62,22 @@ public class SumOfArrayElements {
         // System.out.println("Even count: "+evenCount);
         // System.out.println("Odd count: "+OddCount);
 
-        // Second largest element in the array
-        // int largest=Integer.MIN_VALUE;
-        // int secondLargest=Integer.MIN_VALUE;
-        // for(int i=0;i<n;i++)
-        // {
-        //     if(a[i]>largest)
-        //     {
-        //         secondLargest=largest;
-        //         largest=a[i];
-        //     }
-        //     else if(a[i]>secondLargest && a[i]!=largest)
-        //     {
-        //         secondLargest=a[i];
-        //     }
-        // }
-        // System.out.println("Second largest element in the array: "+secondLargest);
+        Second largest element in the array
+        int largest=Integer.MIN_VALUE;
+        int secondLargest=Integer.MIN_VALUE;
+        for(int i=0;i<n;i++)
+        {
+            if(a[i]>largest)
+            {
+                secondLargest=largest;
+                largest=a[i];
+            }
+            else if(a[i]>secondLargest && a[i]!=largest)
+            {
+                secondLargest=a[i];
+            }
+        }
+        System.out.println("Second largest element in the array: "+secondLargest);
 
         // Dupilcate elements in the array
         // Set<Integer> set=new HashSet<>();
