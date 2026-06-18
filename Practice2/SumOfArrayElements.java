@@ -45,7 +45,7 @@ public class SumOfArrayElements {
         //     System.out.print(a[i]+" ");
         // }
 
-        Even and Odd count in the array
+        // Even and Odd count in the array
         int evenCount=0;
         int OddCount=0;
         for(int i=0;i<n;i++)
