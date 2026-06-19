@@ -179,10 +179,10 @@ public class SumOfArrayElements {
         // }
         // System.out.println(count);
 
-        // Word Count
-        // String s=scanner.nextLine();
-        // String [] words=s.split(" ");
-        // System.out.println("Word count: "+words.length);
+        Word Count
+        String s=scanner.nextLine();
+        String [] words=s.split(" ");
+        System.out.println("Word count: "+words.length);
 
     }
 }
