@@ -184,5 +184,33 @@ public class SumOfArrayElements {
         // String [] words=s.split(" ");
         // System.out.println("Word count: "+words.length);
 
+        // Amstrong Number 
+        int num=scanner.nextInt();
+        int temp=num;
+        int count=0;
+        while(temp>0)
+        {
+            temp=temp/10;
+            count++;
+
+        }
+        int sum=0;
+        temp=num;
+        while(num>0)
+        {
+            int digit=num%10;
+            sum+=(int)Math.pow(digit,count);
+            num=num/10;
+        }
+        if(sum==temp)
+        {
+            System.out.println("It is an Amstrong number");
+        }
+        else
+        {
+            System.out.println("It is not an Amstrong number");
+        }
+    
+        
     }
 }

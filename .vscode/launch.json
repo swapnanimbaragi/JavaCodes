@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumOfArrayElements",
+            "request": "launch",
+            "mainClass": "SumOfArrayElements",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "SubstringAscii",
             "request": "launch",
             "mainClass": "ExamQuestions.SubstringAscii",
