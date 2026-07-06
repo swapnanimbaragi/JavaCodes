@@ -27,30 +27,30 @@ public class Unique {
         // }
 
         // Amstrong number
-        int num=scan.nextInt();
-        int temp=num;
-        int count=0;
-        while(temp>0)
-        {
-            temp=temp/10;
-            count++;
-        }
-        temp=num;
-        int sum=0;
-        while(num>0)
-        {
-            int digits=num%10;
-            sum+=Math.pow(digits,count);
-            num=num/10;
-        }
-        if(sum==temp)
-        {
-            System.out.println("It is an Amstrong number");
-        }
-        else
-        {
-            System.out.println("It is not an Amstrong number");
-        }
+        // int num=scan.nextInt();
+        // int temp=num;
+        // int count=0;
+        // while(temp>0)
+        // {
+        //     temp=temp/10;
+        //     count++;
+        // }
+        // temp=num;
+        // int sum=0;
+        // while(num>0)
+        // {
+        //     int digits=num%10;
+        //     sum+=Math.pow(digits,count);
+        //     num=num/10;
+        // }
+        // if(sum==temp)
+        // {
+        //     System.out.println("It is an Amstrong number");
+        // }
+        // else
+        // {
+        //     System.out.println("It is not an Amstrong number");
+        // }
 
 
 
