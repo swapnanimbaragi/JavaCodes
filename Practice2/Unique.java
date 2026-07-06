@@ -79,6 +79,25 @@ public class Unique {
         //     System.out.println("It is not a prime number");
         // }
 
+        // palindrome number
+        int n=scan.nextInt();
+        int rev=0;
+        int temp=n;
+        while(n>0)
+        {
+            int digit=n%10;
+            rev=rev*10+digit;
+            n=n/10;
+        }
+        if(rev==temp)
+        {
+            System.out.println("It is a palindrome number");
+        }
+        else
+        {
+            System.out.println("It is not a palindrome number");
+        }
+
 
 
     }
