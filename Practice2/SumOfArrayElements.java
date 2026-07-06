@@ -185,32 +185,93 @@ public class SumOfArrayElements {
         // System.out.println("Word count: "+words.length);
 
         // Amstrong Number 
-        int num=scanner.nextInt();
-        int temp=num;
-        int count=0;
-        while(temp>0)
-        {
-            temp=temp/10;
-            count++;
+        // int num=scanner.nextInt();
+        // // int temp=num;
+        // // int count=0;
+        // // while(temp>0)
+        // // {
+        // //     temp=temp/10;
+        // //     count++;
 
-        }
-        int sum=0;
-        temp=num;
-        while(num>0)
-        {
-            int digit=num%10;
-            sum+=(int)Math.pow(digit,count);
-            num=num/10;
-        }
-        if(sum==temp)
-        {
-            System.out.println("It is an Amstrong number");
-        }
-        else
-        {
-            System.out.println("It is not an Amstrong number");
-        }
+        // // }
+        // // int sum=0;
+        // // temp=num;
+        // // while(num>0)
+        // // {
+        // //     int digit=num%10;
+        // //     sum+=(int)Math.pow(digit,count);
+        // //     num=num/10;
+        // // }
+        // int temp=num;
+        // int count=0;
+        // while(temp>0)
+        // {
+        //     temp=temp/10;
+        //     count++;
+        // }
+        // int sum=0;
+        // temp=num;
+        // while(num>0)
+        // {
+        //     int digit=num%10;
+        //     sum+=Math.pow(digit,count);
+        //     num=num/10;
+
+        // }
+        // if(sum==temp)
+        // {
+        //     System.out.println("It is an Amstrong number");
+        // }
+        // else
+        // {
+        //     System.out.println("It is not an Amstrong number");
+        // }
     
+        // Anagrama
+        // String s1=scanner.nextLine();
+        // String s2=scanner.nextLine();
+
+        // char[]a=s1.toCharArray();
+        // char b[]=s2.toCharArray();
+
+        // Arrays.sort(a);
+        // Arrays.sort(b);
+
+        // if(Arrays.equals(a,b))
+        // {
+        //     System.out.println("ANagram");
+        // }
+        // else{
+        //     System.out.println("Not");
+        // }
+
+        String s=scanner.nextLine();
+        int i=0;
+        int j=s.length()-1;
+        while(i<j)
+        {
+            if(s.charAt(i) != s.charAt(j))
+            {
+                System.out.println("Not");
+                return;
+            }
+            i++;
+            j--;
+        }
+        System.out.println("Yes");
+
+        // int n=scanner.nextInt();
+        // int rev=0;
+        // while(n>0)
+        // {
+        //     int digit=n%10;
+        //     rev=rev*10+digit;
+        //     n=n/10;
+        // }
+        // System.out.println(rev);
+
         
+
+
     }
 }
