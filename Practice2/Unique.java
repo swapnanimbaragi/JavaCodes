@@ -98,7 +98,7 @@ public class Unique {
         //     System.out.println("It is not a palindrome number");
         // }
 
-
+        // Reverese digits of a number
         int n=scan.nextInt();
         int temp=n;
         int rev=0;
