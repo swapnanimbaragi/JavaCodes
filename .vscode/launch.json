@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RomanToInteger",
+            "request": "launch",
+            "mainClass": "RomanToInteger",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "Unique",
             "request": "launch",
             "mainClass": "Unique",
