@@ -10,18 +10,31 @@ public class ArrayElementRotation {
         }
         int d = scanner.nextInt();
         // Left Rotation of an array by d elements
-        for(int r=1;r<=d;r++)
-        {
-            int temp=arr[0];
-            for(int i=0;i<n-1;i++)
-            {
-                arr[i]=arr[i+1];
+        // for(int r=1;r<=d;r++)
+        // {
+        //     int temp=arr[0];
+        //     for(int i=0;i<n-1;i++)
+        //     {
+        //         arr[i]=arr[i+1];
+        //     }
+        //     arr[n-1]=temp;
+        // }
+        // for(int i=0;i<n;i++)
+        // {
+        //     System.out.print(arr[i]+" ");
+        // }
+        // Right Rotation of an array by d elements
+        for (int r = 1; r <= d; r++) {
+            int temp = arr[n - 1];
+            for (int i = n - 1; i > 0; i--) {
+                arr[i] = arr[i - 1];
             }
-            arr[n-1]=temp;
+            arr[0] = temp;
         }
-        for(int i=0;i<n;i++)
-        {
-            System.out.print(arr[i]+" ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
         }
     }
 }
+
+
