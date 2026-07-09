@@ -4,6 +4,26 @@ public class MapChar {
         Scanner scanner = new Scanner(System.in);
         String s = scanner.next();
         HashMap<Character, Integer> map = new HashMap<>();
+        // for(int i=0;i<s.length();i++)
+        // {
+        //     char ch=s.charAt(i);
+        //     if(map.containsKey(ch))
+        //     {
+        //         map.put(ch,map.get(ch)+1);
+        //     }
+        //     else{
+        //         map.put(ch,1);
+        //     }
+
+        // }
+        // for(Character ch:map.keySet())
+        // {
+        //     if((map.get(ch)==1))
+        //     {
+        //         System.out.println(ch);
+        //     }
+        // }
+
         for(int i=0;i<s.length();i++)
         {
             char ch=s.charAt(i);
@@ -11,18 +31,21 @@ public class MapChar {
             {
                 map.put(ch,map.get(ch)+1);
             }
-            else{
+            else
+            {
                 map.put(ch,1);
             }
-
+        
         }
+
         for(Character ch:map.keySet())
         {
-            if((map.get(ch)==1))
+            if(map.get(ch) !=1)
             {
                 System.out.println(ch);
             }
         }
     }
-    
 }
+    
+
