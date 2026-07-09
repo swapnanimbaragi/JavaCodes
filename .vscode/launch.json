@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayElementRotation",
+            "request": "launch",
+            "mainClass": "ArrayElementRotation",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "RomanToInteger",
             "request": "launch",
             "mainClass": "RomanToInteger",
