@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// Left Rotation of an array by d elements
 public class ArrayElementRotation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -8,6 +9,7 @@ public class ArrayElementRotation {
             arr[i] = scanner.nextInt();
         }
         int d = scanner.nextInt();
+        // Left Rotation of an array by d elements
         for(int r=1;r<=d;r++)
         {
             int temp=arr[0];
