@@ -9,19 +9,21 @@ public class LeaderArray {
         }
         for(int i=0;i<n;i++)
         {
-            boolean flag=false;
+            boolean found=false;
             for(int j=i+1;j<n;j++)
             {
-                if(arr[i]<arr[j])
+                if(arr[j]>arr[i])
                 {
-                    flag=true;
+                    found=true;
                     break;
                 }
             }
-            if(flag==false)
+            if(!found)
             {
                 System.out.print(arr[i]+" ");
             }
         }
+        
+        
     }
 }
