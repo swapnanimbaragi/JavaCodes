@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LeaderArray",
+            "request": "launch",
+            "mainClass": "LeaderArray",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
+            "name": "RearangeArray",
+            "request": "launch",
+            "mainClass": "RearangeArray",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "Kthlargest",
             "request": "launch",
             "mainClass": "Kthlargest",
