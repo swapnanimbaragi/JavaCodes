@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Kthlargest",
+            "request": "launch",
+            "mainClass": "Kthlargest",
+            "projectName": "JavaCodes_1ff50087"
+        },
+        {
+            "type": "java",
             "name": "MapChar",
             "request": "launch",
             "mainClass": "MapChar",
