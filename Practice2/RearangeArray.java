@@ -9,27 +9,54 @@ public class RearangeArray {
             arr[i] = scanner.nextInt();
         }
 
-        int i=0;
-        int j=0;
-        while(i<n)
+        // int i=0;
+        // int j=0;
+        // while(i<n)
+        // {
+        //     if(arr[i]==0)
+        //     {
+        //         i++;
+        //     }
+        //     else
+        //     {
+        //         arr[j]=arr[i];
+        //         j++;
+        //         i++;
+        //     }
+        // }
+        // while(j<n)
+        // {
+        //     arr[j]=0;
+        //     j++;
+        // }
+        
+        // for(int k=0;k<n;k++)
+        // {
+        //     System.out.print(arr[k]+" ");
+        // }
+
+
+        int i=n-1;
+        int j=n-1;
+        while(i>=0)
         {
             if(arr[i]==0)
             {
-                i++;
+                i--;
             }
             else
             {
                 arr[j]=arr[i];
-                j++;
-                i++;
+                j--;
+                i--;
             }
         }
-        while(j<n)
+        while(j>=0)
         {
             arr[j]=0;
-            j++;
+            j--;
         }
-        
+
         for(int k=0;k<n;k++)
         {
             System.out.print(arr[k]+" ");
